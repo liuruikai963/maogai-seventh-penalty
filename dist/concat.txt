@@ -1,0 +1,5 @@
+file 'd:/study/course/maogai/homework/dist/clip_01.mp4'
+file 'd:/study/course/maogai/homework/dist/clip_02.mp4'
+file 'd:/study/course/maogai/homework/dist/clip_03.mp4'
+file 'd:/study/course/maogai/homework/dist/clip_04.mp4'
+file 'd:/study/course/maogai/homework/dist/clip_05.mp4'

@@ -2,7 +2,8 @@
 
 > **课程大主题**：“一代人有一代人的长征”  
 > **微电影选题**：人工智能与算法决策的伦理困境 / 大模型与人的解放  
-> **作品形式**：现实主义思政剧情微电影（预计时长 5~7 分钟）
+> **作品形式**：现实主义思政 AIGC 动态微电影（预计时长 5~6 分钟）  
+> **创作团队**：柳锐凯、芮凯
 
 ---
 
@@ -16,18 +17,29 @@
 
 ---
 
-## 📂 目录结构
+## 📂 规范清晰的工程目录结构
 
 ```text
-maogai-seventh-penalty/
-├── README.md                           # 项目说明文档
-├── docs/
-│   ├── plot_concept.md                 # 核心剧情构思案（起承转激合五幕全景）
-│   ├── course_requirements.md          # 课程实践工作方案原件与规范指南
-│   └── report_and_design_statement.md  # 申报配套说明书（作品简介、设计理念与思政关联性）
-├── scripts/                            # 剧本与台词草稿
-│   └── screenplay.md                   # 详细台词本
-└── assets/                             # 策划案、人物设定图与拍摄素材清单
+homework/
+├── README.md                           # 项目总览说明文档
+├── docs/                               # 剧作策划文档库
+│   └── plot_concept.md                 # 核心五幕剧情构思案（起承转激合）
+├── scripts/                            # 生产执行脚本库
+│   └── ai_video_production_script.md  # 23镜头标准AI生图/生视频Prompt与台词总表
+├── assets/                             # 原始制作素材资产库
+│   ├── ASSET_MANIFEST.md               # 23镜头制作进度总表与素材清单
+│   ├── images/                         # 关键帧 1080P 高清原图（Antigravity 生成）
+│   │   ├── shot_01.jpg ~ shot_05.jpg   # 第一幕核心关键帧原图
+│   │   └── ...
+│   ├── audio/                          # 角色配音与音效（SSML电影级音色）
+│   │   ├── shot_01.mp3 ~ shot_05.mp3   # 第一幕配音音频
+│   │   └── ...
+│   └── videos/                         # 物理真实 AI 动态视频片段（Gemini Veo 生成）
+│       └── shot_02_lao_liu_scooter_rain.mp4 # 老刘暴雨破浪行车动态视频
+├── build/                              # 剪辑与自动化合成脚本
+│   └── render_act1_preview.py          # 音画剪辑合成代码
+└── dist/                               # 成片导出目录
+    └── act1_preview.mp4                # 第一幕预览成片
 ```
 
 ---
@@ -53,5 +65,5 @@ maogai-seventh-penalty/
 ## 👥 项目团队与分工
 
 * **课程名称**：《毛泽东思想和中国特色社会主义理论体系概论》
-* **制作形式**：小组合作（微电影）
+* **制作团队**：柳锐凯、芮凯
 * **GitHub 仓库**：[liuruikai963/maogai-seventh-penalty](https://github.com/liuruikai963/maogai-seventh-penalty)
