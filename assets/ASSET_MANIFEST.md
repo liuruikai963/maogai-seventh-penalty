@@ -37,11 +37,11 @@ homework/
 | **Shot 03** | 手机红色倒计时与罚单特写 | ✅ 已完成 | 待生成 | `assets/images/shot_03.jpg` |
 | **Shot 04** | 恒温机房陆远冷峻调试算法 | ✅ 已完成 | 已整合入 Shot 01 | `assets/images/shot_04.jpg` |
 | **Shot 05** | 系统终极风控红色封号弹窗 | ✅ 已完成 | 待生成 | `assets/images/shot_05.jpg` |
-| **Shot 06** | 清晨服务站老刘啃干馒头 | 待生成 | 待生成 | `assets/images/shot_06.jpg` |
-| **Shot 07** | 老刘满是老茧皲裂的双手特写 | 待生成 | 待生成 | `assets/images/shot_07.jpg` |
-| **Shot 08** | 监控回放·老刘暴雨中救落水儿童 | 待生成 | 待生成 | `assets/images/shot_08.jpg` |
-| **Shot 09** | 代码报错：未定义实体【见义勇为】 | 待生成 | 待生成 | `assets/images/shot_09.jpg` |
-| **Shot 10** | 王总在办公室给陆远递咖啡做规训 | 待生成 | 待生成 | `assets/images/shot_10.jpg` |
+| **Shot 06** | 清晨服务站老刘啃干馒头 | ✅ 已完成 | 待生成 | `assets/images/shot_06.jpg` |
+| **Shot 07** | 老刘满是老茧皲裂的双手特写 | ✅ 已完成 | 待生成 | `assets/images/shot_07.jpg` |
+| **Shot 08** | 监控回放·老刘暴雨中救落水儿童 | ✅ 已完成 | 待生成 | `assets/images/shot_08.jpg` |
+| **Shot 09** | 代码报错：未定义实体【见义勇为】 | ✅ 已完成 | 待生成 | `assets/images/shot_09.jpg` |
+| **Shot 10** | 王总在办公室给陆远递咖啡做规训 | ✅ 已完成 | 待生成 | `assets/images/shot_10.jpg` |
 | **Shot 11** | 女童母亲实名求助寻人短视频 | 待生成 | 待生成 | `assets/images/shot_11.jpg` |
 | **Shot 12** | 全网舆论热搜与网友怒评弹幕 | 待生成 | 待生成 | `assets/images/shot_12.jpg` |
 | **Shot 13** | 国家市场监管与人社部联合通报直播 | 待生成 | 待生成 | `assets/images/shot_13.jpg` |
