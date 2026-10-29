@@ -179,7 +179,7 @@
   > **中文**：社交平台短视频界面，画面上一位在外地工作赶回的年轻女性（老人家属）眼含热泪面向镜头深深鞠躬，背景是医院急救病房，视频配字：“全城急寻昨夜在暴雨中破门救了我独居老父亲的8092号外卖大哥！”视频点赞突破100万，评论区无数网友疯狂转发：“医生说再晚5分钟老人就没了！真正的平凡英雄！”，充满温情与感动，新媒体视觉风格。  
   > **英文**：`Social media mobile UI graphic, viral video display. A tearful grateful daughter in hospital hallway bowing deeply to the camera, Chinese caption: 'Searching the city for Rider 8092 who kicked open the door and saved my collapsed elderly father during last night's storm! Doctor said 5 minutes later would have been fatal!'. Over 1 million likes, streaming heart emojis and shares, dynamic modern media presentation, clean anime aesthetic, 16:9.`
 * **配音 / 画外音（VO）**：
-  * **女童母亲（原声哭腔）**：“昨晚如果没有那位穿黄衣服的大哥拼死拉住我孩子，我们家天就塌了！求大家帮我找到他，我想当面磕头道谢！”
+  * **老人家属（原声哭腔、眼含热泪）**：“昨晚特大暴雨，我独居老父亲突发急性心梗昏迷倒在地上动弹不得，如果不是那位外卖大哥听到呼救撞开门做心肺复苏并叫来救护车，我爸早就没了！医生说再晚5分钟就回天乏术了！求大家帮我们全家找到8092号恩人，当面跪谢救命大恩！”
 * **音效 & BGM**：
   * **音效**：手机消息疯狂弹出的叮咚提示音。
 
@@ -345,5 +345,7 @@
 * **时长**：5 秒
 * **画面**：黑底金字，滚动显示：
   * 片名：《第七张罚单》
-  * 《毛泽东思想和中国特色社会主义理论体系概论》课程实践作业
-  * 团队成员名单、指导老师、致谢。
+  * 《毛泽东思想和中国特色社会主义理论体系概论》课程实践微电影
+  * **主创制作人员**：柳锐凯、芮凯
+  * **主题**：算法向善 · 以人为本 · 一代人有一代人的长征
+  * 鸣谢指导老师及全体同窗。
