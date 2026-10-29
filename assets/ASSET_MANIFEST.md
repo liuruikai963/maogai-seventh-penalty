@@ -42,10 +42,10 @@ homework/
 | **Shot 08** | 监控回放·老刘暴雨夜破门救心梗老人 | ✅ 已完成 (全新破门急救版) | 待生成 | `assets/images/shot_08.jpg` |
 | **Shot 09** | 代码报错：未定义实体【见义勇为】 | ✅ 已完成 | 待生成 | `assets/images/shot_09.jpg` |
 | **Shot 10** | 王总在办公室给陆远递咖啡做规训 | ✅ 已完成 | 待生成 | `assets/images/shot_10.jpg` |
-| **Shot 11** | 老人家属实名致谢寻人短视频 | 待生成 | 待生成 | `assets/images/shot_11.jpg` |
-| **Shot 12** | 全网舆论热搜与网友怒评弹幕 | 待生成 | 待生成 | `assets/images/shot_12.jpg` |
-| **Shot 13** | 国家市场监管与人社部联合通报直播 | 待生成 | 待生成 | `assets/images/shot_13.jpg` |
-| **Shot 14** | 王总满头冷汗冲进机房强令整改 | 待生成 | 待生成 | `assets/images/shot_14.jpg` |
+| **Shot 11** | 老人家属实名致谢寻人短视频 | ✅ 已完成 | 待生成 | `assets/images/shot_11.jpg` |
+| **Shot 12** | 全网舆论热搜与网友怒评弹幕 | ✅ 已完成 | 待生成 | `assets/images/shot_12.jpg` |
+| **Shot 13** | 国家市场监管与人社部联合通报直播 | ✅ 已完成 | 待生成 | `assets/images/shot_13.jpg` |
+| **Shot 14** | 王总满头冷汗冲进机房强令整改 | ✅ 已完成 | 待生成 | `assets/images/shot_14.jpg` |
 | **Shot 15** | 陆远拍出重构方案沉着掌控大局 | 待生成 | 待生成 | `assets/images/shot_15.jpg` |
 | **Shot 16** | 研发团队通宵敲代码重构底层算法 | 待生成 | 待生成 | `assets/images/shot_16.jpg` |
 | **Shot 17** | 清晨破晓第一缕阳光洒在机房屏幕 | 待生成 | 待生成 | `assets/images/shot_17.jpg` |
@@ -54,4 +54,4 @@ homework/
 | **Shot 20** | 老刘通红眼眶露出踏实灿烂笑容 | 待生成 | 待生成 | `assets/images/shot_20.jpg` |
 | **Shot 21** | 清晨斑马线陆远与老刘隔空相望致意 | 待生成 | 待生成 | `assets/images/shot_21.jpg` |
 | **Shot 22** | 宏大俯瞰·老刘与劳动者迎着朝阳长征 | 待生成 | 待生成 | `assets/images/shot_22.jpg` |
-| **Shot 23** | 黑底金字片尾·演职员表（柳锐凯、芮凯） | 待生成 | 待生成 | `assets/images/shot_23.jpg` |
+| **Shot 23** | 黑底金字片尾·演职员表（柳锐凯、芮凯） | ✅ 已完成 | 待生成 | `assets/images/shot_23.jpg` |
