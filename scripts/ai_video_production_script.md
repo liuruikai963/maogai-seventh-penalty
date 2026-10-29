@@ -1,9 +1,16 @@
 # 《第七张罚单》AI 微电影逐镜头生产脚本（AIGC Production Script）
 
 > **作品类型**：思政 AI 微电影（时长约 5~6 分钟）  
-> **视觉基调**：高质感现代写实动漫 / 影视概念艺术风格（Cinematic Concept Anime / High-End 3D Stylized）  
+> **视觉基调**：高质感现代写实动漫 / 影视概念艺术风格（Makoto Shinkai Anime Realism / 2.5D Cel-Shaded）  
 > **画幅规格**：16:9 横屏（1920×1080）  
-> **工具通用**：提示词通用兼容可灵（Kling）、即梦（Jimeng）、Midjourney、Runway、Stable Diffusion、海螺 AI
+> **生产协作规范**：严格执行【图画先行 -> 用户审核 -> 给出视频提示词 -> 用户提交Gemini生成视频 -> 回传拼接】四步 SOP（详见 `docs/STYLE_CONSISTENCY_RULES.md`）
+
+---
+
+## 📋 标准化生产 SOP 执行说明
+1. **图画先行**：每个分镜必须先完成 16:9 高清关键帧原图，供导演（用户）审核。
+2. **严禁跳步**：未经审核通过的图片，严禁直接提供视频提示词或生成视频。
+3. **图生视频一致性**：审核通过后，以此图为参考底图输入 Gemini / Veo，搭配专属动效 Prompt 生成物理流体动态。
 
 ---
 
