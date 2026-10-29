@@ -1,3 +1,0 @@
-file 'd:/study/course/maogai/homework/assets/videos/shot_01_macro_city_to_lu_yuan_monologue.mp4'
-file 'd:/study/course/maogai/homework/dist/card_lao_liu.mp4'
-file 'd:/study/course/maogai/homework/assets/videos/shot_02_lao_liu_scooter_rain.mp4'
