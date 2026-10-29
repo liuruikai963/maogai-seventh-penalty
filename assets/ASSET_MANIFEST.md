@@ -39,7 +39,7 @@ homework/
 | **Shot 05** | 系统终极风控红色封号弹窗 | ✅ 已完成 | 待生成 | `assets/images/shot_05.jpg` |
 | **Shot 06** | 清晨服务站老刘啃干馒头 | ✅ 已完成 | 待生成 | `assets/images/shot_06.jpg` |
 | **Shot 07** | 老刘满是老茧皲裂的双手特写 | ✅ 已完成 | 待生成 | `assets/images/shot_07.jpg` |
-| **Shot 08** | 监控回放·老刘暴雨夜破门救心梗老人 | 待重绘 | 待生成 | `assets/images/shot_08.jpg` |
+| **Shot 08** | 监控回放·老刘暴雨夜破门救心梗老人 | ✅ 已完成 (全新破门急救版) | 待生成 | `assets/images/shot_08.jpg` |
 | **Shot 09** | 代码报错：未定义实体【见义勇为】 | ✅ 已完成 | 待生成 | `assets/images/shot_09.jpg` |
 | **Shot 10** | 王总在办公室给陆远递咖啡做规训 | ✅ 已完成 | 待生成 | `assets/images/shot_10.jpg` |
 | **Shot 11** | 老人家属实名致谢寻人短视频 | 待生成 | 待生成 | `assets/images/shot_11.jpg` |
