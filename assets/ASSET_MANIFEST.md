@@ -34,7 +34,7 @@ homework/
 | :---: | :--- | :---: | :---: | :--- |
 | **Shot 01** | 雨夜超级都市穿透切入陆远正脸独白 | ✅ 已完成 | **✅ 已完成 (Veo原生带声画字幕)** | `assets/videos/shot_01_macro_city_to_lu_yuan_monologue.mp4` |
 | **Shot 02** | 老刘暴雨涉水破浪前行 | ✅ 已完成 | **✅ 已完成 (Veo物理流体)** | `assets/videos/shot_02_lao_liu_scooter_rain.mp4` |
-| **Shot 03** | 手机红色倒计时与罚单特写 | ✅ 已完成 | 待生成 | `assets/images/shot_03.jpg` |
+| **Shot 03** | 手机红色倒计时与罚单特写 | ✅ 已完成 | **✅ 已完成 (Veo物理倒计时爆闪)** | `assets/videos/shot_03_phone_countdown.mp4` |
 | **Shot 04** | 恒温机房陆远冷峻调试算法 | ✅ 已完成 | 已整合入 Shot 01 | `assets/images/shot_04.jpg` |
 | **Shot 05** | 系统终极风控红色封号弹窗 | ✅ 已完成 | 待生成 | `assets/images/shot_05.jpg` |
 | **Shot 06** | 清晨服务站老刘啃干馒头 | ✅ 已完成 | 待生成 | `assets/images/shot_06.jpg` |
