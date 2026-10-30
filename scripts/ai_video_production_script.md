@@ -34,30 +34,37 @@
 
 ### 第一幕：【起】雨夜红线与前六张罚单的重量（约 1 分钟）
 
-#### 镜头 01（开篇·宏观全景·雨夜都市）
-* **镜头类型**：大远景（Extreme Long Shot） / 慢速推进（Slow Push-in）
-* **时长**：5 秒
+#### 镜头 01（开篇·宏观全景·雨夜都市至机房陆远）
+* **镜头类型**：大远景（Extreme Long Shot） / 慢速推进至机房工位特写
+* **时长**：11 秒（成片精细对齐）
 * **AI 画面提示词（Prompt）**：
-  > **中文**：暴雨倾盆的现代超级都市夜景，密集的雨幕笼罩摩天大楼，道路上车流灯光拉出长长的红色光轨，远处是灯火辉煌的互联网大厂总部大厦，水坑倒映着霓虹灯光，电影写实动漫风，大片质感，16:9，8k分辨率。  
-  > **英文**：`Cinematic wide shot of a modern cyberpunk-infused metropolis under heavy torrential rainstorm at night, towering skyscrapers obscured by misty rain, wet asphalt streets reflecting bright neon lights and red taillights, distant illuminated tech company headquarters glass tower, puddle reflections, Makoto Shinkai realistic anime style, cinematic lighting, dramatic atmosphere, 16:9, 8k.`
+  > **中文**：暴雨倾盆的现代超级都市夜景，密集的雨幕笼罩摩天大楼，道路上车流灯光拉出长长的红色光轨，远处是灯火辉煌的互联网大厂总部大厦，镜头穿透玻璃幕墙推入静谧恒温的机房工位，男主陆远坐在发光的显示器前，黑框眼镜倒映着幽蓝的屏幕数据流，电影写实动漫风，大片质感，16:9，8k分辨率。  
+  > **英文**：`Cinematic wide shot of a modern cyberpunk-infused metropolis under heavy torrential rainstorm at night, towering skyscrapers obscured by misty rain, wet asphalt streets reflecting bright neon lights and red taillights, distant illuminated tech company headquarters glass tower, camera pushes through glass into quiet air-conditioned server room, Lu Yuan sitting at workstation with glowing monitors, glasses reflecting data streams, Makoto Shinkai realistic anime style, cinematic lighting, dramatic atmosphere, 16:9, 8k.`
 * **配音 / 画外音（VO）**：
-  * **陆远（沉稳深思的画外音）**：“刚进大厂的那一年，我曾真诚地坚信：世界上最完美的艺术就是代码。它把现实中的一切混沌，都驯化成了绝对理性的最优解……”
+  * **陆远（沉稳深思的画外音）**：“我叫陆远，23岁，大模型AI算法架构师。着眼于人工智能的创新发展，我们透视底层逻辑，却陷入了算法决策的伦理困境。”
+* **字幕打点**：
+  * [0.3s - 3.7s] `我叫陆远，23岁，大模型AI算法架构师。`
+  * [3.8s - 7.5s] `着眼于人工智能的创新发展，我们透视底层逻辑，`
+  * [7.6s - 10.7s] `却陷入了算法决策的伦理困境。`
 * **音效 & BGM**：
-  * **音效**：沉闷的远雷声、密集的暴雨拍打地面的沙沙声。
+  * **音效**：沉闷的远雷声、密集的暴雨拍打地面的沙沙声、轻微键盘声。
   * **BGM**：低沉、带有电子科技脉冲感的冷色调合成器长音起。
 
 ---
 
-#### 镜头 02（雨中送单·老刘特写）
+#### 镜头 02（雨中送单·老刘绝地飞驰）
 * **镜头类型**：中近景（Medium Close-up） / 跟随镜头（Tracking Shot）
-* **时长**：5 秒
+* **时长**：10.6 秒
 * **AI 画面提示词（Prompt）**：
   > **中文**：暴雨中骑着旧电动车的中国老骑手，雨水顺着头盔面罩不断流淌，反光背心被雨水湿透发亮，后视镜摇晃，电动车在积水中艰难前行，神色焦急专注，车把上的手机屏幕发出猩红色的亮光，电影质感写实动漫，强反差光影。  
   > **英文**：`Medium tracking shot, Lao Liu, 48-year-old Chinese food delivery rider riding a weathered electric scooter through flooded city streets in torrential rain, water streaming down clear helmet visor, soaked reflective safety vest glowing in streetlights, handlebars mounted smartphone glowing brightly in crimson red, tense and determined expression, hyper-detailed anime realism, cinematic depth of field, 16:9.`
 * **配音 / 画外音（VO）**：
-  * **陆远（画外音）**：“……直到那个特大暴雨的深夜，我亲手见证了极致的算力，是怎样将一个具体的人，推向绝境。”
+  * **老刘（暴雨中急促喘息与悲壮原声）**：“我叫刘长贵，48岁，是个被AI模型考核的外卖员。雨再大我也得冲！小孙女等钱透析，绝不能被算法判定超时！”
+* **字幕打点**：
+  * [0.3s - 4.5s] `我叫刘长贵，48岁，是个被AI模型考核的外卖员。`
+  * [4.6s - 10.2s] `雨再大我也得冲！小孙女等钱透析，绝不能被算法判定超时！`
 * **音效 & BGM**：
-  * **音效**：电动车涉水的哗哗声、雨刮器声、急促的喘息声。
+  * **音效**：电动车涉水的哗哗声、雨刮器声、急促的喘息声、暴雨倾盆拟音。
 
 ---
 
