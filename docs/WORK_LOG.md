@@ -59,9 +59,10 @@
 * **工作时间段**：**13:45 ～ 13:55**（中午，累计用时约 10 分钟）
 * **记录人**：柳锐凯
 * **阶段时间轴与具体工作内容**：
-  * **13:45 - 13:58 | 镜头 03 动态视频生成、音画对齐与第一幕 30 秒成片合成**：
+  * **13:45 - 14:28 | 镜头 03 动态视频生成、音画对齐与镜头 05 写实化重构**：
     * 柳锐凯在 Gemini / Veo 中完成镜头 03（车把手机倒计时与罚单特写）的动态视频生成，并将产物归档至 `assets/videos/`；
     * 完成音画质检与台词对齐：针对第 3.8 秒倒计时归零、水花飞溅并弹出巨幅“严重超时”红屏的精确节点，利用 Edge TTS 合成冷酷刺耳的机械女声台词（*“订单已严重超时，系统扣除当单全部收入。本月违规次数已达上限！”*），与 Veo 原生警报/暴雨拟音按比例完美混音，并压制白边电影字幕；
     * 编写自动化脚本 `build/render_shot03_and_concat_act1.py`，将 **Shot 01（机房独白10s）** + **Shot 02（老刘原声独白10s）** + **Shot 03（倒计时归零超时10s）** 无缝硬切拼接，成功导出第一幕前三镜头 30 秒完整连贯成片 [act1_seamless_30s.mp4](file:///d:/study/course/maogai/homework/dist/act1_seamless_30s.mp4)；
-    * 视频正规化归档为 `assets/videos/shot_03_phone_countdown.mp4` 并更新资产清单 [ASSET_MANIFEST.md](file:///d:/study/course/maogai/homework/assets/ASSET_MANIFEST.md)。
+    * 视频正规化归档为 `assets/videos/shot_03_phone_countdown.mp4` 并更新资产清单 [ASSET_MANIFEST.md](file:///d:/study/course/maogai/homework/assets/ASSET_MANIFEST.md)；
+    * **镜头 05 概念图去科幻化、写实化重构**：柳锐凯指出旧版画面过于科幻脱节；Agent 彻底重绘镜头 05，改为大厂工位真实液晶显示器、企业运管 Web 后台管理系统与白底红标模态框风控弹窗（工号 8092 永久冻结账号），真实感拉满并推送到 GitHub。
 
