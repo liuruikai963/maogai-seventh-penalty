@@ -120,4 +120,10 @@
     * **神级视听与转场设计落地**：视频中陆远神态专注开口自述，在第 9 秒念及“……直到那个特大暴雨的深夜”时，自然侧头望向窗外，窗外暴雨中一道强烈白色闪电照亮夜空；在电光与闷雷中瞬间**无缝硬切（Match Cut）**镜头 02 老刘暴雨中飞驰的电动车，形成高层算法设计与底层疾苦狂奔的强烈戏剧震撼；
     * **自动化压制与全幕连贯成片输出**：编写脚本 `build/render_act1_with_new_monologue.py`，为 Shot 01 压制三段电影级白边字幕，原生保留 Veo 音轨零混响；将 **Shot 01（工位立题独白10.03s）** + **Shot 02（老刘原声奔波10.63s）** + **Shot 03（倒计时超时红屏10.01s）** + **Shot 05（终极弹窗封号7.00s）** 无缝缝合，正式导出全新**第一幕完整大成片** [act1_complete_full_cut.mp4](file:///d:/study/course/maogai/homework/dist/acts/act1_complete_full_cut.mp4)（总时长 37.68 秒）；
     * 全面同步生产脚本 [ai_video_production_script.md](file:///d:/study/course/maogai/homework/scripts/ai_video_production_script.md) 与资产清单 [ASSET_MANIFEST.md](file:///d:/study/course/maogai/homework/assets/ASSET_MANIFEST.md)。
+  * **19:55 - 20:05 | 镜头 02 老刘深夜暴雨飞驰关键帧全面重绘重构、动作独白精准重构与闪电匹配转场方案入库**：
+    * **关键帧美术深度重绘与环境纠偏**：响应开头衔接与视听连贯需求，全面重构镜头 02。纠偏早期偏亮色调，锁定与 Shot 01 完全同步的**漆黑深夜特大暴雨**环境；
+    * **成功生成并入库全新 16:9 高清关键帧原图** [shot_02.jpg](file:///d:/study/course/maogai/homework/assets/images/shot_02.jpg)：背景夜空划过一道巨型白色闪电（严密呼应 Shot 01 窗外闪电！），老刘神态紧绷坚毅，电动车劈波斩浪溅起漫天白色水花，车把手机倒计时猩红警告强烈映射在雨衣胸前，完美对齐新海诚写实动漫质感；早期版本安全归档至 `assets/images/archive_scrapped/shot_02_v1_daytime_old.jpg`；
+    * **动作与独白深度重构**：老刘逆着暴雨急促喘息呐喊自述（*“我叫刘长贵，48岁，是个被算法考核的外卖员。雨再大我也得冲！小孙女在医院等钱透析，要是这单被算法判定超时，这一整天就全白干了！”*），并设计自述收尾时老刘惊惶低头看手机、镜头顺势俯冲下移直扑手机屏幕（Tilt Down & Push In）无缝引出镜头 03；
+    * **输出丰富中英文提示词**：提供包含完整原生对白、涉水电机蜂鸣/浪花音效与暴雨环境拟音的 Gemini / Veo 提示词；
+    * 全面同步生产脚本 [ai_video_production_script.md](file:///d:/study/course/maogai/homework/scripts/ai_video_production_script.md) 与资产清单 [ASSET_MANIFEST.md](file:///d:/study/course/maogai/homework/assets/ASSET_MANIFEST.md)。
 

@@ -65,19 +65,40 @@
 
 ---
 
-#### 镜头 02（雨中送单·老刘绝地飞驰）
-* **镜头类型**：中近景（Medium Close-up） / 跟随镜头（Tracking Shot）
-* **时长**：10.6 秒
-* **AI 画面提示词（Prompt）**：
-  > **中文**：暴雨中骑着旧电动车的中国老骑手，雨水顺着头盔面罩不断流淌，反光背心被雨水湿透发亮，后视镜摇晃，电动车在积水中艰难前行，神色焦急专注，车把上的手机屏幕发出猩红色的亮光，电影质感写实动漫，强反差光影。  
-  > **英文**：`Medium tracking shot, Lao Liu, 48-year-old Chinese food delivery rider riding a weathered electric scooter through flooded city streets in torrential rain, water streaming down clear helmet visor, soaked reflective safety vest glowing in streetlights, handlebars mounted smartphone glowing brightly in crimson red, tense and determined expression, hyper-detailed anime realism, cinematic depth of field, 16:9.`
-* **配音 / 画外音（VO）**：
-  * **老刘（暴雨中急促喘息与悲壮原声）**：“我叫刘长贵，48岁，是个被AI模型考核的外卖员。雨再大我也得冲！小孙女等钱透析，绝不能被算法判定超时！”
-* **字幕打点**：
-  * [0.3s - 4.5s] `我叫刘长贵，48岁，是个被AI模型考核的外卖员。`
-  * [4.6s - 10.2s] `雨再大我也得冲！小孙女等钱透析，绝不能被算法判定超时！`
-* **音效 & BGM**：
-  * **音效**：电动车涉水的哗哗声、雨刮器声、急促的喘息声、暴雨倾盆拟音。
+#### 镜头 02（雨中送单·老刘深夜绝地飞驰·动作与独白全新重构）
+* **分镜状态**：【关键帧原图全新重构入库】`assets/images/shot_02.jpg`（深夜特大暴雨+闪电连贯+猩红倒计时映照） | 待用户提交 Gemini / Veo 生成带原生对白视频
+* **镜头类型**：正面中景跟拍（Front-facing Medium Tracking Shot）/ 车身颠簸震颤至尾部俯冲手机特写
+* **时长**：10.0 ~ 10.6 秒
+* **视听衔接与转场设计（闪电匹配硬切 + 尾部俯冲手机无缝引出）**：
+  * **前序衔接（承接镜头 01）**：完全承接镜头 01 陆远工位落地窗外的雷电闪光，画面在同一道撕裂夜空的刺眼白色闪电与轰鸣雷声中瞬间**硬切（Match Cut）**到深夜暴雨街头！老刘的电动车在积水中破浪前冲，闪电刹那照亮老刘布满雨水与焦虑沧桑的面容，完成从“象牙塔算法调度”到“底层劳动者生死狂奔”的震撼戏剧对撞！
+  * **动作过程（Action）**：正面跟随颠簸镜头。老刘身穿被暴雨湿透发亮的黄色外卖服和荧光反光背心，头盔挡雨面罩被暴雨猛烈拍打，雨水如注滑落。老刘双手紧握湿滑车把，面部肌肉紧绷，眼神布满血丝与焦灼，一边大口急促喘息，一边逆着狂风暴雨悲壮呐喊自述（口型发音与台词严格契合）。车把中央的手机屏幕显示着刺眼猩红色的订单倒计时警告框，剧烈的红光强烈映射在老刘胸口与粗糙双手上。电动车轮在深水中劈波斩浪，溅起漫天白色水花。
+  * **尾部衔接（引向镜头 03）**：在喊出最后一句“这一整天就全白干了！”的瞬间，老刘惊惶地猛然低头下瞥车把手机；镜头顺势极速向下俯冲下移（Tilt Down & Push In），直扑手机屏幕上即将归零的猩红数字，无缝引出镜头 03（手机倒计时特写）。
+* **AI 画面提示词（Prompt 包含原生对白与音效设计）**：
+  > **中文（带对白与音效设计）**：  
+  > 【画风严格对齐要求】：必须严格保持与参考图片 100% 完全一致的“新海诚高质感写实动漫影视概念艺术风格”！严禁改变画风，绝对严禁生成真人实拍质感！人物五官、风霜皱纹、黄色工服与反光背心必须与参考图完全一致。  
+  > 【画面与人物动作】：  
+  > 现代写实动漫风格，2.5D赛璐珞高质感光影。48岁中国外卖大叔老刘（饱经风霜的脸庞布满细纹与灰白胡茬，眼神疲惫但极度坚毅焦急）。深夜特大暴雨中，漆黑的城市街头积水严重，湿漉漉的柏油路面映出路灯、车灯与街边霓虹广告牌的倒影。背后夜空中一道耀眼的白色闪电划破雨幕（承接前一镜头闪电）。  
+  > 老刘戴着黄色外卖头盔，透明面罩上雨水横流，身穿湿透发亮的黄色外卖外套与反光背心。正面中景跟随镜头随着电动车在深水中颠簸破浪前行，车轮两侧飞溅起激烈的白色浪花。老刘双手死死握住湿漉的车把，神色紧绷焦灼，在狂风暴雨中大口喘息并大声开口自述呐喊（口型与台词严格同步）。车把中央手机支架上的手机屏幕发出刺眼的猩红色倒计时警告红光，强烈照亮老刘的胸膛与脸颊。在自述最后一句讲完时，老刘猛然惊惶低头看向车把手机，镜头急速向下俯冲拉近手机屏幕。  
+  > 【原生对白与音频设计（Audio & Sound Design）】：  
+  > 1. 角色原生对白（Dialogue）：中年外卖员老刘沙哑、粗粝、急促喘息且充满生活辛酸与悲壮决心的原声独白，原话为：“我叫刘长贵，48岁，是个被算法考核的外卖员。雨再大我也得冲！小孙女在医院等钱透析，要是这单被算法判定超时，这一整天就全白干了！”（音量高亢、喘息声清晰，与狂风暴雨呼啸声自然交织，口型完全匹配）。  
+  > 2. 关键音效（Key SFX）：电动车涉水电机负荷高频蜂鸣声，车轮激起大片浪花的哗哗破水声，车把手机传出尖锐急促的倒计时警告滴答声。  
+  > 3. 环境拟音（Foley & Ambience）：极度狂暴的夜间暴雨倾盆声，呼啸的风声，远方滚滚沉闷的雷鸣。16:9 画幅，24fps，电影级质感。  
+  >  
+  > **英文（带对白与音效设计）**：  
+  > `Strict style consistency: Must strictly maintain the exact same Makoto Shinkai anime realism concept art style as the reference image. Absolutely NO photorealistic human skin, NO live-action film style. Consistent 2D/2.5D stylized anime aesthetics, exquisite hand-painted lighting, clean anime lines.  
+  > Visuals & Camera Movement:  
+  > Front-facing medium tracking shot, bumping slightly with motion. Late midnight during a ferocious torrential rainstorm. Lao Liu, 48-year-old Chinese food delivery rider, weathered face with wrinkles, stubble, tired yet desperately determined eyes. He wears a yellow delivery helmet with transparent visor covered in streaming rainwater, and a soaked yellow delivery jacket with a reflective safety vest. In the dark background sky, a streak of white lightning rips across the stormy clouds.  
+  > His electric scooter plows forward through deep flooded asphalt streets, churning massive white water spray on both sides. Lao Liu grips the wet handlebars tightly, panting heavily in the wind and speaking loudly with realistic lip motion. Mounted on the handlebars, a smartphone glows with an intense crimson red countdown warning interface, casting a stark red alert glow across his chest and hands. As he delivers the final sentence, he abruptly glances down at the phone in panic, and the camera tilts down and rushes in closer to the flashing phone screen.  
+  > Audio & Sound Design:  
+  > - Spoken Dialogue: Lao Liu speaks with a raspy, breathless, emotionally urgent middle-aged working-class male voice shouting against the rain: "I am Liu Changgui, 48 years old, a food delivery rider evaluated by the algorithm. No matter how hard it rains, I have to push through! My little granddaughter is in the hospital waiting for dialysis money—if the algorithm marks this order overdue, my whole day's work will be wiped out!" (Authentic panting breaths, perfectly synchronized lip sync).  
+  > - Key Sound Effects: High-pitch hum of the electric scooter motor wading through water, splashing spray of deep puddle waves, sharp urgent warning beeps from the mounted smartphone.  
+  > - Foley & Ambience: Roaring midnight rainstorm downpour, howling gusts of wind, rolling thunder echoing in the distance. 16:9, 24fps, cinematic composition.`
+* **字幕打点（供后期核准）**：
+  * [0.3s - 4.2s] `我叫刘长贵，48岁，是个被算法考核的外卖员。`
+  * [4.3s - 7.2s] `雨再大我也得冲！小孙女在医院等钱透析，`
+  * [7.3s - 10.2s] `要是这单被算法判定超时，这一整天就全白干了！`
+* **历史测试素材归档**：
+  * 早期测试版白天色调素材已做非破坏性安全归档至 `assets/images/archive_scrapped/shot_02_v1_daytime_old.jpg`，保证素材库严谨清晰。
 
 ---
 
