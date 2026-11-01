@@ -82,7 +82,7 @@
 ---
 
 ### 📌 2026年11月1日
-* **工作时间段**：**08:30 ～ 08:38**（上午，累计用时约 10 分钟）
+* **工作时间段**：**08:30 ～ 09:12**（上午，累计用时约 40 分钟）
 * **记录人**：柳锐凯
 * **阶段时间轴与具体工作内容**：
   * **08:30 - 08:52 | 全片剧情故事脉络体系化梳理、救人核心因果与现实主义生活化深度重构**：
@@ -92,4 +92,14 @@
       * **摒弃不符合普通人常识的影视化 CPR 套路**：老刘作为 48 岁普通外卖骑手，在无专业急救设备（AED）的老旧小区，采取最真实、最接地气且最符合社会现实的见义勇为善举——**破门冲入老人家中，握手安慰老人、迅速拨打 120 急救电话清晰汇报病情与地址，全程守候陪护老人并协助赶来的急救医护人员把担架抬下狭窄楼梯送上救护车**，在现场耽搁了 35 分钟；
       * 同步消除全剧所有脚本和策划案中残留的“楼道CPR”表述，镜头 08 明确为**老人家中客厅老刘焦急拨打120守护老人**的感人纪实视角；
     * 编制输出高清晰度全片剧情全景解析文档 [complete_storyline_presentation.md](file:///C:/Users/27277/.gemini/antigravity/brain/f5b14212-99d2-460d-9706-e55469254373/complete_storyline_presentation.md) 并完成剧本策划案 [plot_concept.md](file:///d:/study/course/maogai/homework/docs/plot_concept.md) 与生产脚本 [ai_video_production_script.md](file:///d:/study/course/maogai/homework/scripts/ai_video_production_script.md) 的全量同步。
+  * **09:00 - 09:12 | 剧本团队双人分工确立、SOP实操指南编制与“输入生肉/成品/废稿”分级保留机制落地**：
+    * **确立双人分工**：
+      * **前半程制作人（第一、二、三幕：Shot 01~14）**：**柳锐凯**；
+      * **后半程制作人（第四、五幕：Shot 15~23）**：**芮凯**；
+    * **编制团队协同 SOP 实操指南**：输出标准化协作文件 [TEAM_COLLABORATION_SOP.md](file:///d:/study/course/maogai/homework/docs/TEAM_COLLABORATION_SOP.md)，全流程梳理“分镜原图 -> Gemini Veo 图生视频 -> Edge TTS 角色配音 -> Python/FFmpeg 音画字幕自动化合成 -> Git 提交”全套保姆级方法论，方便芮凯无缝接棒制作；
+    * **落地视频资产三级隔离与废稿保留机制**：
+      * 创建 `assets/videos/raw_inputs/`（原始输入素材）与 `assets/videos/archive_scrapped/`（废稿与备选素材库）；
+      * 将历史测试与迭代产物（如未加自我介绍的旧版配音、旧版 20s/30s 切片）加上 `[SCRAPPED_PRE_INTRO]` 等标签归档至废稿库，**严禁物理删除任何素材，方便未来随时比对与一键替换**；
+      * 最终合成成品严格归档至 `dist/shots/` 与 `dist/acts/`；
+      * 全面更新资产总清单 [ASSET_MANIFEST.md](file:///d:/study/course/maogai/homework/assets/ASSET_MANIFEST.md) 与逐镜头脚本 [ai_video_production_script.md](file:///d:/study/course/maogai/homework/scripts/ai_video_production_script.md)。
 
