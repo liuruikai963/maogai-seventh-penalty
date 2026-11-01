@@ -143,4 +143,10 @@
     * **确立行业级流水线标准**：明确“Prompt 写台词仅为驱动 AI 生成面部口型动态与肌肉表情”，后期流水线自动将 AI 伴生生成的念错杂音彻底剥离静音，100% 提取并保留暴雨倾盆、远近雷声、电瓶车涉水破浪纯净拟音，混入字字准确的广播级神经网络配音与双层白边电影字幕，彻底杜绝说错话；
     * **第一幕全量母带级重制交付**：编写并执行 `build/render_act1_professional_dubbed_cut.py`，全量重压 Shot 01、02A、02B，彻底抹除原生念错语音，混入专属角色无错原声，导出全新第一幕终极母带大成片 [act1_complete_full_cut.mp4](file:///d:/study/course/maogai/homework/dist/acts/act1_complete_full_cut.mp4)（47.08s）；
     * 全量同步资产清单 [ASSET_MANIFEST.md](file:///d:/study/course/maogai/homework/assets/ASSET_MANIFEST.md) 与制作脚本 [ai_video_production_script.md](file:///d:/study/course/maogai/homework/scripts/ai_video_production_script.md)。
+  * **00:10 - 00:16 | 彻底杜绝声音重叠·生肉视频音轨全量切除与纯净拟音+无错配音绝对隔离交付**：
+    * **精准排查重叠根因**：响应导演（用户）“Shot 01 与 Shot 02B 有重叠、没有完全删除原视频原生文稿音频”的精准指正，发现此前微幅混入生肉视频音轨 `0:a` 导致原生错音与新配音产生重叠；
+    * **物理级音轨切断与隔离**：在 `build/render_act1_zero_overlap_dubbed.py` 中彻底切断生肉视频自带音轨 `0:a`，原生 AI 念错声音完全丢弃；
+    * **纯净拟音库独立接入**：生成并接入纯净工位/窗外雷鸣拟音 `assets/audio/foley_office_lightning.wav` 与纯净暴雨倾盆/涉水电机拟音 `assets/audio/foley_storm_clean.wav`，音画分轨分层独立混合，确保 100% 零重叠、字字纯净清晰；
+    * **全量重新母带级压制成片**：导出全新绝对零重叠第一幕大成片 [act1_complete_full_cut.mp4](file:///d:/study/course/maogai/homework/dist/acts/act1_complete_full_cut.mp4)（47.08s）；
+    * 全量同步资产清单与提交远程 GitHub 仓库。
 
