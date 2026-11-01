@@ -138,4 +138,9 @@
       - **Shot 02B（低角度涉水狂奔，10.01s）**：动作顺承切入，电动车劈波斩浪展现特大暴雨中底层的绝地挣扎，逆风呐喊“雨再大我也得冲！冲过去……绝不能超时！”，尾部视线俯冲手机无缝交接 Shot 03；
     * **自动化合成流水线与大成片输出**：编写执行 `build/render_shot02a_and_concat_act1.py`，完整串联第一幕五连镜（Shot 01 10.03s + Shot 02A 10.03s + Shot 02B 10.01s + Shot 03 10.01s + Shot 05 7.00s），成功导出 47.08 秒全量大成片 [act1_complete_full_cut.mp4](file:///d:/study/course/maogai/homework/dist/acts/act1_complete_full_cut.mp4)；
     * **资产库标准化同步**：原始视频归档为 `assets/videos/raw_inputs/shot_02a_lao_liu_monologue.mp4` 与 `shot_02b_lao_liu_scooter_wading.mp4`，单镜头成片归档至 `dist/shots/`，全面同步 [ASSET_MANIFEST.md](file:///d:/study/course/maogai/homework/assets/ASSET_MANIFEST.md) 与 [ai_video_production_script.md](file:///d:/study/course/maogai/homework/scripts/ai_video_production_script.md)。
+  * **00:00 - 00:08 | 核心铁律七颁布（AI口型引导+后期音频重构分离规范）、第一幕全量去错音并重制专业级母带成片**：
+    * **核心制片铁律制度化**：正式在 [STYLE_CONSISTENCY_RULES.md](file:///d:/study/course/maogai/homework/docs/STYLE_CONSISTENCY_RULES.md) 颁布《核心铁律七：AI 口型引导与后期音频重构分离规范（Lip-Sync Prompting & Clean Audio Dubbing SOP）》；
+    * **确立行业级流水线标准**：明确“Prompt 写台词仅为驱动 AI 生成面部口型动态与肌肉表情”，后期流水线自动将 AI 伴生生成的念错杂音彻底剥离静音，100% 提取并保留暴雨倾盆、远近雷声、电瓶车涉水破浪纯净拟音，混入字字准确的广播级神经网络配音与双层白边电影字幕，彻底杜绝说错话；
+    * **第一幕全量母带级重制交付**：编写并执行 `build/render_act1_professional_dubbed_cut.py`，全量重压 Shot 01、02A、02B，彻底抹除原生念错语音，混入专属角色无错原声，导出全新第一幕终极母带大成片 [act1_complete_full_cut.mp4](file:///d:/study/course/maogai/homework/dist/acts/act1_complete_full_cut.mp4)（47.08s）；
+    * 全量同步资产清单 [ASSET_MANIFEST.md](file:///d:/study/course/maogai/homework/assets/ASSET_MANIFEST.md) 与制作脚本 [ai_video_production_script.md](file:///d:/study/course/maogai/homework/scripts/ai_video_production_script.md)。
 

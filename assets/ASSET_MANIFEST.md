@@ -18,6 +18,11 @@ homework/
 ├── assets/
 │   ├── images/                                 # 1080P 概念关键帧原图库（.jpg）
 │   ├── audio/                                  # 角色配音原声、音效与 BGM（.mp3）
+│   │   ├── shot_01_luyuan_clean_vo.mp3         [ACTIVE] (陆远专业广播级无错配音，沉稳青年学者音)
+│   │   ├── shot_02a_laoliu_clean_vo.mp3        [ACTIVE] (老刘专业广播级无错配音，48岁沧桑微喘中年音)
+│   │   ├── shot_02b_laoliu_clean_vo.mp3        [ACTIVE] (老刘绝地狂奔涉水呐喊配音)
+│   │   ├── shot_03_system_voice.mp3            [ACTIVE] (系统机械倒计时报警音)
+│   │   └── shot_05_system_freeze.mp3           [ACTIVE] (系统风控永久冻结提示音)
 │   └── videos/
 │       ├── raw_inputs/                         # 【输入原始素材库】Gemini / Veo 生成的生肉视频片段
 │       │   ├── shot_01_luyuan_office_monologue.mp4          [ACTIVE] (10.03s, 陆远工位学术自述与电光闪现)
@@ -36,12 +41,13 @@ homework/
 │   ├── render_shot03_and_concat_act1.py        # 镜头 03 压制脚本
 │   ├── render_act1_full_with_shot05.py         # 第一幕历史合成脚本
 │   ├── render_act1_with_new_monologue.py       # 第一幕全量 37.7s 连贯脚本
-│   └── render_shot02a_and_concat_act1.py       # 第一幕 47.08s 终极大成片（老刘自述+涉水狂奔双镜头无缝衔接）
+│   ├── render_shot02a_and_concat_act1.py       # 第一幕双镜头衔接历史脚本
+│   └── render_act1_professional_dubbed_cut.py  # 【当前母带】第一幕 47.08s 剥离原生错音+广播级配音+纯净环境拟音终极大成片
 └── dist/                                       # 【最终成品输出库】
     ├── shots/                                  # 各单镜头终稿（已混音与压制中文字幕）
-    │   ├── shot_01_final.mp4                   [FINAL] (10.03s, 陆远双屏工位自述与大模型伦理调查引入)
-    │   ├── shot_02a_final.mp4                  [FINAL] (10.03s, 老刘正面中景自述，白边电影字幕+Veo原声)
-    │   ├── shot_02b_final.mp4                  [FINAL] (10.01s, 老刘涉水狂奔动作，带雨夜破浪字幕与声效)
+    │   ├── shot_01_final.mp4                   [FINAL] (10.03s, 陆远双屏工位自述，剥离原生错音+广播级青年配音)
+    │   ├── shot_02a_final.mp4                  [FINAL] (10.03s, 老刘正面中景自述，剥离原生错音+沧桑配音+纯暴雨拟音)
+    │   ├── shot_02b_final.mp4                  [FINAL] (10.01s, 老刘涉水狂奔动作，带雨夜破浪字幕与搏命呐喊配音)
     │   ├── shot_03_final.mp4                   [FINAL] (10.01s, 系统机械音超时红屏)
     │   └── shot_05_final.mp4                   [FINAL] (7.00s, 终极弹窗封号与系统机械声)
     ├── acts/                                   # 各幕完整连贯大片
