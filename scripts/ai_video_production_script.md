@@ -44,53 +44,24 @@
 
 ### 第一幕：【起】雨夜红线与前六张罚单的重量（约 1 分钟）
 
-#### 镜头 00（序幕·工位立项独白·大模型伦理调查引入 / 方案 A 独立前导镜）
-* **分镜状态**：【关键帧原图已完成已入库】`assets/images/shot_00.jpg` | 待用户提交 Gemini / Veo 生成视频
-* **镜头类型**：中景（Medium Shot）平缓慢速微推（Slow Push-in）至落地窗暴雨景深过渡
-* **预计时长**：10~12 秒
-* **承接关系与转场设计（避免生硬跳切）**：
-  * **开篇切入**：黑屏缓缓淡入，机房恒温低噪空调的轻微气流声中，暗调环境光亮起，陆远在弧形双屏工位前正对镜头。
-  * **尾部转场（至镜头 01 无缝衔接）**：当陆远自述讲到最后一句“……直到那个特大暴雨的深夜”时，陆远目光自然从镜头/屏幕移向身后巨大的落地玻璃幕墙。窗外暴雨如注，密集的雨水顺着玻璃滑落，远方夜空隐现一道低沉电光。镜头焦点由人物柔和虚化漂移至窗外暴雨深处，音效由室内微弱键盘与空调声平滑渐强过渡为窗外的暴雨与远方闷雷（Audio Crossfade），与镜头 01 宏观暴雨都市大场景实现**视听无缝匹配转场（Match Cut & Audio Dissolve）**，彻底避免生硬硬切！
-* **AI 画面提示词（Prompt）**：
-  > **中文（带对白与音效设计）**：  
-  > 【画风严格对齐要求】：必须严格保持与参考图片 100% 完全一致的“新海诚高质感写实动漫影视概念艺术风格”！严禁改变画风，绝对严禁生成真人实拍质感！人物五官、发型、黑框眼镜及服饰必须与参考图完全一致。  
-  > 【画面与人物动作】：  
-  > 现代写实动漫风格，2.5D赛璐珞高质感光影。23岁的中国年轻软件工程师陆远（短碎黑发，黑框眼镜，深灰连帽衫内搭，外穿藏青色休闲夹克，神情深沉沉静、专注内敛），深夜坐在高科技互联网研发工位上。面前是弧形双联显示器：左屏显示暗色系神经网络代码与模型调度后台，右屏显示实时城市交通与骑手运力热力图。暖黄色桌面台灯为陆远的肩颈勾勒出一道温润的暖光轮廓，与冷色调屏幕在黑框眼镜镜片上投下的幽蓝微光形成冷暖反差。  
-  > 镜头以极平稳的微慢速向陆远缓缓推近，陆远平静注视前方开口自述，口型与对白发音自然契合。当念到“直到那个特大暴雨的深夜”时，陆远目光微微抬起，侧脸望向身后巨大的落地玻璃幕墙——窗外是暴雨倾盆的漆黑城市天际线，密集的雨水顺着落地窗玻璃不断划下道道水痕；天际隐隐掠过一道电光照亮雨幕，镜头焦点平滑虚化并向落地窗暴雨深处推移，为无缝切入下一镜头宏观雨夜都市做自然电影转场。  
-  > 【原生对白与音频设计（Audio & Sound Design）】：  
-  > 1. 角色原生对白（Dialogue）：青年男主陆远清晰、沉稳、带着学术思辨与深沉故事感的原声独白，原话为：“我叫陆远，23岁，大模型调度算法架构师。着眼于人工智能的创新发展，我们试图透视热点事件的底层逻辑，开展算法决策的伦理困境调查分析……直到那个特大暴雨的深夜。”（语调沉着、清晰微带磁性，与画面口型严格同步）。  
-  > 2. 核心音效（Key SFX）：键盘按键轻叩声，代码窗口光标闪烁轻微电音；末尾转折处伴随远方极低沉、空间感十足的闷雷隐隐回响（Subtle distant thunder roll）。  
-  > 3. 环境拟音（Foley & Ambience）：机房恒温低噪空调的轻微气流声，落地窗外由远及近、越来越密集的暴雨击打玻璃声。16:9 画幅，24fps，电影级质感。  
-  >  
-  > **英文（带对白与音效设计）**：  
-  > `Strict style consistency: Must strictly maintain the exact same Makoto Shinkai anime realism concept art style as the reference image. Absolutely NO photorealistic human skin, NO live-action film style. Consistent 2D/2.5D stylized anime aesthetics, exquisite hand-painted lighting, clean anime lines.  
-  > Visuals & Camera Movement:  
-  > Medium shot in a quiet, modern tech research office late at night. Character: Lu Yuan, 23-year-old Chinese male AI algorithm architect, short neat black hair, black-rimmed eyeglasses, wearing dark grey casual hoodie under a navy blue jacket, slender build. He is seated at a curved dual-monitor workstation; glowing screens display dark-mode deep learning neural architecture and an urban logistics dispatch heatmap. Warm desk lamp light creates a gentle amber rim against the cool blue monitor glow reflecting off his glasses.  
-  > The camera performs a smooth, subtle slow push-in towards Lu Yuan as he faces forward and speaks naturally with realistic lip movement. As he delivers the final phrase "...until that midnight of a torrential downpour", his gaze slightly shifts toward the massive floor-to-ceiling glass window behind him. Outside, heavy torrential rain streams down the dark city glass with glistening raindrops; a faint distant flicker of lightning illuminates the rain streaks, and the depth of field smoothly drifts into the rainy window glass, creating a seamless, organic cinematic transition into the macro storm cityscape of the next shot.  
-  > Audio & Sound Design:  
-  > - Spoken Dialogue: Lu Yuan speaks with a clear, calm, reflective young male voice directly to camera: "I am Lu Yuan, 23 years old, a large model dispatch algorithm architect. Focused on the innovative development of artificial intelligence, we sought to examine the underlying logic of frontline events and investigate the ethical dilemmas of algorithmic decisions... until that midnight of a torrential downpour." (Natural pacing, perfectly synchronized lip motion, no background echo).  
-  > - Key Sound Effects: Gentle mechanical keyboard clicks, subtle cursor pulse blips, ending with a low-frequency distant rumble of rolling thunder.  
-  > - Foley & Ambience: Soft background ambient hum of an air-conditioned office, transitioning to the escalating patter of heavy rain streaming down the glass window outside. 16:9, 24fps, cinematic composition.`
-* **字幕打点（供后期核准）**：
-  * [0.5s - 4.2s] `我叫陆远，23岁，大模型调度算法架构师。`
-  * [4.3s - 8.6s] `着眼于人工智能的创新发展，我们试图透视热点事件的底层逻辑，`
-  * [8.7s - 11.5s] `开展算法决策的伦理困境调查分析……直到那个特大暴雨的深夜。`
-
----
-
-#### 镜头 01（开篇·宏观全景·雨夜超级都市大场景转场）
-* **镜头类型**：大远景（Extreme Long Shot） / 宏观俯瞰至城市深处（承接镜头 00 落地窗暴雨）
-* **时长**：10~11 秒
-* **承接关系与转场设计**：
-  * **承接镜头 00**：自镜头 00 落地窗水珠焦外虚化无缝切入，宏观雨幕贯穿天际，霓虹车流光轨在积水中拉出长长血色光芒，远雷轰鸣声与倾盆暴雨声达至顶峰，随后镜头下沉直切入街头积水中老刘破浪飞驰的镜头 02。
-* **AI 画面提示词（Prompt）**：
-  > **中文**：暴雨倾盆的现代超级都市夜景，密集的雨幕笼罩摩天大楼，道路上车流灯光拉出长长的红色光轨，远处是灯火辉煌的互联网大厂总部大厦，镜头在大雨滂沱中俯瞰穿行，电影写实动漫风，大片质感，16:9，8k分辨率。  
-  > **英文**：`Cinematic wide shot of a modern cyberpunk-infused metropolis under heavy torrential rainstorm at night, towering skyscrapers obscured by misty rain, wet asphalt streets reflecting bright neon lights and red taillights, distant illuminated tech company headquarters glass tower, Makoto Shinkai realistic anime style, cinematic lighting, dramatic atmosphere, 16:9, 8k.`
-* **配音 / 音频**：
-  * 纯视听宏观转场氛围，承接镜头 00 独白余韵，引出雨夜真实风暴。
-* **音效 & BGM**：
-  * **音效**：沉闷震撼的远雷声、密集的暴雨拍打地面的沙沙声、低沉脉冲科技声。
-  * **BGM**：低沉、带有电子科技脉冲感的冷色调合成器长音起。
+#### 镜头 01（开篇·工位立项独白·大模型伦理调查引入直切老刘送单）
+* **分镜状态**：【终稿交付已入库】`assets/videos/raw_inputs/shot_01_luyuan_office_monologue.mp4` -> `dist/shots/shot_01_final.mp4` (10.03s, 原生声画+白边电影字幕)
+* **镜头类型**：中景（Medium Shot）平缓慢速微推（Slow Push-in）至落地窗暴雨电光闪现（Match Cut 直接引入镜头 02）
+* **时长**：10.03 秒（成片精细对齐）
+* **视听语言与转场设计（极速破题，电影级闪电匹配转场）**：
+  * **开篇立题**：23岁大模型算法架构师陆远端坐弧形双屏前（神经网络代码+实时调度热力图），正对镜头沉稳自述，开门见山点破“人工智能创新发展与算法决策伦理困境”的思政实践核心主题。
+  * **尾部转场（直切老刘）**：当独白讲到最后一句*“……直到那个特大暴雨的深夜”*时，陆远目光自然移向身后巨大的落地窗；窗外暴雨奔流、天际一道白色闪电骤然划破夜空，雷声隐隐轰鸣！画面在闪电与暴雨中瞬间**硬切（Match Cut）**到街头积水中老刘冒雨破浪狂飙的电动车（镜头 02），完成从“算法高层宏观设计”到“基层劳动者生死狂奔”的震撼视觉与阶层戏剧对撞！
+* **AI 画面提示词（Prompt 归档）**：
+  > **中文**：现代写实动漫风格，2.5D赛璐珞高质感光影。23岁的中国年轻软件工程师陆远（短碎黑发，黑框眼镜，深灰连帽衫内搭，外穿藏青色休闲夹克，神情深沉沉静、专注内敛），深夜坐在高科技互联网研发工位上。面前是弧形双联显示器：左屏显示暗色系神经网络代码与模型调度后台，右屏显示实时城市交通与骑手运力热力图。暖黄色桌面台灯与冷色调屏幕在黑框眼镜镜片上投下的幽蓝微光形成冷暖反差。镜头缓缓推近，陆远平静注视前方开口自述。当念到“直到那个特大暴雨的深夜”时，陆远目光望向身后巨大的落地玻璃幕墙——窗外暴雨如注，天际一道电光闪烁，无缝直切下一镜头雨夜街头。  
+  > **英文**：`Strict style consistency: Makoto Shinkai anime realism concept art style. Lu Yuan, 23yo Chinese male AI algorithm architect, black glasses, dark grey hoodie and navy jacket, seated at curved dual-monitor workstation showing neural code and GIS dispatch heatmap. Warm desk lamp light and cool screen reflections. Camera slowly pushes in as he speaks to camera, then turns head toward rainy floor-to-ceiling window as lightning strikes outside in the stormy metropolis. 16:9, 24fps.`
+* **配音 / 原生对白**：
+  * **陆远（沉稳内敛的原声自述）**：“我叫陆远，23岁，大模型调度算法架构师。着眼于人工智能的创新发展，我们试图透视热点事件的底层逻辑，开展算法决策的伦理困境调查……直到那个特大暴雨的深夜。”
+* **字幕打点（已精确压制）**：
+  * [0.3s - 3.7s] `我叫陆远，23岁，大模型调度算法架构师。`
+  * [3.8s - 7.1s] `着眼于人工智能的创新发展，我们试图透视热点事件的底层逻辑，`
+  * [7.2s - 9.8s] `开展算法决策的伦理困境调查……直到那个特大暴雨的深夜。`
+* **历史测试素材归档**：
+  * 旧版宏观雨夜大都市大远景素材已做非破坏性安全归档至 `assets/videos/archive_scrapped/shot_01_macro_city_v1_pre_monologue_replace.mp4` `[TAG: SCRAPPED_PRE_MONOLOGUE_REPLACE]`，完整保留随时可调取。
 
 ---
 

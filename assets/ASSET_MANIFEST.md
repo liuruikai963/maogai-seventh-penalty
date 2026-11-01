@@ -20,10 +20,12 @@ homework/
 │   ├── audio/                                  # 角色配音原声、音效与 BGM（.mp3）
 │   └── videos/
 │       ├── raw_inputs/                         # 【输入原始素材库】Gemini / Veo 生成的生肉视频片段
-│       │   ├── shot_01_macro_city_to_lu_yuan_monologue.mp4  [ACTIVE] (10.01s)
+│       │   ├── shot_01_luyuan_office_monologue.mp4          [ACTIVE] (10.03s, 陆远工位学术自述与电光闪现)
 │       │   ├── shot_02_lao_liu_scooter_rain.mp4             [ACTIVE] (10.01s)
-│       │   └── shot_03_phone_countdown.mp4                  [ACTIVE] (10.01s)
+│       │   ├── shot_03_phone_countdown.mp4                  [ACTIVE] (10.01s)
+│       │   └── shot_05_penalty_modal.mp4                    [ACTIVE] (10.03s)
 │       └── archive_scrapped/                   # 【废稿与备用素材库】包含历史版本、测试稿，做标签标记严禁删除！
+│           ├── shot_01_macro_city_v1_pre_monologue_replace.mp4 [TAG: SCRAPPED_PRE_MONOLOGUE_REPLACE] (旧版雨夜宏观大远景测试素材)
 │           ├── shot_02_vo_v1_pre_character_intro.mp4        [TAG: SCRAPPED_PRE_INTRO] (无自我介绍旧版配音)
 │           ├── act1_opening_20s_v1_pre_shot03.mp4           [TAG: SCRAPPED_PRE_SHOT03] (仅前两镜旧连缀)
 │           └── act1_seamless_30s_v1_pre_intro.mp4           [TAG: SCRAPPED_PRE_INTRO] (前三镜旧30秒无介绍版)
@@ -31,16 +33,16 @@ homework/
 │   ├── render_act1_preview.py                  # 旧版图片转视频预览脚本
 │   ├── create_shot02_with_laoliu_vo_and_concat.py # 镜头 02 单独压制脚本
 │   ├── render_shot03_and_concat_act1.py        # 镜头 03 压制脚本
-│   ├── render_act1_with_character_intros.py    # 第一幕 31.6s 成片自动化合成脚本
-│   └── render_act1_full_with_shot05.py         # 第一幕全量 42.6s 完整终极大成片（含Shot 05与完整学术独白）
+│   ├── render_act1_full_with_shot05.py         # 第一幕历史合成脚本
+│   └── render_act1_with_new_monologue.py       # 第一幕全量 37.7s 终极大成片（工位独白电光直切老刘送单）
 └── dist/                                       # 【最终成品输出库】
     ├── shots/                                  # 各单镜头终稿（已混音与压制中文字幕）
-    │   ├── shot_01_final.mp4                   [FINAL] (15.0s, 陆远大模型与AI伦理完整学术独白)
-    │   ├── shot_02_final.mp4                   [FINAL] (10.6s, 老刘暴雨奔波救孙女独白)
-    │   ├── shot_03_final.mp4                   [FINAL] (10.0s, 系统机械音超时红屏)
-    │   └── shot_05_final.mp4                   [FINAL] (7.0s, 终极弹窗封号与系统机械声)
+    │   ├── shot_01_final.mp4                   [FINAL] (10.03s, 陆远双屏工位自述与大模型伦理调查引入)
+    │   ├── shot_02_final.mp4                   [FINAL] (10.63s, 老刘暴雨奔波救孙女独白)
+    │   ├── shot_03_final.mp4                   [FINAL] (10.01s, 系统机械音超时红屏)
+    │   └── shot_05_final.mp4                   [FINAL] (7.00s, 终极弹窗封号与系统机械声)
     ├── acts/                                   # 各幕完整连贯大片
-    │   └── act1_complete_full_cut.mp4          [FINAL] (42.6s, 第一幕全镜头无缝连贯终成片！)
+    │   └── act1_complete_full_cut.mp4          [FINAL] (37.7s, 第一幕全镜头无缝连贯终成片！)
     └── final_film/                             # 全片 5~7 分钟终极大成片（待全片完成拼接）
 ```
 
@@ -48,12 +50,11 @@ homework/
 
 ## 🎬 23 镜头分工制作跟踪与资产状态表
 
-### 第一部分：柳锐凯主创负责（第一幕至第三幕：镜头 00/01 ～ 镜头 14）
+### 第一部分：柳锐凯主创负责（第一幕至第三幕：镜头 01 ～ 镜头 14）
 
 | 镜头编号 | 幕次与场景名称 | 关键帧原图 | 原始输入视频 (raw_inputs) | 最终合成成片 (dist/shots) | 资产标记与说明 |
 | :---: | :--- | :---: | :---: | :---: | :--- |
-| **Shot 00** | 序幕·工位立项独白·大模型伦理调查引入 | ✅ 已完成 (`assets/images/shot_00.jpg`) | 待生成（方案 A） | 待合成 | `[KEYFRAME_READY]` 陆远弧形双屏工位正对镜头，带原生思政学术对白与暴雨窗无缝转场 |
-| **Shot 01** | 第一幕·宏观全景·雨夜超级都市大场景转场 | ✅ 已完成 | ✅ 已入库 | ✅ `shot_01_final.mp4` | `[FINAL]` 11.0s，承接镜头 00 落地窗暴雨，引出雨夜宏观风暴 |
+| **Shot 01** | 第一幕·工位立项独白·大模型伦理调查引入直切老刘送单 | ✅ 已完成 (`assets/images/shot_00.jpg`) | ✅ 已入库 (`shot_01_luyuan_office_monologue.mp4`) | ✅ `shot_01_final.mp4` | `[FINAL]` 10.03s，陆远工位原生自述、白边电影字幕、闪电匹配无缝直切老刘 |
 | **Shot 02** | 第一幕·雨中送单·老刘绝地飞驰 | ✅ 已完成 | ✅ 已入库 | ✅ `shot_02_final.mp4` | `[FINAL]` 10.6s，含老刘人物介绍与救孙女急迫独白 |
 | **Shot 03** | 第一幕·手机倒计时归零严重超时 | ✅ 已完成 | ✅ 已入库 | ✅ `shot_03_final.mp4` | `[FINAL]` 10.0s，含系统机械女声与3.8s报警 |
 | **Shot 04** | 第一幕·大厂深夜工位与双显示器系统 | ✅ 已完成 | 已整合入 Shot 01 | 已整合入 Shot 01 | `[INTEGRATED]` 实景双屏（VS Code + 运管Web系统） |
