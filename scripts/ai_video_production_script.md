@@ -130,23 +130,23 @@
   > **中文**：手部特写镜头。老刘的手紧紧攥着一张皱巴巴的医院透析缴费通知单，那双手手背皮肤深褐皲裂，布满细碎血口，指节粗大变形，指甲缝里满是洗不掉的深色油污。另一只穿着干净运动夹克年轻男生的手（陆远）正犹豫着伸向他，强烈的代际对比，极度写实的情感质感。  
   > **英文**：`Extreme close-up of hands. Lao Liu's weathered, heavily calloused hands clutching a crumpled white hospital dialysis bill, scarred cracked skin on knuckles with healing red cuts, dark ingrained soil under fingernails. A young clean hand (Lu Yuan) hesitantly reaching out to help him up, powerful generational visual contrast, deeply emotional anime concept art, warm natural morning light, 16:9.`
 * **配音 / 画外音（VO）**：
-  * **老刘（自责愧疚、声音沙哑）**：“年轻人，我真不是故意偷懒超时的……昨晚那家独居大爷突发心梗摔在地上动不了，我光顾着破门救人做心肺复苏等救护车，真没顾上看手机啊……”
+  * **老刘（自责愧疚、声音沙哑）**：“年轻人，我真不是故意偷懒超时的……昨晚那家独居大爷摔倒在家里动弹不得，我撞开门冲进去，给他盖上被子赶紧打120叫救护车，一直守着等到医生来、帮着把担架抬下楼……我真没顾上看手机啊……”
   * **陆远（内心独白）**：“握住那双手的瞬间，我的心狠狠抽搐了一下。这双手——跟我老家在工地上开重卡、手上满是裂口的父亲，长得一模一样。”
 * **音效 & BGM**：
   * **音效**：纸张揉皱的声音，衣物摩擦声。
 
 ---
 
-#### 镜头 08（监控回放·暴雨夜老旧小区破门救人）
-* **镜头类型**：楼道监控视角（CCTV / Security Camera View）
+#### 镜头 08（家中急救·老刘破门打120守候独居老人）
+* **镜头类型**：室内中景 / 纪实情感视角（Inside Living Room Perspective）
 * **时长**：6 秒
 * **AI 画面提示词（Prompt）**：
-  > **中文**：老旧小区狭窄楼道监控录像画面，画质带有轻微时间戳和噪点（‘CAM-03 5F CORRIDOR 23:38:12’）。昨夜暴雨中，浑身湿透、身穿黄色反光背心的外卖员老刘，与闻声赶来的邻居一起奋力撞开一扇生锈的防盗铁门；屋内昏暗地面上，一位独居老人昏迷倒地，老刘毫不犹豫跪在地上紧急实施心肺复苏，动作急迫而专业，随后急救医生冲上楼梯，画面纪实感人，狭窄楼道充满真实的生活质感。  
-  > **英文**：`High-angle CCTV surveillance footage in a dim, retro Chinese residential walk-up corridor, slight video noise and green timestamp overlay ('CAM-03 5F CORRIDOR 23:38:12'). During last night's rainstorm, soaked delivery rider Lao Liu in yellow reflective uniform and an anxious neighbor kick open a rusted security door; inside the dim apartment, an elderly man has collapsed on the floor. Lao Liu kneels down urgently performing CPR chest compressions, before paramedics rush up the stairwell with a stretcher. Raw documentary anime realism, 16:9.`
+  > **中文**：老旧小区昏暗简陋的居民家中客厅内部。暴雨深夜，一位头发花白的独居老人摔倒在客厅地面上，身体虚弱无法动弹。浑身湿透、身穿黄色反光背心的外卖员老刘在撞开防盗门冲入屋内后，正焦急地单膝跪在老人身边，一只手紧紧握着老人的手给予安慰，另一只手把手机紧贴在耳边，满头大汗、极度焦急地拨打120急救电话报告地址与老人情况。背后被撞开的房门敞开着，窗外暴雨如注，光影温暖而真实，充满平民英雄的人间烟火质感，现代写实动漫风，16:9。  
+  > **英文**：`Interior medium shot inside a dimly lit retro Chinese apartment living room at night. A frail elderly man living alone has collapsed on the floor, unable to get up. Soaked food delivery rider Lao Liu in yellow reflective uniform, having forced open the door, kneels compassionately beside the old man, holding the elder's hand with one hand, while pressing his smartphone to his ear with the other, anxiously calling 120 ambulance dispatch, reporting location with urgent protective expression. Open door in background, pouring rain outside window, warm touching realism, Makoto Shinkai style, 16:9.`
 * **配音 / 画外音（VO）**：
-  * **陆远（沉思独白）**：“楼道监控不会撒谎。在紧闭的防盗门前，他毫不犹豫地停下了奔跑的脚步，为一个素不相识的倒地老人抢回了生机。”
+  * **陆远（沉思震颤的独白）**：“出警记录与门前影像不会撒谎。在紧闭的大门前，他毫不犹豫破门冲进屋内，为一个在家里突发急症的独居老人叫来救护车、守候到最后一刻。”
 * **音效 & BGM**：
-  * **音效**：监控回放快进与暂停的轻微蜂鸣声、剧烈的撞门声与急促的急救心跳仪声。
+  * **音效**：电话拨通的声音、老刘焦急催促救护车的急促对白杂音、窗外密集的暴雨声。
 
 ---
 
@@ -154,8 +154,8 @@
 * **镜头类型**：特写（Screen Close-up）
 * **时长**：5 秒
 * **AI 画面提示词（Prompt）**：
-  > **中文**：电脑开发界面特写，陆远正在算法底层代码中输入“申诉原因：送餐破门抢救突发心梗独居老人”。回车之后，屏幕中间弹出一个巨大的刺目红框：“错误：底层未定义实体【见义勇为/紧急救助】。有效参数仅限【时空位移】【出餐时长】【路况拥堵指数】。判定：异常长时间滞留，违背系统全局最优效率，操作已被强制拦截！”  
-  > **英文**：`Screen close-up, code editor backend. Lu Yuan types input: 'Reason: Rescued collapsed elderly resident with CPR during delivery'. Pressing enter triggers a harsh red dialog box: 'ERROR: Undefined Entity [Civic Heroism / Emergency Aid]. Valid variables restricted to [Distance, Latency, Traffic Index]. Flagged: Prolonged dwell violation. Request rejected: Violates Global Efficiency Optimum.' Cyberpunk anime coding aesthetic, 16:9.`
+  > **中文**：电脑开发界面特写，陆远正在算法底层代码中输入“申诉原因：送餐破门救助突发急症独居老人，拨打120并全程陪护抬担架送医”。回车之后，屏幕中间弹出一个巨大的刺目红框：“错误：底层未定义实体【见义勇为/紧急救助】。有效参数仅限【时空位移】【出餐时长】【路况拥堵指数】。判定：异常长时间滞留，违背系统全局最优效率，操作已被强制拦截！”  
+  > **英文**：`Screen close-up, code editor backend. Lu Yuan types input: 'Reason: Rescued collapsed solitary elderly resident at home, called 120 ambulance and assisted stretcher transport'. Pressing enter triggers a harsh red dialog box: 'ERROR: Undefined Entity [Civic Heroism / Emergency Aid]. Valid variables restricted to [Distance, Latency, Traffic Index]. Flagged: Prolonged dwell violation. Request rejected: Violates Global Efficiency Optimum.' Sleek dark-mode developer UI, 16:9.`
 * **配音 / 画外音（VO）**：
   * **陆远（内心自嘲与愤怒）**：“算力能识别城市里的每一道窄门、每一个红绿灯，可在长达数百万行的代码里，居然容不下‘救人’两个字。”
 * **音效 & BGM**：
