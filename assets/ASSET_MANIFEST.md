@@ -31,14 +31,16 @@ homework/
 │   ├── render_act1_preview.py                  # 旧版图片转视频预览脚本
 │   ├── create_shot02_with_laoliu_vo_and_concat.py # 镜头 02 单独压制脚本
 │   ├── render_shot03_and_concat_act1.py        # 镜头 03 压制脚本
-│   └── render_act1_with_character_intros.py    # 第一幕最新连贯 31.6s 成片自动化合成脚本
+│   ├── render_act1_with_character_intros.py    # 第一幕 31.6s 成片自动化合成脚本
+│   └── render_act1_full_with_shot05.py         # 第一幕全量 42.6s 完整终极大成片（含Shot 05与完整学术独白）
 └── dist/                                       # 【最终成品输出库】
     ├── shots/                                  # 各单镜头终稿（已混音与压制中文字幕）
-    │   ├── shot_01_final.mp4                   [FINAL] (11.0s, 陆远大模型与AI伦理独白)
+    │   ├── shot_01_final.mp4                   [FINAL] (15.0s, 陆远大模型与AI伦理完整学术独白)
     │   ├── shot_02_final.mp4                   [FINAL] (10.6s, 老刘暴雨奔波救孙女独白)
-    │   └── shot_03_final.mp4                   [FINAL] (10.0s, 系统机械音超时红屏)
+    │   ├── shot_03_final.mp4                   [FINAL] (10.0s, 系统机械音超时红屏)
+    │   └── shot_05_final.mp4                   [FINAL] (7.0s, 终极弹窗封号与系统机械声)
     ├── acts/                                   # 各幕完整连贯大片
-    │   └── act1_seamless_31s_final.mp4         [FINAL] (31.6s, 第一幕完整成片)
+    │   └── act1_complete_full_cut.mp4          [FINAL] (42.6s, 第一幕全镜头无缝连贯终成片！)
     └── final_film/                             # 全片 5~7 分钟终极大成片（待全片完成拼接）
 ```
 
@@ -54,7 +56,7 @@ homework/
 | **Shot 02** | 第一幕·雨中送单·老刘绝地飞驰 | ✅ 已完成 | ✅ 已入库 | ✅ `shot_02_final.mp4` | `[FINAL]` 10.6s，含老刘人物介绍与救孙女急迫独白 |
 | **Shot 03** | 第一幕·手机倒计时归零严重超时 | ✅ 已完成 | ✅ 已入库 | ✅ `shot_03_final.mp4` | `[FINAL]` 10.0s，含系统机械女声与3.8s报警 |
 | **Shot 04** | 第一幕·大厂深夜工位与双显示器系统 | ✅ 已完成 | 已整合入 Shot 01 | 已整合入 Shot 01 | `[INTEGRATED]` 实景双屏（VS Code + 运管Web系统） |
-| **Shot 05** | 第一幕·系统终极风控模态框弹窗封号 | ✅ 已完成 | 待生成 | 待合成 | `[PENDING_VIDEO]` 真实LCD显示器白底红标风控弹窗 |
+| **Shot 05** | 第一幕·系统终极风控模态框弹窗封号 | ✅ 已完成 | ✅ 已入库 (`shot_05_penalty_modal.mp4`) | ✅ `shot_05_final.mp4` | `[FINAL]` 7.0s，鼠标点击确认与系统机械音永久冻结 |
 | **Shot 06** | 第二幕·清晨服务站老刘啃干馒头 | ✅ 已完成 | 待生成 | 待合成 | `[PENDING_VIDEO]` 凄凉写实晨光，老刘无助叹息 |
 | **Shot 07** | 第二幕·陆远驻足·粗糙的手部特写 | ✅ 已完成 | 待生成 | 待合成 | `[PENDING_VIDEO]` 皲裂双手握透析单，引发父辈阶层共鸣 |
 | **Shot 08** | 第二幕·破门救助·老人家中客厅生死急救 | ✅ 已完成 | 待生成 | 待合成 | `[PENDING_VIDEO]` 老人家中客厅，老刘破门打120守候独居老人 |
