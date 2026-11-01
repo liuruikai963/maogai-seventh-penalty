@@ -108,4 +108,10 @@
     * 完成镜头 05 音效配音：合成系统冷血机械女声（*“工单处理完毕，骑手账号已永久冻结”*），精准对齐鼠标点击与状态锁定；
     * 编写自动化脚本 `build/render_act1_full_with_shot05.py`，将 **Shot 01（完整学术独白15s）** + **Shot 02（老刘原声奔波10.6s）** + **Shot 03（倒计时归零扣款10s）** + **Shot 05（鼠标点击确认封号7s）** 彻底硬切缝合，正式导出**第一幕全长 42.6 秒完整连贯终成片** [act1_complete_full_cut.mp4](file:///d:/study/course/maogai/homework/dist/acts/act1_complete_full_cut.mp4)；
     * 资产清单 [ASSET_MANIFEST.md](file:///d:/study/course/maogai/homework/assets/ASSET_MANIFEST.md) 标记 Shot 05 为 `[FINAL]`，第一幕全部分镜宣告圆满交付！
+  * **19:15 - 19:25 | 方案 A 序幕独白镜头 00 设立、关键帧概念原图渲染、丰富中英文提示词（含原生口型台词）设计与平滑转场方案入库**：
+    * 针对原视频原生音频与外部配音混淆问题，精准采纳方案 A：增设独立的序幕前导镜头 **Shot 00（序幕·工位立项独白）**，完整承接思政学术课题立项阐发与人物自我介绍；
+    * 成功生成并入库 16:9 高清动漫写实关键帧概念图 [shot_00.jpg](file:///d:/study/course/maogai/homework/assets/images/shot_00.jpg)：陆远身着深灰卫衣与藏青夹克，端坐弧形双屏前正视镜头，屏幕幽蓝冷光与台灯暖光辉映，落地窗外暴雨飞溅，完全契合新海诚写实动漫基调；
+    * 量身定制包含角色原生对白（*“我叫陆远，23岁，大模型调度算法架构师。着眼于人工智能的创新发展，我们试图透视热点事件的底层逻辑，开展算法决策的伦理困境调查分析……直到那个特大暴雨的深夜。”*）及三层音效的丰富中英文 Gemini / Veo 视频生成提示词；
+    * 确立视听平滑无缝转场机制：镜头末尾随台词导向窗外暴雨与远方隐隐雷光，镜头焦点平滑虚化溶入雨幕，音效无缝渐强交叉淡入（Crossfade），自然切入镜头 01 宏观雨夜都市，彻底告别生硬跳切；
+    * 全量同步逐镜头生产脚本 [ai_video_production_script.md](file:///d:/study/course/maogai/homework/scripts/ai_video_production_script.md) 与资产清单 [ASSET_MANIFEST.md](file:///d:/study/course/maogai/homework/assets/ASSET_MANIFEST.md)。
 
