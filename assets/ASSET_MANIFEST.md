@@ -21,9 +21,10 @@ homework/
 │   └── videos/
 │       ├── raw_inputs/                         # 【输入原始素材库】Gemini / Veo 生成的生肉视频片段
 │       │   ├── shot_01_luyuan_office_monologue.mp4          [ACTIVE] (10.03s, 陆远工位学术自述与电光闪现)
-│       │   ├── shot_02_lao_liu_scooter_rain.mp4             [ACTIVE] (10.01s)
-│       │   ├── shot_03_phone_countdown.mp4                  [ACTIVE] (10.01s)
-│       │   └── shot_05_penalty_modal.mp4                    [ACTIVE] (10.03s)
+│       │   ├── shot_02a_lao_liu_monologue.mp4               [ACTIVE] (10.03s, 老刘正面中景暴雨自述，48岁救孙女动机)
+│       │   ├── shot_02b_lao_liu_scooter_wading.mp4          [ACTIVE] (10.01s, 老刘雨夜涉水绝地狂奔动作)
+│       │   ├── shot_03_phone_countdown.mp4                  [ACTIVE] (10.01s, 手机倒计时归零报警)
+│       │   └── shot_05_penalty_modal.mp4                    [ACTIVE] (10.03s, 弹窗封号模态框)
 │       └── archive_scrapped/                   # 【废稿与备用素材库】包含历史版本、测试稿，做标签标记严禁删除！
 │           ├── shot_01_macro_city_v1_pre_monologue_replace.mp4 [TAG: SCRAPPED_PRE_MONOLOGUE_REPLACE] (旧版雨夜宏观大远景测试素材)
 │           ├── shot_02_vo_v1_pre_character_intro.mp4        [TAG: SCRAPPED_PRE_INTRO] (无自我介绍旧版配音)
@@ -34,15 +35,17 @@ homework/
 │   ├── create_shot02_with_laoliu_vo_and_concat.py # 镜头 02 单独压制脚本
 │   ├── render_shot03_and_concat_act1.py        # 镜头 03 压制脚本
 │   ├── render_act1_full_with_shot05.py         # 第一幕历史合成脚本
-│   └── render_act1_with_new_monologue.py       # 第一幕全量 37.7s 终极大成片（工位独白电光直切老刘送单）
+│   ├── render_act1_with_new_monologue.py       # 第一幕全量 37.7s 连贯脚本
+│   └── render_shot02a_and_concat_act1.py       # 第一幕 47.08s 终极大成片（老刘自述+涉水狂奔双镜头无缝衔接）
 └── dist/                                       # 【最终成品输出库】
     ├── shots/                                  # 各单镜头终稿（已混音与压制中文字幕）
     │   ├── shot_01_final.mp4                   [FINAL] (10.03s, 陆远双屏工位自述与大模型伦理调查引入)
-    │   ├── shot_02_final.mp4                   [FINAL] (10.63s, 老刘暴雨奔波救孙女独白)
+    │   ├── shot_02a_final.mp4                  [FINAL] (10.03s, 老刘正面中景自述，白边电影字幕+Veo原声)
+    │   ├── shot_02b_final.mp4                  [FINAL] (10.01s, 老刘涉水狂奔动作，带雨夜破浪字幕与声效)
     │   ├── shot_03_final.mp4                   [FINAL] (10.01s, 系统机械音超时红屏)
     │   └── shot_05_final.mp4                   [FINAL] (7.00s, 终极弹窗封号与系统机械声)
     ├── acts/                                   # 各幕完整连贯大片
-    │   └── act1_complete_full_cut.mp4          [FINAL] (37.7s, 第一幕全镜头无缝连贯终成片！)
+    │   └── act1_complete_full_cut.mp4          [FINAL] (47.08s, 第一幕五连镜全镜头无缝连贯终成片！)
     └── final_film/                             # 全片 5~7 分钟终极大成片（待全片完成拼接）
 ```
 
@@ -55,7 +58,8 @@ homework/
 | 镜头编号 | 幕次与场景名称 | 关键帧原图 | 原始输入视频 (raw_inputs) | 最终合成成片 (dist/shots) | 资产标记与说明 |
 | :---: | :--- | :---: | :---: | :---: | :--- |
 | **Shot 01** | 第一幕·工位立项独白·大模型伦理调查引入直切老刘送单 | ✅ 已完成 (`assets/images/shot_00.jpg`) | ✅ 已入库 (`shot_01_luyuan_office_monologue.mp4`) | ✅ `shot_01_final.mp4` | `[FINAL]` 10.03s，陆远工位原生自述、白边电影字幕、闪电匹配无缝直切老刘 |
-| **Shot 02** | 第一幕·雨中送单·老刘深夜绝地飞驰（动作独白重构） | ✅ 已重绘 (`assets/images/shot_02.jpg`) | 待生成新版 | 现存旧版 `shot_02_final.mp4` 可用 | `[KEYFRAME_READY]` 16:9深夜暴雨特大积水+雷电连贯+猩红倒计时映照，带原生对白与俯冲手机无缝转场设计 |
+| **Shot 02A** | 第一幕·雨中送单·老刘正面自述（身份与动机建构） | ✅ 已完成 (`assets/images/shot_02.jpg`) | ✅ 已入库 (`shot_02a_lao_liu_monologue.mp4`) | ✅ `shot_02a_final.mp4` | `[FINAL]` 10.03s，正面中景跟拍，老刘48岁自述与孙女药费动机，雷电闪烁与倒计时猩红漫反射 |
+| **Shot 02B** | 第一幕·雨中送单·老刘深夜绝地飞驰（涉水狂奔动作） | ✅ 已完成 | ✅ 已入库 (`shot_02b_lao_liu_scooter_wading.mp4`) | ✅ `shot_02b_final.mp4` | `[FINAL]` 10.01s，动感低机位涉水，暴雨破浪动作衔接，逆风呐喊“绝不能超时” |
 | **Shot 03** | 第一幕·手机倒计时归零严重超时 | ✅ 已完成 | ✅ 已入库 | ✅ `shot_03_final.mp4` | `[FINAL]` 10.0s，含系统机械女声与3.8s报警 |
 | **Shot 04** | 第一幕·大厂深夜工位与双显示器系统 | ✅ 已完成 | 已整合入 Shot 01 | 已整合入 Shot 01 | `[INTEGRATED]` 实景双屏（VS Code + 运管Web系统） |
 | **Shot 05** | 第一幕·系统终极风控模态框弹窗封号 | ✅ 已完成 | ✅ 已入库 (`shot_05_penalty_modal.mp4`) | ✅ `shot_05_final.mp4` | `[FINAL]` 7.0s，鼠标点击确认与系统机械音永久冻结 |

@@ -65,43 +65,32 @@
 
 ---
 
-#### 镜头 02（雨中送单·老刘深夜绝地飞驰·动作与独白全新重构）
-* **分镜状态**：【关键帧原图全新重构入库】`assets/images/shot_02.jpg`（深夜特大暴雨+闪电连贯+猩红倒计时映照） | 待用户提交 Gemini / Veo 生成带原生对白视频
-* **镜头类型**：正面中景跟拍（Front-facing Medium Tracking Shot）/ 车身颠簸震颤至尾部俯冲手机特写
-* **时长**：10.0 ~ 10.6 秒
-* **视听衔接与转场设计（闪电匹配硬切 + 尾部俯冲手机无缝引出）**：
+#### 镜头 02A（雨中送单·老刘正面自述·身份动机与暴雨夜驰）
+* **分镜状态**：【实拍生成入库】`assets/videos/raw_inputs/shot_02a_lao_liu_monologue.mp4` | 终片 `dist/shots/shot_02a_final.mp4`
+* **镜头类型**：正面中景跟拍（Front-facing Medium Tracking Shot）/ 车身颠簸震颤
+* **时长**：10.03 秒
+* **视听衔接与转场设计（闪电匹配硬切 Match Cut）**：
   * **前序衔接（承接镜头 01）**：完全承接镜头 01 陆远工位落地窗外的雷电闪光，画面在同一道撕裂夜空的刺眼白色闪电与轰鸣雷声中瞬间**硬切（Match Cut）**到深夜暴雨街头！老刘的电动车在积水中破浪前冲，闪电刹那照亮老刘布满雨水与焦虑沧桑的面容，完成从“象牙塔算法调度”到“底层劳动者生死狂奔”的震撼戏剧对撞！
-  * **动作过程（Action）**：正面跟随颠簸镜头。老刘身穿被暴雨湿透发亮的黄色外卖服和荧光反光背心，头盔挡雨面罩被暴雨猛烈拍打，雨水如注滑落。老刘双手紧握湿滑车把，面部肌肉紧绷，眼神布满血丝与焦灼，一边大口急促喘息，一边逆着狂风暴雨悲壮呐喊自述（口型发音与台词严格契合）。车把中央的手机屏幕显示着刺眼猩红色的订单倒计时警告框，剧烈的红光强烈映射在老刘胸口与粗糙双手上。电动车轮在深水中劈波斩浪，溅起漫天白色水花。
-  * **尾部衔接（引向镜头 03）**：在喊出最后一句“这一整天就全白干了！”的瞬间，老刘惊惶地猛然低头下瞥车把手机；镜头顺势极速向下俯冲下移（Tilt Down & Push In），直扑手机屏幕上即将归零的猩红数字，无缝引出镜头 03（手机倒计时特写）。
-* **AI 画面提示词（Prompt 包含原生对白与音效设计）**：
-  > **中文（带对白与音效设计）**：  
-  > 【画风严格对齐要求】：必须严格保持与参考图片 100% 完全一致的“新海诚高质感写实动漫影视概念艺术风格”！严禁改变画风，绝对严禁生成真人实拍质感！人物五官、风霜皱纹、黄色工服与反光背心必须与参考图完全一致。  
-  > 【画面与人物动作】：  
-  > 现代写实动漫风格，2.5D赛璐珞高质感光影。虚构二次元动漫中国外卖骑手角色刘长贵（48岁，饱经风霜的脸庞布满细纹与泛白胡茬，眼神疲惫但极度坚毅焦急）。戴黄色外卖头盔与透明挡雨面罩，身穿带银白反光条的黄色雨衣。  
-  > 正面中景低机位跟随跟拍镜头（35mm焦段，微仰视角），镜头随车速平移后退，伴随路面微幅真实的颠簸感。深夜暴雨中的城市街头，湿黑的柏油路面映出路灯暖黄与街边霓虹牌的倒影光斑。视频开始第1秒，远处夜空划过一道白色闪电照亮雨云后隐去。  
-  > 老刘双手死死握住湿漉的车把，指关节紧绷发白。透明面罩上雨水横流，风霜脸颊和胡茬满是雨水。他急促喘息、胸口起伏，迎着逆风大声开口自述，口型自然契合。车把中央手机支架上的手机屏幕发出强烈的猩红色倒计时警告红光，将猩红色的数码光芒强烈漫反射在老刘的雨衣前胸和双手上。车轮切过路面积水，激荡起细碎的白色浪花。  
-  > 在第8秒念完台词瞬间，老刘眼神因惊惶猛然向下瞪向车把手机；镜头顺势极速向下微俯冲并拉近手机屏幕。  
-  > 【原生对白与音频设计（Audio & Sound Design）】：  
-  > 1. 角色原生对白（Dialogue）：刘长贵急促、沙哑、微喘且充满紧迫感的中年原声：“我叫刘长贵，48岁。雨再大我也得冲！小孙女还在医院等着用钱，千万不能超时……这单要是扣了钱，今天就全白干了！”（口型完全契合，带逆风呐喊与微喘质感）。  
-  > 2. 关键音效（Key SFX）：电动车涉水电机轻鸣声、车轮溅水声、车把手机倒计时尖锐警报声。  
-  > 3. 环境拟音（Foley & Ambience）：深夜倾盆暴雨轰鸣、风声呼啸、远方滚滚雷声。16:9 画幅，24fps。  
-  >  
-  > **英文（带对白与音效设计·极度具体化过审版）**：  
-  > `An animated feature film scene in Makoto Shinkai 2D anime realism art style, exquisite cel-shaded painterly lighting, clean anime line art. Fictional animated character named Liu Changgui, a 48-year-old delivery rider wearing a yellow delivery helmet with a transparent rain-streaked visor, and a soaked yellow delivery jacket with a luminous reflective safety vest.  
-  > Visuals & Camera Movement:  
-  > Front-facing medium tracking shot (35mm lens, slight low angle), tracking backwards at scooter speed with subtle organic road-bump vibration. Scene is a dark midnight city street under heavy torrential rain, with wet black asphalt road reflecting warm amber streetlights and neon shop signs in beautiful bokeh ripples. In the distant background sky at the 1st second, a sharp fork of white anime lightning illuminates dark storm clouds before fading.  
-  > Lao Liu grips the wet rubber handlebars tightly with rough, calloused hands, knuckles white with tension. Raindrops stream down his transparent face visor; his weathered face with wrinkles and stubble is soaked with rainwater. He pants with chest heaving and speaks aloud against the headwind with natural, urgent lip sync. A smartphone mounted on the center of the handlebars glows intensely with a scarlet red countdown warning interface, casting a strong crimson glow onto his yellow jacket, hands, and chest. The scooter's front wheel slices through water puddles on the asphalt, splashing crisp white water arcs to the sides.  
-  > At second 8, as he finishes his line, Lao Liu's eyes suddenly widen in panic and dart downward toward the handlebars; the camera smoothly tilts down and pushes in closer toward the glowing red smartphone screen.  
-  > Audio & Sound Design:  
-  > - Spoken Dialogue: Liu Changgui speaks with a breathless, raspy, emotionally urgent middle-aged working-class male voice: "My name is Liu Changgui, 48 years old. No matter how hard it rains, I have to hurry! My little granddaughter is waiting for medical expenses—I can't be late! If this order gets docked, today's work will be completely wasted!" (Natural lip sync, breathless urgency, shouting against rain).  
-  > - Key Sound Effects: Electric scooter motor hum under water resistance, splashing sound of water puddles, sharp digital warning beeps from the mounted smartphone.  
-  > - Foley & Ambience: Steady heavy night rain downpour roaring, gusts of wind howling, rolling thunder reverberating in the distance. 16:9, 24fps, cinematic composition.`
-* **字幕打点（供后期核准）**：
-  * [0.3s - 3.8s] `我叫刘长贵，48岁。`
-  * [3.9s - 6.8s] `雨再大我也得冲！小孙女还在医院等着用钱，`
-  * [6.9s - 9.8s] `千万不能超时……这单要是扣了钱，今天就全白干了！`
-* **历史测试素材归档**：
-  * 早期测试版白天色调素材已做非破坏性安全归档至 `assets/images/archive_scrapped/shot_02_v1_daytime_old.jpg`，保证素材库严谨清晰。
+  * **动作过程（Action）**：正面跟随颠簸镜头。老刘身穿被暴雨湿透发亮的黄色外卖服和荧光反光背心，头盔挡雨面罩被暴雨猛烈拍打，雨水如注滑落。老刘双手紧握湿滑车把，面部肌肉紧绷，眼神布满血丝与焦灼，一边大口急促喘息，一边逆着狂风暴雨悲壮呐喊自述（口型发音与台词严格契合）。车把中央的手机屏幕显示着刺眼猩红色的订单倒计时警告框，剧烈的红光强烈映射在老刘胸口与粗糙双手上。
+  * **尾部衔接（动作顺切至镜头 02B）**：念完台词后眼神紧盯前方暗夜，闪电雷鸣划过，无缝动作切入 02B 全景涉水狂奔！
+* **角色原生对白与字幕**：
+  * [0.3s - 3.5s] `我叫刘长贵，48岁，送外卖给孙女挣药费。`
+  * [3.6s - 6.2s] `今晚暴雨单价高，但绝不能超时……`
+  * [6.3s - 8.8s] `要是扣了钱，孙女的药就没了！`
+
+---
+
+#### 镜头 02B（雨中送单·老刘绝地飞驰·深水涉水狂奔动作）
+* **分镜状态**：【素材入库】`assets/videos/raw_inputs/shot_02b_lao_liu_scooter_wading.mp4` | 终片 `dist/shots/shot_02b_final.mp4`
+* **镜头类型**：侧逆光低机位动感跟拍（Low-Angle Dynamic Action Tracking Shot）
+* **时长**：10.01 秒
+* **视听衔接与转场设计（动作顺承 + 尾部俯冲手机无缝引出）**：
+  * **前序衔接（承接镜头 02A）**：顺承 02A 老刘迎风加速的动力，镜头瞬切为低角度动感跟拍，电动车前轮犹如快艇般切开深水，激荡起漫天白色水花。
+  * **动作过程（Action）**：深水路段车辆受阻，电机发出高负荷运转的低吼。雨水如瀑布倾泻，车灯光束劈开水幕。老刘咬牙躬身抗风，展现基层劳动者在特大暴雨极端环境下的搏命抗争。
+  * **尾部衔接（引向镜头 03）**：在喊完“绝不能超时！”后，老刘惊惶地猛然低头下瞥车把手机；镜头顺势极速向下俯冲拉近（Tilt Down & Push In），直扑手机屏幕上即将归零的猩红数字，无缝引出镜头 03（手机倒计时特写）。
+* **角色台词与字幕**：
+  * [0.5s - 4.5s] `雨再大我也得冲！冲过去……`
+  * [4.6s - 9.5s] `绝不能超时，只要这单送到，药费就有着落了！`
 
 ---
 
