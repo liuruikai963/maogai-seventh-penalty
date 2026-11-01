@@ -126,4 +126,9 @@
     * **动作与独白深度重构**：老刘逆着暴雨急促喘息呐喊自述（*“我叫刘长贵，48岁，是个被算法考核的外卖员。雨再大我也得冲！小孙女在医院等钱透析，要是这单被算法判定超时，这一整天就全白干了！”*），并设计自述收尾时老刘惊惶低头看手机、镜头顺势俯冲下移直扑手机屏幕（Tilt Down & Push In）无缝引出镜头 03；
     * **输出丰富中英文提示词**：提供包含完整原生对白、涉水电机蜂鸣/浪花音效与暴雨环境拟音的 Gemini / Veo 提示词；
     * 全面同步生产脚本 [ai_video_production_script.md](file:///d:/study/course/maogai/homework/scripts/ai_video_production_script.md) 与资产清单 [ASSET_MANIFEST.md](file:///d:/study/course/maogai/homework/assets/ASSET_MANIFEST.md)。
+  * **20:30 - 20:40 | 黄金三段式视听衔接与转场规范正式固化为团队铁律、Prompt 极度具体化升级入库**：
+    * **视听衔接法则制度化固化**：响应导演（用户）“前后视频转场和衔接剧本可以这样标准化前后连接”的战略指导，全面提炼总结转场经验；
+    * **正式颁布团队核心铁律五**：在 [STYLE_CONSISTENCY_RULES.md](file:///d:/study/course/maogai/homework/docs/STYLE_CONSISTENCY_RULES.md) 中正式写入《核心铁律五：前后镜头视听衔接与动态转场规范（Match Cut & Continuity）》，确立“黄金三段式视听衔接法则”（前序切入承接 0~2s $\rightarrow$ 主体对白微动作 2~7.5s $\rightarrow$ 尾部引导动作与运镜位移 7.5~10s），规范后续全片（含芮凯后半程）每一个镜头必须具备明确的视听交接点；
+    * **镜头 02 提示词极度具体化**：将运镜与物理细节明确至 35mm 微仰跟拍机位、面罩雨滴漫反射、车把手机红光前襟漫反射、水花浪痕与第 8 秒眼神惊惶下瞥顺势向下俯冲（Tilt Down），彻底排除安全误判风险；
+    * 全面同步逐镜头生产脚本 [ai_video_production_script.md](file:///d:/study/course/maogai/homework/scripts/ai_video_production_script.md)。
 
