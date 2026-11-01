@@ -149,4 +149,10 @@
     * **纯净拟音库独立接入**：生成并接入纯净工位/窗外雷鸣拟音 `assets/audio/foley_office_lightning.wav` 与纯净暴雨倾盆/涉水电机拟音 `assets/audio/foley_storm_clean.wav`，音画分轨分层独立混合，确保 100% 零重叠、字字纯净清晰；
     * **全量重新母带级压制成片**：导出全新绝对零重叠第一幕大成片 [act1_complete_full_cut.mp4](file:///d:/study/course/maogai/homework/dist/acts/act1_complete_full_cut.mp4)（47.08s）；
     * 全量同步资产清单与提交远程 GitHub 仓库。
+  * **00:20 - 00:30 | 推进第二幕制作：镜头 06（老刘清晨服务站）全套工业级资产与提示词发布**：
+    * **规范执行**：根据《核心铁律七》，为第二幕首镜（Shot 06：清晨服务站·老刘落寞背影与干馒头）制定完整的“图生视频（Image-to-Video）+ 口型引导台词驱动 + 后期零重叠音画剥离重塑”方案；
+    * **底图资产同步**：校验基准参考图 `assets/images/shot_06.jpg`（1376x768 16:9，冷青色晨曦新海诚动漫写实风），同步归档至会话交互工件区；
+    * **中英文提示词打磨**：生成精准驱动老刘抽泣自语口型的中英文双语 Prompt，明确对白《这号要是真封了，丫头下周的透析费……我上哪儿去借啊……》；
+    * **音效资产前置完备**：预先合成老刘沙哑沧桑配音 `assets/audio/shot_06_laoliu_clean_vo.mp3`（5.11s，`zh-CN-YunjianNeural`）与独立清晨站外拟音 `assets/audio/foley_morning_station.wav`（微弱车流、清晨微风、落寞鸟鸣），等待生肉视频入库后即可瞬间完成无重叠成片压制。
+
 
