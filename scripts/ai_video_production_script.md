@@ -202,24 +202,25 @@
 
 ---
 
-#### 镜头 08（多图连贯：台阶自述 ➡ 白光过曝 ➡ 暴雨急救回忆）
-* **镜头类型**：双图时空连贯演进（清晨石阶中近景 ➡ 眼眸急速推近白光闪回 ➡ 暴雨夜客厅急救）
+#### 镜头 08（三图连贯：台阶自述 ➡ 送餐目击 ➡ 破门急救回忆）
+* **镜头类型**：三图时空连贯演进（清晨石阶中近景 ➡ 暴雨楼道提外卖目击 ➡ 客厅破门救人打120守候）
 * **时长**：8~10 秒
-* **核心衔接设计（响应导演指导，双图合一自然转场）**：
-  * **第一阶段（0~4s，现实自述·承接图一）**：100% 承接 Shot 07 室外石阶。老刘眼眶泛红颤抖倾诉：“小兄弟，我真不是故意超时的……昨晚那家独居老人摔在地上动不了，我真不能扔下不管啊……”；
-  * **第二阶段（4~5.5s，白光闪回转场）**：老刘痛苦低头，镜头快速推向眼眸，白光过曝与雨水涟漪消融，心跳低音引出暴雨雷鸣；
-  * **第三阶段（5.5~10s，回忆闪回·承接图二）**：室内暴雨深夜，被撞开的房门微敞，湿透的老刘跪地紧握老人手打120，窗外红蓝救护车反光扫过！
+* **核心衔接设计（响应导演指导，三图咬合突出送外卖真实情境）**：
+  * **第一阶段（0~3s，当下诉说·承接图一）**：100% 承接 Shot 07 室外石阶。老刘眼眶泛红手拿罚单向陆远委屈辩解：“小兄弟，我真不是故意超时的……昨晚送餐，我一到门口……”；
+  * **第二阶段（3~6.5s，送餐目击·承接图二）**：暴雨深夜老式楼道，老刘浑身湿透、一手提着贴有小票的热腾腾外卖餐盒袋，门缝惊见客厅老人倒地抽搐，惊骇万分撞门冲入；
+  * **第三阶段（6.5~10s，破门救人·承接图三）**：室内暴雨深夜，外卖袋放在门边，老刘跪地紧握老人手急切拨打120，窗外红蓝救护车反光扫过！
 * **基准参考图**：
   - 图一：[`assets/images/shot_08a_laoliu_explaining.jpg`](file:///d:/study/course/maogai/homework/assets/images/shot_08a_laoliu_explaining.jpg)
-  - 图二：[`assets/images/shot_08b_rescue_calling_120.jpg`](file:///d:/study/course/maogai/homework/assets/images/shot_08b_rescue_calling_120.jpg)
-* **AI 画面提示词（Gemini / Veo 双图合一连续生成通过版）**：
-  > 见制作指南文档 [`shot_08_production_guide.md`](file:///C:/Users/27277/.gemini/antigravity/brain/f5b14212-99d2-460d-9706-e55469254373/shot_08_production_guide.md)。
+  - 图二：[`assets/images/shot_08b_delivery_hallway_discovery.jpg`](file:///d:/study/course/maogai/homework/assets/images/shot_08b_delivery_hallway_discovery.jpg)
+  - 图三：[`assets/images/shot_08c_rescue_calling_120.jpg`](file:///d:/study/course/maogai/homework/assets/images/shot_08c_rescue_calling_120.jpg)
+* **AI 画面提示词（Gemini / Veo 三图合一连续生成通过版）**：
+  > 详见 [`shot_08_production_guide.md`](file:///C:/Users/27277/.gemini/antigravity/brain/f5b14212-99d2-460d-9706-e55469254373/shot_08_production_guide.md)。
 * **配音 / 画外音（VO·跨时空交融）**：
-  * **老刘（台阶哽咽）**：“小兄弟，我真不是故意超时的……昨晚那家老人摔在地上动不了，我真不能扔下不管啊……”
+  * **老刘（台阶哽咽）**：“小兄弟，我真不是故意超时的……昨晚送餐，我一到门口……”
   * **老刘（回忆呼救）**：“喂！120吗？！这里有位独居大爷摔倒了……快救救他！”
   * **陆远（沉思震颤独白）**：“出警记录与门前影像不会撒谎。在紧闭的大门前，他毫不犹豫破门冲进屋内，为一个突发急症的独居老人叫来救护车、守候到最后一刻。”
 * **音效 & BGM**：
-  * 清晨微风与心跳低音 $ightarrow$ 震耳惊雷、暴雨倾盆、120紧急电话对白与远处救护车鸣笛。
+  * 清晨微风与心跳低音 $ightarrow$ 暴雨倾盆、塑料袋摩擦声、撞门声、120紧急电话求救与远处救护车警笛。
 
 ---
 
