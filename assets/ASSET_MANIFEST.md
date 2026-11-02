@@ -77,7 +77,8 @@ homework/
 | **Shot 09A** | 第二幕·从家里急救到医院飞奔（双图连贯转场） | ✅ 双图已就绪 (`shot_09a1_home_medics_arrival.jpg`, `shot_09a_hospital_rescue.jpg`) | ✅ 已入库 (`shot_09a_home_to_hospital_corridor.mp4`) | ✅ `shot_09a_final.mp4` | `[FINAL]` 10.03s，双图连贯：家里合力抬担架 ➡ 雨夜警灯飞驰 ➡ 医院急诊飞奔推床进抢救室，原生优质音效保留，双层中文字幕压制完成 |
 | **Shot 09B** | 第二幕·抢救门前发现超时（红灯与冰冷重罚） | ✅ 双图连贯 (`shot_09b_outside_er_penalty.jpg`, `shot_09b2_phone_er_corridor.jpg`) | ✅ 已入库 (`gemini_generated_video_56bd2eff.mp4`) | ✅ `shot_09b_final.mp4` | `[FINAL]` 10.00s，AI杂音抹除，标准普通话重配（老刘沧桑音），双层中文字幕压制完成 |
 | **Shot 09 Full** | 第二幕·医院急救与算法重罚（20秒完整无缝连缀大成片） | ✅ 四图连贯 | ✅ Shot 09A + 09B 双素材 | ✅ `shot_09_full_20s.mp4` | `[FINAL]` 20.03s，急救推车飞奔 ➡ 抢救室大门紧闭 ➡ 掏出手机 ➡ 第一视角扣款200元 ➡ 沧桑自省，声画完美咬合！ |
-| **Shot 10B** | 第二幕·工位申诉与大模型报错拦截 | ✅ 双图连贯 (`shot_10b1_luyuan_typing_daytime.jpg`, `shot_10b2_algorithm_error_popup.jpg`) | 待生成 (Prompt已就绪) | 待合成 | `[PROMPTS_READY]` 10.0s，陆远工位急速打字申诉 ➡ 屏幕爆红报错【未定义特征实体【见义勇为】】 ➡ 陆远震惊愤怒 |
+| **Shot 10A** | 第二幕·现实回魂抚慰与晨光飞奔工位 | ✅ 双图连贯 (`shot_10a1_laoliu_reality_comfort.jpg`, `shot_10a2_luyuan_running_to_office.jpg`) | ✅ 已入库 (`gemini_generated_video_d3bbc190.mp4`) | ✅ `shot_10a_final.mp4` | `[FINAL]` 10.03s，清晨台阶扶肩对白（“刘叔，您这是救人！等我，我回公司帮您撤销罚单！”） ➡ 决然转身冲刺飞奔科技大厦，100%原生音频保留，双层字幕压制完成 |
+| **Shot 10B** | 第二幕·工位申诉与大模型报错拦截 | ✅ 全新大模型双图 (`shot_10b1_ai_large_model_workstation.jpg`, `shot_10b2_ai_neural_error_rejected.jpg`) | 待生成 (Prompt已就绪) | 待合成 | `[PROMPTS_READY]` 10.0s，双屏大模型监控系统 ➡ 自然语言Prompt申诉 ➡ 屏幕爆红报错【语义对齐失败：未在预训练特征库中检索到实体【见义勇为】】 ➡ 拒绝人工覆写 |
 | **Shot 10C** | 第二幕·总监办公室理论与资本规训 | ✅ 双图连贯 (`shot_10c1_luyuan_enters_wang_office.jpg`, `shot_10c2_wang_hegemony_coffee.jpg`) | 待生成 (Prompt已就绪) | 待合成 | `[PROMPTS_READY]` 10.0s，陆远拿平板推门质问 ➡ 王总端咖啡冷笑规训“算法不需要同情心” ➡ 阶级矛盾激化 |
 | **Shot 10 Full** | 第二幕·技术反噬与直面资本（20秒完整无缝连缀大成片） | ✅ 四图连贯 | 待 Shot 10B + 10C 生成 | 待合成 | `[PLANNED]` 20.0s，工位申诉被拒 ➡ 冲入办公室理论 ➡ 资本冷血训斥，第二幕彻底推向最高潮！ |
 | **Shot 11** | 第三幕·老人家属实名致谢寻人短视频 | ✅ 已完成 | 待生成 | 待合成 | `[PENDING_VIDEO]` 手机短视频界面，家属泣不成声感谢救命恩人 |

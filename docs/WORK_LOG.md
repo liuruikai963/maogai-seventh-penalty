@@ -203,4 +203,10 @@
     * **彻底清除原生杂音，专属普通话配音**：剔除原视频中含糊错乱的 AI 杂音，调用老刘成熟沧桑的专属声音（`zh-CN-YunjianNeural`）进行两段沉痛自白重配（第一段 0.5s~4.9s《大爷是救下来了……可一掏手机，全是扣钱的红字。》；第二段 5.05s~9.85s《救了一条命，在系统眼里……我只是个超时的异常数据。》）；
     * **电影级双层中文字幕精准压制**：编写执行 `build/render_shot09b_final.py`，采用白字黑边高对比度标准样式压制字幕，导出终成片 [shot_09b_final.mp4](file:///d:/study/course/maogai/homework/dist/shots/shot_09b_final.mp4)（10.00s）；
     * **Shot 09 完整 20 秒无缝连缀大成片合成**：编写执行 `build/concat_shot09_full.py`，将 Shot 09A（家里抬人至急诊飞奔）与 Shot 09B（抢救室门前超时重罚）无缝拼接为 [shot_09_full_20s.mp4](file:///d:/study/course/maogai/homework/dist/shots/shot_09_full_20s.mp4)（20.03s），第二幕核心高潮剧情全部大功告成！
+  * **00:15 - 00:25 | 镜头 10A（现实回魂扶肩承诺 ➡ 晨光全力飞奔公司）生成入库、原生音效保留、双层电影字幕精准压制终成片交付**：
+    * **落实导演关键转场构思**：补齐由昨夜医院回忆回到清晨现实的衔接桥梁——老刘在台阶抹泪，陆远半蹲扶肩承诺（“刘叔，您这是救人！等我，我回公司帮您撤销罚单！”），随后决然转身背着单肩包在清晨朝阳与摩天大楼间全力冲刺飞奔工位；
+    * **生肉素材入库与质量核验**：用户生成视频 `assets/videos/raw_inputs/gemini_generated_video_d3bbc190.mp4` 成功入库并归档为 `assets/videos/raw_inputs/shot_10a_steps_comfort_and_sprint.mp4`（10.03s，1280x720，24fps，立体声）；画风 100% 契合新海诚写实动漫，对白口型与奔跑动态行云流水；
+    * **遵循免改指令保留原生音效**：用户确认“做好了，什么都不用改很不错。加字幕就行了”，编写执行 `build/render_shot10a_final.py`，完整保留 100% 原生对白原声、环境音与激昂音乐；
+    * **双层字幕精准时间轴压制**：在 `[0.5s - 2.6s]` 压制《“刘叔，您这是救人！”》，在 `[3.5s - 5.9s]` 压制《“等我，我回公司帮您撤销罚单！”》，后半段 4 秒纯享陆远晨光飞奔大景别，导出终成片 [shot_10a_final.mp4](file:///d:/study/course/maogai/homework/dist/shots/shot_10a_final.mp4)（10.03s）；
+    * **资产更新与同步**：更新 [ASSET_MANIFEST.md](file:///d:/study/course/maogai/homework/assets/ASSET_MANIFEST.md)，标记 Shot 10A 为 `[FINAL]`。
 
