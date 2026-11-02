@@ -202,16 +202,32 @@
 
 ---
 
-#### 镜头 08（家中急救·老刘破门打120守候独居老人）
-* **镜头类型**：室内中景 / 纪实情感视角（Inside Living Room Perspective）
-* **时长**：6 秒
-* **AI 画面提示词（Prompt）**：
-  > **中文**：老旧小区昏暗简陋的居民家中客厅内部。暴雨深夜，一位头发花白的独居老人摔倒在客厅地面上，身体虚弱无法动弹。浑身湿透、身穿黄色反光背心的外卖员老刘在撞开防盗门冲入屋内后，正焦急地单膝跪在老人身边，一只手紧紧握着老人的手给予安慰，另一只手把手机紧贴在耳边，满头大汗、极度焦急地拨打120急救电话报告地址与老人情况。背后被撞开的房门敞开着，窗外暴雨如注，光影温暖而真实，充满平民英雄的人间烟火质感，现代写实动漫风，16:9。  
-  > **英文**：`Interior medium shot inside a dimly lit retro Chinese apartment living room at night. A frail elderly man living alone has collapsed on the floor, unable to get up. Soaked food delivery rider Lao Liu in yellow reflective uniform, having forced open the door, kneels compassionately beside the old man, holding the elder's hand with one hand, while pressing his smartphone to his ear with the other, anxiously calling 120 ambulance dispatch, reporting location with urgent protective expression. Open door in background, pouring rain outside window, warm touching realism, Makoto Shinkai style, 16:9.`
+#### 镜头 08（老刘台阶哽咽自述 ➡ 暴雨夜破门急救回忆·双段连缀）
+
+#### 镜头 08A（清晨石阶·老刘哽咽辩解）
+* **镜头类型**：中近景平视（Medium Close-up） / 情绪张力推进
+* **时长**：6~8 秒
+* **核心衔接设计**：100% 承接 Shot 06 与 07 的室外清晨石阶、湿漉地面、冷青晨曦与黄色头盔。陆远手搭在老刘肩头，老刘眼眶泛红、颤抖解释昨夜遭遇，尾部眼神陷入回忆，白光与水波纹展开蒙太奇闪回锚点。
+* **基准参考图**：[`assets/images/shot_08a_laoliu_explaining.jpg`](file:///d:/study/course/maogai/homework/assets/images/shot_08a_laoliu_explaining.jpg)
+* **AI 画面提示词（Gemini / Veo 合规防拦截版）**：
+  > **中文**：【图生视频硬性约束】：以参考图为唯一基准进行2D手绘动漫动画化生成！100%保持参考图的二次元动漫画风、神态、室外清晨石阶场景与冷青晨曦完全一致！绝对严禁三次元真人实拍，无真人皮肤质感，纯动漫艺术风格。清晨冷调薄雾中，坐在石阶上的老刘眼眶泛红，年轻工程师陆远的手温暖扶在他肩头。老刘嘴唇微颤，急切向陆远倾诉：“小兄弟，我真不是故意超时的……昨晚送餐，那家老人摔在地上动不了，我真不能扔下不管啊……”话音落下，老刘视线痛苦低垂陷入回忆，镜头缓缓推向眼眸特写，画面边缘泛起柔和白光光晕与雨水涟漪转场！16:9，24fps。
 * **配音 / 画外音（VO）**：
-  * **陆远（沉思震颤的独白）**：“出警记录与门前影像不会撒谎。在紧闭的大门前，他毫不犹豫破门冲进屋内，为一个在家里突发急症的独居老人叫来救护车、守候到最后一刻。”
+  * **老刘（哽咽自责）**：“小兄弟，我真不是故意超时的……昨晚送餐，那家老人摔在地上动不了，我真不能扔下不管啊……”
+
+---
+
+#### 镜头 08B（暴雨深夜·老人家中客厅破门打120守候）
+* **镜头类型**：室内中景 / 纪实情感高潮（Inside Living Room Flashback）
+* **时长**：6~8 秒
+* **核心衔接设计**：伴随雷鸣与白光从 08A 闪回切入。暴雨深夜简陋客厅，窗外雷电交加，被撞开的房门微敞。老刘浑身湿透跪在地上，一手紧紧握住倒地独居老人的手安慰，另一手把手机贴在耳边满头大汗急切拨打 120。
+* **基准参考图**：[`assets/images/shot_08b_rescue_calling_120.jpg`](file:///d:/study/course/maogai/homework/assets/images/shot_08b_rescue_calling_120.jpg)
+* **AI 画面提示词（Gemini / Veo 合规防拦截版）**：
+  > **中文**：【图生视频硬性约束】：以参考图为唯一基准进行2D手绘动漫动画化生成！100%保持室内暴雨夜客厅场景、暖色台灯与窗外雷电冷光的强烈对比、人物造型完全一致！绝对严禁三次元真人实拍，纯动漫艺术风格。伴随雷鸣由白光切入暴雨深夜室内。窗外特大暴雨狂泻，冷蓝电光划过，被撞开的房门微敞。浑身湿透的老刘单膝跪在地上，左手温暖有力地握住倒地独居老人的手给予安慰，右手紧紧将智能手机贴在耳边，焦急大声报告：“喂！120急救中心吗？！这里有位独居大爷摔倒了……地址是幸福家园，请快派救护车过来！”尾部窗外划过急救车红蓝反光，定格在平民英雄的无私关怀中！16:9，24fps。
+* **配音 / 画外音（VO）**：
+  * **老刘（现场焦急呼救）**：“喂！120吗？！这里有位独居大爷摔倒了……快救救他！”
+  * **陆远（沉思震颤独白·跨镜声桥）**：“出警记录与门前影像不会撒谎。在紧闭的大门前，他毫不犹豫破门冲进屋内，为一个突发急症的独居老人叫来救护车、守候到最后一刻。”
 * **音效 & BGM**：
-  * **音效**：电话拨通的声音、老刘焦急催促救护车的急促对白杂音、窗外密集的暴雨声。
+  * **音效**：雷鸣暴雨、电话急救声、远处救护车警笛。深沉弦乐缓缓升华。
 
 ---
 
