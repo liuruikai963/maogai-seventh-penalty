@@ -173,3 +173,8 @@
     * **白边双层字幕精准压制**：编写执行 `build/render_shot07_final.py`，在 `[4.3s - 6.2s]` 人物开口动作处精准嵌合电影级白边黑底双层字幕“大叔，您没事吧？”，导出终成片 [shot_07_final.mp4](file:///d:/study/course/maogai/homework/dist/shots/shot_07_final.mp4)（10.03s）；
     * **交互放映厅同步就绪**：部署交互放映厅工件 [shot_07_player.html](file:///C:/Users/27277/.gemini/antigravity/brain/f5b14212-99d2-460d-9706-e55469254373/shot_07_player.html)，提供逐阶段进度卡与质量验收指标；
     * **全量同步资产与提交**：更新 [ASSET_MANIFEST.md](file:///d:/study/course/maogai/homework/assets/ASSET_MANIFEST.md)，标记 Shot 07 为 `[FINAL]`，全部变更推送到 GitHub 远程仓库。
+  * **17:15 - 17:35 | 确立 Shot 08 三图连贯演进架构、新增“外卖目击”关键中间图、全量资产与代码推送到远程 GitHub**：
+    * **响应导演关键指导**：严格落实用户“强调送外卖的时候看到的，可以单独一张图片拿着外卖，三张图片刚好相互衔接”的核心指导，确立三图连贯架构（Shot 08A 台阶自述 -> Shot 08B 楼道提外卖目击 -> Shot 08C 客厅破门救人打120守候）；
+    * **新增关键中间图入库**：生成并对齐关键中间图 `assets/images/shot_08b_delivery_hallway_discovery.jpg`（老刘一手提着贴有小票的热腾腾外卖餐盒袋，身体前倾惊见客厅倒地老人），与 Shot 08A（石阶自述）及 Shot 08C（客厅破门急救）形成 100% 严密的戏剧伦理与时空逻辑闭环；
+    * **三图合一提示词定稿**：更新 `shot_08_production_guide.md`，输出包含三阶段分时引导（0~3s 自述 -> 3~6.5s 送餐目击 -> 6.5~10s 破门呼救）的中英文合规防拦截连贯提示词；
+    * **全量同步与推送到 GitHub**：全面归档原始生成视频与音频资产，所有生产脚本、分镜指南、资产清单及工作日志均同步提交至远程 GitHub 仓库 `main` 分支。
