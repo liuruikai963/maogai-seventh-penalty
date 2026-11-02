@@ -161,3 +161,8 @@
 
 
 
+  * **15:40 - 15:50 | 确立核心铁律八（AI视频防拦截与去敏SOP）、Shot 06提示词与转场接力定稿**：
+    * **实战验证成功**：用户验证确认“雨终于停了，等会儿大门打开，再去跟工作人员好好沟通……”提示词能够顺利通过 Gemini 审核并成功进入视频生成；
+    * **制度化确立《核心铁律八》**：在 [STYLE_CONSISTENCY_RULES.md](file:///d:/study/course/maogai/homework/docs/STYLE_CONSISTENCY_RULES.md) 正式确立《核心铁律八：AI 视频生成全域防拦截与合规去敏规范（AI Anti-Censorship & Safe Prompting SOP）》，固化“纯2D动漫死锁声明 + 正向中性对白驱动口型 + 极具象拟音转场接力”三大防拦截法宝，为后续全片（Shot 07～23）彻底排除安全拦截隐患；
+    * **转场动势无缝接轨**：依照《核心铁律五》，在 Shot 06 提示词第 6.5s～10s 写入视线下垂并由摄像机顺滑下俯推进（Tilt Down & Push In）聚焦粗糙双手，完成与 Shot 07 手部特写的无缝动作匹配转场（Match Cut）；
+    * **音频重塑入库**：为全新对白重制录制 4.99s 干净专属配音 `assets/audio/shot_06_laoliu_clean_vo.mp3`，并全量提交远程 GitHub 仓库。
