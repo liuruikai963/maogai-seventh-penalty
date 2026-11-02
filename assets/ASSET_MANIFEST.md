@@ -74,7 +74,7 @@ homework/
 | **Shot 08A** | 第二幕·重点高潮前段（台阶自述 ➡ 送餐目击，10s） | ✅ 双图已就绪 (`shot_08a.jpg`, `shot_08b.jpg`) | ✅ 已入库 (`shot_08a_laoliu_steps_to_hallway.mp4`) | ✅ `shot_08a_final.mp4` | `[FINAL]` 10.03s，双图连贯：老刘清晨石阶普通话自述（口型纯正无错） ➡ 眼神推近白光涟漪 ➡ 暴雨楼道手提外卖敲闭门上帝透视惊见倒地老人，双层中文字幕压制完成 |
 | **Shot 08B** | 第二幕·重点高潮后段（破门入室 ➡ 120呼救守候，10s） | ✅ 双图已就绪 (`shot_08b.jpg`, `shot_08c.jpg`) | ✅ 已入库 (`shot_08b_rescue_calling_120.mp4`) | ✅ `shot_08b_final.mp4` | `[FINAL]` 10.03s，破门冲入客厅 ➡ 跪地握老人手打120（普通话对白三段打点） ➡ 救护车红蓝警光映照与老刘热泪如释重负 |
 | **Shot 08 Full** | 第二幕·重点核心高潮（20秒完整无缝连缀大成片） | ✅ 三图连贯 | ✅ Shot 08A + 08B 双素材 | ✅ `shot_08_full_20s.mp4` | `[FINAL]` 20.06s，石阶自述 ➡ 白光涟漪 ➡ 隔门惊见 ➡ 破门入室 ➡ 跪地握手打120 ➡ 救护车抵达，声画完美咬合！ |
-| **Shot 09A** | 第二幕·从家里急救到医院飞奔（双图连贯转场） | ✅ 双图已就绪 (`shot_09a1_home_medics_arrival.jpg`, `shot_09a_hospital_rescue.jpg`) | 待生成 (Prompt已就绪) | 待合成 | `[PROMPTS_READY]` 10.0s，图一（家里医护冲入协助抬担架） ➡ 转场 ➡ 图二（医院急诊推车飞奔，两旁众人敬佩注视），病床推入抢救室 |
+| **Shot 09A** | 第二幕·从家里急救到医院飞奔（双图连贯转场） | ✅ 双图已就绪 (`shot_09a1_home_medics_arrival.jpg`, `shot_09a_hospital_rescue.jpg`) | ✅ 已入库 (`shot_09a_home_to_hospital_corridor.mp4`) | ✅ `shot_09a_final.mp4` | `[FINAL]` 10.03s，双图连贯：家里合力抬担架 ➡ 雨夜警灯飞驰 ➡ 医院急诊飞奔推床进抢救室，原生优质音效保留，双层中文字幕压制完成 |
 | **Shot 09B** | 第二幕·抢救门前发现超时（红灯与冰冷重罚） | ✅ 概念图已就绪 (`assets/images/shot_09b_outside_er_penalty.jpg`) | 待生成 (Prompt已就绪) | 待合成 | `[PROMPTS_READY]` 10.0s，抢救室红灯亮起，老刘独自靠墙掏手机，猩红扣款200元弹窗爆闪，老刘沧桑苦涩自语 |
 | **Shot 10** | 第二幕·王总在办公室对陆远做资本规训 | ✅ 已完成 | 待生成 | 待合成 | `[PENDING_VIDEO]` 傲慢资本逻辑，“唯效率论”训斥 |
 | **Shot 11** | 第三幕·老人家属实名致谢寻人短视频 | ✅ 已完成 | 待生成 | 待合成 | `[PENDING_VIDEO]` 手机短视频界面，家属泣不成声感谢救命恩人 |

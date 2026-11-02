@@ -190,3 +190,9 @@
     * **电影级双层字幕精准压制**：编写执行 `build/render_shot08b_final.py`，完整保留原生破门音效、急救呼叫普通话原声与窗外警笛声，分三段压制字幕（`[3.0s - 4.1s]`《喂！120急救中心吗？！》、`[4.3s - 6.1s]`《这里有位大爷摔倒了，地址是幸福家园……》、`[6.3s - 8.2s]`《请快派救护车过来！》），导出 [shot_08b_final.mp4](file:///d:/study/course/maogai/homework/dist/shots/shot_08b_final.mp4)（10.03s）；
     * **生成20秒完整无缝连缀版**：编写执行 `build/concat_shot08_full.py`，将 Shot 08A 与 Shot 08B 无缝拼接为 [shot_08_full_20s.mp4](file:///d:/study/course/maogai/homework/dist/shots/shot_08_full_20s.mp4)（20.06s），更新全交互放映厅工件 [shot_08_player.html](file:///C:/Users/27277/.gemini/antigravity/brain/f5b14212-99d2-460d-9706-e55469254373/shot_08_player.html)；
     * **全量同步与推送到 GitHub**：更新资产清单 [ASSET_MANIFEST.md](file:///d:/study/course/maogai/homework/assets/ASSET_MANIFEST.md)，全量提交并推送到 GitHub 远程仓库。
+  * **23:03 - 23:15 | Shot 09A（家里急救接应 ➡ 救护车破浪 ➡ 医院急诊飞奔）生成入库、原生音效保留与双层字幕压制终成片交付**：
+    * **生肉视频素材入库**：用户提交双图（图一：家里医护抬人，图二：医院急诊飞奔）与提示词后，视频文件 `assets/videos/raw_inputs/gemini_generated_video_e1eb6ca3.mp4` 成功入库，规范归档为 `assets/videos/raw_inputs/shot_09a_home_to_hospital_corridor.mp4`（10.03s，1280x720，24fps，立体声）；
+    * **剧作时空连贯检验**：画面三阶段演进极其震撼（0~3s 家里医护展开担架合力抬老人 ➡ 3~6s 救护车红蓝警灯破浪飞驰闪光转场 ➡ 6~10s 洁净急诊大厅老刘与医护飞奔推床进抢救室、长廊众人敬佩注视），转场丝滑自然；
+    * **落实用户免改音效指令**：严格遵照导演“很不错音效什么都都不用改，加个字幕就行了”指示，100% 完整保留 Veo 原生优质音效（家里抬人配合声、暴雨救护车警笛声、急诊大厅轮子轰鸣声与医护口令）；
+    * **电影级双层字幕精准压制**：编写执行 `build/render_shot09a_final.py`，在 `[0.8s - 2.6s]` 压制《“慢点抬，小心头部！一二三，起！”》，在 `[6.8s - 9.5s]` 压制《“快！推抢救室！准备心电监护！”》，导出终成片 [shot_09a_final.mp4](file:///d:/study/course/maogai/homework/dist/shots/shot_09a_final.mp4)（10.03s）；
+    * **全量同步与推送到 GitHub**：更新资产清单 [ASSET_MANIFEST.md](file:///d:/study/course/maogai/homework/assets/ASSET_MANIFEST.md)，标记 Shot 09A 为 `[FINAL]`，全部变更推送到 GitHub 远程仓库。
