@@ -139,29 +139,35 @@
 
 ### 第二幕：【承】粗糙的双手与没有“善意”的参数（约 1.5 分钟）
 
-#### 镜头 06（清晨服务站·老刘的身影）
-* **镜头类型**：全景（Wide Shot） / 静态构图至缓慢推近
+#### 镜头 06（清晨服务站·老刘自述与转场准备）
+* **镜头类型**：全景（Wide Shot） / 静态构图至缓慢推近，尾部顺滑下俯（Tilt Down & Push In）
 * **时长**：5~10 秒
-* **AI 画面提示词（Gemini / Veo 实测 100% 免拦截英文提示词·沿用 Shot 02 成功架构）**：
-  > **英文（直接复制提交 Gemini/Veo）**：
+* **视听衔接与转场设计（黄金三段式，承前启后）**：
+  * **前序起势（0~2s）**：承接第一幕第七张罚单生效的刺骨冰冷，清晨冷调薄雾散开，老刘坐在台阶上捧着早餐，身旁放着磨损的黄色头盔；
+  * **主体开口（2~6.5s）**：镜头平稳推近，老刘神情坚韧沉稳，开口自述：“雨终于停了，等会儿大门打开，再去跟工作人员好好沟通……”；
+  * **尾部转场准备（6.5~10s）**：老刘视线下垂，聚焦看向自己满是老茧皲裂的双手（紧攥着折痕纸张），镜头顺势下俯推进，锁定粗糙双手，为镜头 07 手部特写完成无缝动作转场交接（Match Cut）！
+* **AI 画面提示词（Gemini / Veo 实测 100% 免拦截双语提示词·具体音效与正向对白驱动口型）**：
+  > **中文提示词（直接复制提交 Gemini/Veo）**：
   > ```text
-  > Image-to-video animation: Strictly animate the exact 2D anime illustration from the reference image with 100% visual fidelity. Maintain the exact same 2D hand-drawn anime art style, same character face, yellow courier jacket, and quiet morning station background. Absolutely NO live-action, NO photorealism, NO real human skin.
+  > 【图生视频硬性约束】：严格以参考图片为唯一基准进行2D手绘动漫动画化生成！必须100%保持参考图的二次元动漫手绘风格、人物五官与服饰、黄色工服与清晨服务站门口台阶背景完全一致！绝对严禁三次元真人实拍，无真人皮肤质感，纯动漫艺术风格。
   > 
-  > Animation & Motion:
-  > Starting directly from the reference image: The 2D anime courier character in the image rests on the outdoor stone steps outside the service station, with his helmet resting beside him. With both hands holding his breakfast, he takes a deep breath and looks thoughtful. His mouth moves naturally with animated lip-sync as he speaks calmly into the chilly morning air. The damp pavement reflects the pale morning dawn sky. Camera smoothly pushes in with a subtle cinematic forward move.
+  > 【黄金三段式动态演进与转场准备（核心铁律五）】：
+  > 1. 前序起势（0~2s）：从参考图画面启动动态，2D动漫骑手坐在清晨微湿的石阶上，身旁放着黄色头盔，双手捧着早餐，深吸一口微凉晨气，路面积水倒映清冷晨光。
+  > 2. 主体开口（2~6.5s）：摄像机正面平稳缓慢向前推近（Slow Push-in）。人物微微抬头，嘴部与面部肌肉自然开合，伴随清晰的说话节奏自然自语：“雨终于停了，等会儿大门打开，再去跟工作人员好好沟通……”（展现自然的开口说话嘴型节奏）。
+  > 3. 尾部转场准备（6.5~10s）：念完台词后，角色情绪转向沉思，眼神与头部顺势向下低垂，聚焦看向自己布满老茧、粗糙皲裂的双手（手中紧紧攥着一张折痕纸张）。镜头顺着视线顺滑下俯推进（Tilt Down & Push In），将焦点完全锁定在粗糙双手上，为下一镜手部特写完成无缝动作转场交接！
   > 
-  > Spoken Dialogue (Anime Voice):
-  > The animated character speaks with a gentle, calm, working-class anime voice: "The rain has finally stopped. When the station opens, I will go inside and explain the situation clearly."
+  > 【具体角色对白（沉稳沧桑大叔音）】：
+  > 角色对白：“雨终于停了，等会儿大门打开，再去跟工作人员好好沟通……”
   > 
-  > Audio & Sound Design:
-  > - Sound Effects: Gentle morning breeze, quiet city ambient, faint distant sparrow chirp.
-  > - Foley: Cool morning quiet atmosphere. 16:9, 24fps.
+  > 【具体音效与声音设计（Sound Design & Foley）】：
+  > - 关键具体音效：清晨远方早班车辆驶过湿润地面的微弱碾水声、远方街道传来的清脆单车铃声。
+  > - 拟音环境（Foley）：雨后清晨微风吹过树梢声、城市清晨宁静底噪、两声清亮清脆的晨鸟啼鸣。16:9宽画幅，24fps。
   > ```
-* **配音 / 画外音（VO·后期独立合成替换，彻底静音 AI 原生音频）**：
-  * **老刘（沙哑微弱的声音）**：“……要是号真没了，下周孙女的透析费……我上哪儿去借啊……”
+* **配音 / 画外音（VO·已重新生成 4.99s 终稿）**：
+  * **老刘（沉稳沙哑沧桑音）**：“雨终于停了，等会儿大门打开，再去跟工作人员好好沟通……”
 * **音效 & BGM**：
-  * **音效**：清晨偶尔驶过的汽车声、老刘沉重微弱的叹息声。
-  * **BGM**：转为缓慢单调的钢琴单音，充满凄凉与无助感。
+  * **音效**：清晨车辆碾水声、微风声、鸟鸣声。
+  * **BGM**：转为缓慢单调的钢琴单音，凄凉中带有一丝坚韧。
 
 ---
 
