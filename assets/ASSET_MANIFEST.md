@@ -70,7 +70,7 @@ homework/
 | **Shot 04** | 第一幕·大厂深夜工位与双显示器系统 | ✅ 已完成 | 已整合入 Shot 01 | 已整合入 Shot 01 | `[INTEGRATED]` 实景双屏（VS Code + 运管Web系统） |
 | **Shot 05** | 第一幕·系统终极风控模态框弹窗封号 | ✅ 已完成 | ✅ 已入库 (`shot_05_penalty_modal.mp4`) | ✅ `shot_05_final.mp4` | `[FINAL]` 7.0s，鼠标点击确认与系统机械音永久冻结 |
 | **Shot 06** | 第二幕·清晨服务站老刘自述与转场准备 | ✅ 已完成 (`assets/images/shot_06.jpg`) | ✅ 已入库 (`shot_06_laoliu_morning_station.mp4`) | ✅ `shot_06_final.mp4` | `[FINAL]` 10.03s，Veo原音自述优质无错，白边双层电影字幕，尾部下俯 Match Cut 转场锚点就绪 |
-| **Shot 07** | 第二幕·多图连续衔接（走来驻足 ➡ 俯身搀扶 ➡ 手部特写） | ✅ 三图已备齐 (`shot_07a.jpg`, `shot_07b.jpg`, `shot_07.jpg`) | 待生成 (多图连续Prompt已发) | 待合成 (双轨VO规划完成) | `[PROMPTS_READY]` 3张概念图连续衔接：陆远上班走来驻足 ➡ 走近俯身搀扶 ➡ 极特写双手触碰父辈震颤 |
+| **Shot 07** | 第二幕·多图连续衔接（走来驻足 ➡ 俯身搀扶 ➡ 手部特写） | ✅ 三图已就绪 (`shot_07a_outdoor_consistent.jpg`, `shot_07b_luyuan_approach.jpg`, `shot_07.jpg`) | ✅ 已入库 (`shot_07_luyuan_approach_hands.mp4`) | ✅ `shot_07_final.mp4` | `[FINAL]` 10.03s，多图连续演进，保留优质原生音频（脚步声/环境风/心跳/问候），精确压制白边双层字幕“大叔，您没事吧？”，尾部双手与折痕单据极近景无缝对接 Shot 08 救人闪回 |
 | **Shot 08** | 第二幕·破门救助·老人家中客厅生死急救 | ✅ 已完成 | 待生成 | 待合成 | `[PENDING_VIDEO]` 老人家中客厅，老刘破门打120守候独居老人 |
 | **Shot 09** | 第二幕·系统报错：未定义实体【见义勇为】 | ✅ 已完成 | 待生成 | 待合成 | `[PENDING_VIDEO]` 真实VS Code深色模式，报错拦截见义勇为 |
 | **Shot 10** | 第二幕·王总在办公室对陆远做资本规训 | ✅ 已完成 | 待生成 | 待合成 | `[PENDING_VIDEO]` 傲慢资本逻辑，“唯效率论”训斥 |

@@ -166,3 +166,10 @@
     * **制度化确立《核心铁律八》**：在 [STYLE_CONSISTENCY_RULES.md](file:///d:/study/course/maogai/homework/docs/STYLE_CONSISTENCY_RULES.md) 正式确立《核心铁律八：AI 视频生成全域防拦截与合规去敏规范（AI Anti-Censorship & Safe Prompting SOP）》，固化“纯2D动漫死锁声明 + 正向中性对白驱动口型 + 极具象拟音转场接力”三大防拦截法宝，为后续全片（Shot 07～23）彻底排除安全拦截隐患；
     * **转场动势无缝接轨**：依照《核心铁律五》，在 Shot 06 提示词第 6.5s～10s 写入视线下垂并由摄像机顺滑下俯推进（Tilt Down & Push In）聚焦粗糙双手，完成与 Shot 07 手部特写的无缝动作匹配转场（Match Cut）；
     * **音频重塑入库**：为全新对白重制录制 4.99s 干净专属配音 `assets/audio/shot_06_laoliu_clean_vo.mp3`，并全量提交远程 GitHub 仓库。
+  * **16:25 - 16:40 | 确立核心铁律九（多图连续分镜规范）、Shot 07三图连续视频入库、原声无损保留加字幕终成片交付**：
+    * **制度化确立《核心铁律九》**：在 [STYLE_CONSISTENCY_RULES.md](file:///d:/study/course/maogai/homework/docs/STYLE_CONSISTENCY_RULES.md) 颁布《核心铁律九：多图连续分镜与空间动态咬合规范（Multi-Image Continuity Staging SOP）》，彻底解决单图特写与前序脱节、无人物登场走来的突兀感；
+    * **三图连续视频圆满入库**：用户完成 Gemini / Veo 多图连续生成，生肉素材入库归档为 `assets/videos/raw_inputs/shot_07_luyuan_approach_hands.mp4`（10.03s，1280x720，24fps，AAC 立体声），完美呈现“阶段一：陆远走来停步 → 阶段二：迈上台阶俯身搀扶 → 阶段三：下推特写触碰折痕单据”的时空递进；
+    * **执行导演最新音频指令**：遵照导演（用户）指示“音频是对的，不用删除现有音频，加字幕就行了”，100% 完整保留生肉视频中的高品质原生音频（湿地皮鞋脚步、停顿声、晨风鸟鸣与陆远原声）；
+    * **白边双层字幕精准压制**：编写执行 `build/render_shot07_final.py`，在 `[4.3s - 6.2s]` 人物开口动作处精准嵌合电影级白边黑底双层字幕“大叔，您没事吧？”，导出终成片 [shot_07_final.mp4](file:///d:/study/course/maogai/homework/dist/shots/shot_07_final.mp4)（10.03s）；
+    * **交互放映厅同步就绪**：部署交互放映厅工件 [shot_07_player.html](file:///C:/Users/27277/.gemini/antigravity/brain/f5b14212-99d2-460d-9706-e55469254373/shot_07_player.html)，提供逐阶段进度卡与质量验收指标；
+    * **全量同步资产与提交**：更新 [ASSET_MANIFEST.md](file:///d:/study/course/maogai/homework/assets/ASSET_MANIFEST.md)，标记 Shot 07 为 `[FINAL]`，全部变更推送到 GitHub 远程仓库。
