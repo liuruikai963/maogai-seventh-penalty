@@ -202,25 +202,32 @@
 
 ---
 
-#### 镜头 08（三图连贯：台阶自述 ➡ 送餐目击 ➡ 破门急救回忆）
-* **镜头类型**：三图时空连贯演进（清晨石阶中近景 ➡ 暴雨楼道提外卖目击 ➡ 客厅破门救人打120守候）
-* **时长**：8~10 秒
-* **核心衔接设计（响应导演指导，三图咬合突出送外卖真实情境）**：
-  * **第一阶段（0~3s，当下诉说·承接图一）**：100% 承接 Shot 07 室外石阶。老刘眼眶泛红手拿罚单向陆远委屈辩解：“小兄弟，我真不是故意超时的……昨晚送餐，我一到门口……”；
-  * **第二阶段（3~6.5s，送餐目击·承接图二）**：暴雨深夜老式楼道，老刘浑身湿透、一手提着贴有小票的热腾腾外卖餐盒袋，门缝惊见客厅老人倒地抽搐，惊骇万分撞门冲入；
-  * **第三阶段（6.5~10s，破门救人·承接图三）**：室内暴雨深夜，外卖袋放在门边，老刘跪地紧握老人手急切拨打120，窗外红蓝救护车反光扫过！
-* **基准参考图**：
-  - 图一：[`assets/images/shot_08a_laoliu_explaining.jpg`](file:///d:/study/course/maogai/homework/assets/images/shot_08a_laoliu_explaining.jpg)
-  - 图二：[`assets/images/shot_08b_delivery_hallway_discovery.jpg`](file:///d:/study/course/maogai/homework/assets/images/shot_08b_delivery_hallway_discovery.jpg)
-  - 图三：[`assets/images/shot_08c_rescue_calling_120.jpg`](file:///d:/study/course/maogai/homework/assets/images/shot_08c_rescue_calling_120.jpg)
-* **AI 画面提示词（Gemini / Veo 三图合一连续生成通过版）**：
-  > 详见 [`shot_08_production_guide.md`](file:///C:/Users/27277/.gemini/antigravity/brain/f5b14212-99d2-460d-9706-e55469254373/shot_08_production_guide.md)。
-* **配音 / 画外音（VO·跨时空交融）**：
-  * **老刘（台阶哽咽）**：“小兄弟，我真不是故意超时的……昨晚送餐，我一到门口……”
-  * **老刘（回忆呼救）**：“喂！120吗？！这里有位独居大爷摔倒了……快救救他！”
-  * **陆远（沉思震颤独白）**：“出警记录与门前影像不会撒谎。在紧闭的大门前，他毫不犹豫破门冲进屋内，为一个突发急症的独居老人叫来救护车、守候到最后一刻。”
-* **音效 & BGM**：
-  * 清晨微风与心跳低音 $ightarrow$ 暴雨倾盆、塑料袋摩擦声、撞门声、120紧急电话求救与远处救护车警笛。
+#### 镜头 08（重点高潮20秒分段：Shot 08A 10s + Shot 08B 10s）
+
+#### 镜头 08A（清晨石阶自述 ➡ 送外卖楼道惊见，10秒）
+* **镜头类型**：双图连贯演进（清晨石阶中近景 ➡ 眼神推近白光水波转场 ➡ 暴雨楼道提外卖目击）
+* **时长**：10.0 秒
+* **双基准参考图**：
+  - 图一（起始）：[`assets/images/shot_08a_laoliu_explaining.jpg`](file:///d:/study/course/maogai/homework/assets/images/shot_08a_laoliu_explaining.jpg)
+  - 图二（结束）：[`assets/images/shot_08b_delivery_hallway_discovery.jpg`](file:///d:/study/course/maogai/homework/assets/images/shot_08b_delivery_hallway_discovery.jpg)
+* **AI 画面提示词（Gemini / Veo 双图合一通过版）**：详见 [`shot_08_production_guide.md`](file:///C:/Users/27277/.gemini/antigravity/brain/f5b14212-99d2-460d-9706-e55469254373/shot_08_production_guide.md)。
+* **配音 / 画外音（VO）**：
+  * **老刘（台阶自述，0~5s）**：“小兄弟，我真不是故意超时的……昨晚送餐，那家老人摔在地上动不了，我真不能扔下不管啊……”
+* **音效**：清晨微风、纸张沙沙声 $ightarrow$ 心跳低音 $ightarrow$ 暴雨倾盆、远雷轰鸣、塑料外卖袋摩擦声。
+
+---
+
+#### 镜头 08B（破门冲入 ➡ 跪地握手打120守候，10秒）
+* **镜头类型**：双图连贯演进（暴雨楼道撞门冲入 ➡ 客厅跪地握手打120 ➡ 救护车红蓝反光扫过定格）
+* **时长**：10.0 秒
+* **双基准参考图**：
+  - 图一（起始）：[`assets/images/shot_08b_delivery_hallway_discovery.jpg`](file:///d:/study/course/maogai/homework/assets/images/shot_08b_delivery_hallway_discovery.jpg)
+  - 图二（结束）：[`assets/images/shot_08c_rescue_calling_120.jpg`](file:///d:/study/course/maogai/homework/assets/images/shot_08c_rescue_calling_120.jpg)
+* **AI 画面提示词（Gemini / Veo 双图合一通过版）**：详见 [`shot_08_production_guide.md`](file:///C:/Users/27277/.gemini/antigravity/brain/f5b14212-99d2-460d-9706-e55469254373/shot_08_production_guide.md)。
+* **配音 / 画外音（VO）**：
+  * **老刘（电话焦急求救，3~7s）**：“喂！120急救中心吗？！这里有位独居大爷摔倒了……地址是幸福家园，请快派救护车过来！”
+  * **陆远（跨镜内心震撼独白，7~10s）**：“出警记录与门前影像不会撒谎。在紧闭的大门前，他毫不犹豫破门冲进屋内，为一个突发急症的独居老人叫来救护车、守候到最后一刻。”
+* **音效**：撞门声、沉重急促脚步声、窗外暴雨狂泻、电话急救求救声、远处救护车警笛声。
 
 ---
 
