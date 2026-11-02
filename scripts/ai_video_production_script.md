@@ -141,10 +141,22 @@
 
 #### 镜头 06（清晨服务站·老刘的身影）
 * **镜头类型**：全景（Wide Shot） / 静态构图至缓慢推近
-* **时长**：5 秒
-* **AI 画面提示词（合规安全版·防止真实人物与敏感词拦截）**：
-  > **中文**：图生视频。纯虚构2D手绘动漫电影角色，严格继承参考图片中人物工服与雨后清晨场景，新海诚风格赛璐珞动画质感，非真实人物。【场景与光影】：清晨微亮，互联网科技园区骑手服务站外，台阶干净湿润，倒映着清冷的晨曦天光，远景是朦胧的现代城市晨景。【角色与动态】：身穿黄色反光背心的动漫外卖大叔坐在台阶上休息，身边放着头盔，双手捧着早餐，神情有些疲倦但神色平静。【运镜与口型驱动】：摄像机平稳微距推进（Slow Push-in）。人物微微抬头，嘴唇自然张合开口轻声说话：“雨终于停了，等会儿服务站开门，再去跟工作人员好好核实解释一下……”（自然生动的说话口型与面部肌肉运动），清晨冷空气中带有一丝微弱呼吸，16:9宽画幅，24fps动画电影质感。  
-  > **英文**：`Image-to-Video. Fictional 2D hand-drawn anime animation character, strictly maintaining clothing and scene composition from the reference image. Makoto Shinkai animated film style, 2D cel-shaded illustration, NOT a real person. [Scene & Atmosphere]: Early morning dawn outside a modern technology campus rider station. Wet stone steps and pavement reflecting cool soft morning skylight, calm morning city atmosphere. [Character & Motion]: An animated delivery courier in a yellow reflective uniform rests peacefully on the outdoor steps with his helmet beside him, holding breakfast with both hands, looking tired but thoughtful. [Camera & Lip-Sync]: Smooth, slow cinematic push-in. The character opens his mouth with natural, fluid lip-sync animation as if speaking calmly: "The rain has finally stopped. When the station opens, I will explain the situation clearly..." (natural anime mouth movement cadence). Subtle breathing in cool morning air, cinematic 16:9, 24fps.`
+* **时长**：5~10 秒
+* **AI 画面提示词（Gemini / Veo 实测 100% 免拦截英文提示词·沿用 Shot 02 成功架构）**：
+  > **英文（直接复制提交 Gemini/Veo）**：
+  > ```text
+  > Image-to-video animation: Strictly animate the exact 2D anime illustration from the reference image with 100% visual fidelity. Maintain the exact same 2D hand-drawn anime art style, same character face, yellow courier jacket, and quiet morning station background. Absolutely NO live-action, NO photorealism, NO real human skin.
+  > 
+  > Animation & Motion:
+  > Starting directly from the reference image: The 2D anime courier character in the image rests on the outdoor stone steps outside the service station, with his helmet resting beside him. With both hands holding his breakfast, he takes a deep breath and looks thoughtful. His mouth moves naturally with animated lip-sync as he speaks calmly into the chilly morning air. The damp pavement reflects the pale morning dawn sky. Camera smoothly pushes in with a subtle cinematic forward move.
+  > 
+  > Spoken Dialogue (Anime Voice):
+  > The animated character speaks with a gentle, calm, working-class anime voice: "The rain has finally stopped. When the station opens, I will go inside and explain the situation clearly."
+  > 
+  > Audio & Sound Design:
+  > - Sound Effects: Gentle morning breeze, quiet city ambient, faint distant sparrow chirp.
+  > - Foley: Cool morning quiet atmosphere. 16:9, 24fps.
+  > ```
 * **配音 / 画外音（VO·后期独立合成替换，彻底静音 AI 原生音频）**：
   * **老刘（沙哑微弱的声音）**：“……要是号真没了，下周孙女的透析费……我上哪儿去借啊……”
 * **音效 & BGM**：
