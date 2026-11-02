@@ -184,3 +184,9 @@
     * **制度化确立《核心铁律十》**：根据用户指示“以后都要强调【语言强制死锁】：全程发音与口型必须为纯正清晰的标准中文普通话（Strictly Mandarin Chinese Lip-Sync & Spoken Dialogue），绝对严禁英文或其他无意义杂音！还有其他台词要求说明”，在 [STYLE_CONSISTENCY_RULES.md](file:///d:/study/course/maogai/homework/docs/STYLE_CONSISTENCY_RULES.md) 制度化固化《核心铁律十》；
     * **Shot 08A 终成片交付**：用户实测确认普通话发音地道、台词自然，指示“不用改了加字幕就行了”。编写并运行 `build/render_shot08a_final.py`，完整保留 100% 原生清晰音频，在 `[0.8s - 2.5s]` 与 `[2.7s - 5.2s]` 精确对齐压制白边双层中文字幕，导出终成片 [shot_08a_final.mp4](file:///d:/study/course/maogai/homework/dist/shots/shot_08a_final.mp4)（10.03s）；
     * **同步资产与推进 Shot 08B**：更新 [ASSET_MANIFEST.md](file:///d:/study/course/maogai/homework/assets/ASSET_MANIFEST.md)，标记 Shot 08A 为 `[FINAL]`，发布 Shot 08B 制作指南与双图提示词。
+  * **20:13 - 20:25 | Shot 08B（破门入室与急救呼叫守候）生成入库、原生普通话对白字幕压制、20秒完整高潮连缀大成片合成交付**：
+    * **生肉视频素材入库**：用户提交双图与死锁提示词后，成功在本地入库 `assets/videos/raw_inputs/gemini_generated_video_1a122154.mp4`，规范归档为 `assets/videos/raw_inputs/shot_08b_rescue_calling_120.mp4`（10.03s，1280x720，24fps，立体声音频）；
+    * **剧作动作与画风质感核验**：画面精准实现“0~3s 撞门入室将外卖放门边冲向老人 ➡ 3~7s 跪地紧握老人手拨打120急促上报 ➡ 7~10s 守候在旁红蓝救护车灯扫过老刘眼眶含泪”，画风 100% 契合新海诚写实动漫；
+    * **电影级双层字幕精准压制**：编写执行 `build/render_shot08b_final.py`，完整保留原生破门音效、急救呼叫普通话原声与窗外警笛声，分三段压制字幕（`[3.0s - 4.1s]`《喂！120急救中心吗？！》、`[4.3s - 6.1s]`《这里有位大爷摔倒了，地址是幸福家园……》、`[6.3s - 8.2s]`《请快派救护车过来！》），导出 [shot_08b_final.mp4](file:///d:/study/course/maogai/homework/dist/shots/shot_08b_final.mp4)（10.03s）；
+    * **生成20秒完整无缝连缀版**：编写执行 `build/concat_shot08_full.py`，将 Shot 08A 与 Shot 08B 无缝拼接为 [shot_08_full_20s.mp4](file:///d:/study/course/maogai/homework/dist/shots/shot_08_full_20s.mp4)（20.06s），更新全交互放映厅工件 [shot_08_player.html](file:///C:/Users/27277/.gemini/antigravity/brain/f5b14212-99d2-460d-9706-e55469254373/shot_08_player.html)；
+    * **全量同步与推送到 GitHub**：更新资产清单 [ASSET_MANIFEST.md](file:///d:/study/course/maogai/homework/assets/ASSET_MANIFEST.md)，全量提交并推送到 GitHub 远程仓库。
