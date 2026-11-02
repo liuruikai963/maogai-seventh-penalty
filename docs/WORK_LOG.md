@@ -196,3 +196,11 @@
     * **落实用户免改音效指令**：严格遵照导演“很不错音效什么都都不用改，加个字幕就行了”指示，100% 完整保留 Veo 原生优质音效（家里抬人配合声、暴雨救护车警笛声、急诊大厅轮子轰鸣声与医护口令）；
     * **电影级双层字幕精准压制**：编写执行 `build/render_shot09a_final.py`，在 `[0.8s - 2.6s]` 压制《“慢点抬，小心头部！一二三，起！”》，在 `[6.8s - 9.5s]` 压制《“快！推抢救室！准备心电监护！”》，导出终成片 [shot_09a_final.mp4](file:///d:/study/course/maogai/homework/dist/shots/shot_09a_final.mp4)（10.03s）；
     * **全量同步与推送到 GitHub**：更新资产清单 [ASSET_MANIFEST.md](file:///d:/study/course/maogai/homework/assets/ASSET_MANIFEST.md)，标记 Shot 09A 为 `[FINAL]`，全部变更推送到 GitHub 远程仓库。
+  * **23:36 - 23:48 | Shot 09B（抢救门前发现超时重罚）生成入库、消除 AI 错误杂音、专业普通话重配与双层字幕压制、Shot 09 完整 20 秒连缀大成片交付**：
+    * **响应导演关键指令**：针对用户指令“生成好了，但是这个词语言文字都错了，你把原本的说话音频删了，然后你配音和文字”，启动工业级专业重配与字幕管线；
+    * **生肉视频素材入库**：用户生成的双图过渡视频 `assets/videos/raw_inputs/gemini_generated_video_56bd2eff.mp4` 成功入库，规范归档为 `assets/videos/raw_inputs/shot_09b_outside_er_phone_penalty.mp4`（10.03s，1280x720，24fps）；
+    * **画面演进与空间一致性校验**：画面完美实现两图过渡（0~3s 紧闭抢救室大门红灯长亮，老刘靠墙掏手机 ➡ 3~6s 第一视角手机屏幕猩红爆闪《订单严重超时扣罚通知 扣除200元》 ➡ 6~10s 特写推进老刘沧桑含泪的面容与颤抖嘴唇），背景 100% 死锁在同一间医院急诊走廊门前，彻底消除背景跳跃；
+    * **彻底清除原生杂音，专属普通话配音**：剔除原视频中含糊错乱的 AI 杂音，调用老刘成熟沧桑的专属声音（`zh-CN-YunjianNeural`）进行两段沉痛自白重配（第一段 0.5s~4.9s《大爷是救下来了……可一掏手机，全是扣钱的红字。》；第二段 5.05s~9.85s《救了一条命，在系统眼里……我只是个超时的异常数据。》）；
+    * **电影级双层中文字幕精准压制**：编写执行 `build/render_shot09b_final.py`，采用白字黑边高对比度标准样式压制字幕，导出终成片 [shot_09b_final.mp4](file:///d:/study/course/maogai/homework/dist/shots/shot_09b_final.mp4)（10.00s）；
+    * **Shot 09 完整 20 秒无缝连缀大成片合成**：编写执行 `build/concat_shot09_full.py`，将 Shot 09A（家里抬人至急诊飞奔）与 Shot 09B（抢救室门前超时重罚）无缝拼接为 [shot_09_full_20s.mp4](file:///d:/study/course/maogai/homework/dist/shots/shot_09_full_20s.mp4)（20.03s），第二幕核心高潮剧情全部大功告成！
+
