@@ -178,3 +178,9 @@
     * **新增关键中间图入库**：生成并对齐关键中间图 `assets/images/shot_08b_delivery_hallway_discovery.jpg`（老刘一手提着贴有小票的热腾腾外卖餐盒袋，身体前倾惊见客厅倒地老人），与 Shot 08A（石阶自述）及 Shot 08C（客厅破门急救）形成 100% 严密的戏剧伦理与时空逻辑闭环；
     * **三图合一提示词定稿**：更新 `shot_08_production_guide.md`，输出包含三阶段分时引导（0~3s 自述 -> 3~6.5s 送餐目击 -> 6.5~10s 破门呼救）的中英文合规防拦截连贯提示词；
     * **全量同步与推送到 GitHub**：全面归档原始生成视频与音频资产，所有生产脚本、分镜指南、资产清单及工作日志均同步提交至远程 GitHub 仓库 `main` 分支。
+  * **19:15 - 20:10 | 重点核心剧情拆分为两个 10 秒（Shot 08A + 08B）、重绘上帝全知剖面图（大门紧闭）、确立《核心铁律十》（普通话口型死锁）、Shot 08A 终成片压制交付**：
+    * **拆分 20 秒叙事空间**：采纳导演（用户）“拆开，毕竟是重点剧情，分为 20s 吧，每个 10s 两个图片，内容更具体精简”指导，将重点剧情科学拆分为 Shot 08A（前 10 秒·石阶自述 ➡ 送餐楼道隔门目击）与 Shot 08B（后 10 秒·破门入室 ➡ 跪地握手打 120 ➡ 救护车抵达）；
+    * **纠偏大门与视角逻辑**：用户指出“门没有打开，是关闭的，我们这个视角是上帝视角所以可以看到里面老人”，立即重绘 `shot_08b_delivery_hallway_discovery.jpg` 为 100% 新海诚手绘动漫写实风，呈现大门紧锁死锁、上帝全知剖面视角（门外老刘手提外卖敲门倾听，门内老人倒地无法起身）；
+    * **制度化确立《核心铁律十》**：根据用户指示“以后都要强调【语言强制死锁】：全程发音与口型必须为纯正清晰的标准中文普通话（Strictly Mandarin Chinese Lip-Sync & Spoken Dialogue），绝对严禁英文或其他无意义杂音！还有其他台词要求说明”，在 [STYLE_CONSISTENCY_RULES.md](file:///d:/study/course/maogai/homework/docs/STYLE_CONSISTENCY_RULES.md) 制度化固化《核心铁律十》；
+    * **Shot 08A 终成片交付**：用户实测确认普通话发音地道、台词自然，指示“不用改了加字幕就行了”。编写并运行 `build/render_shot08a_final.py`，完整保留 100% 原生清晰音频，在 `[0.8s - 2.5s]` 与 `[2.7s - 5.2s]` 精确对齐压制白边双层中文字幕，导出终成片 [shot_08a_final.mp4](file:///d:/study/course/maogai/homework/dist/shots/shot_08a_final.mp4)（10.03s）；
+    * **同步资产与推进 Shot 08B**：更新 [ASSET_MANIFEST.md](file:///d:/study/course/maogai/homework/assets/ASSET_MANIFEST.md)，标记 Shot 08A 为 `[FINAL]`，发布 Shot 08B 制作指南与双图提示词。

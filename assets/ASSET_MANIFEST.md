@@ -71,7 +71,7 @@ homework/
 | **Shot 05** | 第一幕·系统终极风控模态框弹窗封号 | ✅ 已完成 | ✅ 已入库 (`shot_05_penalty_modal.mp4`) | ✅ `shot_05_final.mp4` | `[FINAL]` 7.0s，鼠标点击确认与系统机械音永久冻结 |
 | **Shot 06** | 第二幕·清晨服务站老刘自述与转场准备 | ✅ 已完成 (`assets/images/shot_06.jpg`) | ✅ 已入库 (`shot_06_laoliu_morning_station.mp4`) | ✅ `shot_06_final.mp4` | `[FINAL]` 10.03s，Veo原音自述优质无错，白边双层电影字幕，尾部下俯 Match Cut 转场锚点就绪 |
 | **Shot 07** | 第二幕·多图连续衔接（走来驻足 ➡ 俯身搀扶 ➡ 手部特写） | ✅ 三图已就绪 (`shot_07a_outdoor_consistent.jpg`, `shot_07b_luyuan_approach.jpg`, `shot_07.jpg`) | ✅ 已入库 (`shot_07_luyuan_approach_hands.mp4`) | ✅ `shot_07_final.mp4` | `[FINAL]` 10.03s，多图连续演进，保留优质原生音频（脚步声/环境风/心跳/问候），精确压制白边双层字幕“大叔，您没事吧？”，尾部双手与折痕单据极近景无缝对接 Shot 08 救人闪回 |
-| **Shot 08A** | 第二幕·重点高潮前段（台阶自述 ➡ 送餐目击，10s） | ✅ 双图已就绪 (`shot_08a.jpg`, `shot_08b.jpg`) | 待生成 (Prompt已就绪) | 待合成 | `[PROMPTS_READY]` 10.0s，双图连贯：清晨石阶老刘自述 ➡ 眼神推近白光涟漪 ➡ 暴雨楼道手提外卖敲门惊见倒地老人 |
+| **Shot 08A** | 第二幕·重点高潮前段（台阶自述 ➡ 送餐目击，10s） | ✅ 双图已就绪 (`shot_08a.jpg`, `shot_08b.jpg`) | ✅ 已入库 (`shot_08a_laoliu_steps_to_hallway.mp4`) | ✅ `shot_08a_final.mp4` | `[FINAL]` 10.03s，双图连贯：老刘清晨石阶普通话自述（口型纯正无错） ➡ 眼神推近白光涟漪 ➡ 暴雨楼道手提外卖敲闭门上帝透视惊见倒地老人，双层中文字幕压制完成 |
 | **Shot 08B** | 第二幕·重点高潮后段（破门入室 ➡ 120呼救守候，10s） | ✅ 双图已就绪 (`shot_08b.jpg`, `shot_08c.jpg`) | 待生成 (Prompt已就绪) | 待合成 | `[PROMPTS_READY]` 10.0s，双图连贯：暴雨楼道撞门冲入 ➡ 客厅跪地紧握老人手打120 ➡ 救护车红蓝灯光抵达定格 |
 | **Shot 09** | 第二幕·系统报错：未定义实体【见义勇为】 | ✅ 已完成 | 待生成 | 待合成 | `[PENDING_VIDEO]` 真实VS Code深色模式，报错拦截见义勇为 |
 | **Shot 10** | 第二幕·王总在办公室对陆远做资本规训 | ✅ 已完成 | 待生成 | 待合成 | `[PENDING_VIDEO]` 傲慢资本逻辑，“唯效率论”训斥 |
