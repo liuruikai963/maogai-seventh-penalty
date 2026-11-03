@@ -48,6 +48,7 @@ homework/
     │   ├── shot_01_final.mp4                   [FINAL] (10.03s, 陆远双屏工位自述，剥离原生错音+广播级青年配音)
     │   ├── shot_02a_final.mp4                  [FINAL] (10.03s, 老刘正面中景自述，剥离原生错音+沧桑配音+纯暴雨拟音)
     │   ├── shot_02b_final.mp4                  [FINAL] (10.01s, 老刘涉水狂奔动作，带雨夜破浪字幕与搏命呐喊配音)
+│   ├── shot_02c_final.mp4                  [FINAL] (10.03s, 桥梁镜头：老刘沧桑独白，雨夜极速升空宏观全景转晨曦破晓下推，电影双层字幕)
     │   ├── shot_03_final.mp4                   [FINAL] (10.01s, 系统机械音超时红屏)
     │   ├── shot_05_final.mp4                   [FINAL] (7.00s, 终极弹窗封号与系统机械声)
     │   ├── shot_06_final.mp4                   [FINAL] (10.03s, 清晨服务站老刘自述与叹息)
@@ -75,6 +76,7 @@ homework/
 | **Shot 01** | 第一幕·工位立项独白·大模型伦理调查引入直切老刘送单 | ✅ 已完成 (`assets/images/shot_00.jpg`) | ✅ 已入库 (`shot_01_luyuan_office_monologue.mp4`) | ✅ `shot_01_final.mp4` | `[FINAL]` 10.03s，陆远工位原生自述、白边电影字幕、闪电匹配无缝直切老刘 |
 | **Shot 02A** | 第一幕·雨中送单·老刘正面自述（身份与动机建构） | ✅ 已完成 (`assets/images/shot_02.jpg`) | ✅ 已入库 (`shot_02a_lao_liu_monologue.mp4`) | ✅ `shot_02a_final.mp4` | `[FINAL]` 10.03s，正面中景跟拍，老刘48岁自述与孙女药费动机，雷电闪烁与倒计时猩红漫反射 |
 | **Shot 02B** | 第一幕·雨中送单·老刘深夜绝地飞驰（涉水狂奔动作） | ✅ 已完成 | ✅ 已入库 (`shot_02b_lao_liu_scooter_wading.mp4`) | ✅ `shot_02b_final.mp4` | `[FINAL]` 10.01s，动感低机位涉水，暴雨破浪动作衔接，逆风呐喊“绝不能超时” |
+| **Shot 02C** | 第一幕·时空过渡桥梁·雨夜都市远景至晨光破晓 | ✅ 双图已就绪 (`shot_02c1.jpg`, `shot_02c2.jpg`) | ✅ 已入库 (`shot_02c_macro_city_storm_to_dawn.mp4`) | ✅ `shot_02c_final.mp4` | `[FINAL]` 10.03s，从涉水骑行顺势拉升升空，展现实拍级雨夜都市全景，延时转入晨光破晓万道金光，老刘沧桑独白“那一晚的雨太大了……可那一单，终究还是超时了”，无缝下俯交接 Shot 06 |
 | **Shot 03** | 第一幕·手机倒计时归零严重超时 | ✅ 已完成 | ✅ 已入库 | ✅ `shot_03_final.mp4` | `[FINAL]` 10.0s，含系统机械女声与3.8s报警 |
 | **Shot 04** | 第一幕·大厂深夜工位与双显示器系统 | ✅ 已完成 | 已整合入 Shot 01 | 已整合入 Shot 01 | `[INTEGRATED]` 实景双屏（VS Code + 运管Web系统） |
 | **Shot 05** | 第一幕·系统终极风控模态框弹窗封号 | ✅ 已完成 | ✅ 已入库 (`shot_05_penalty_modal.mp4`) | ✅ `shot_05_final.mp4` | `[FINAL]` 7.0s，鼠标点击确认与系统机械音永久冻结 |

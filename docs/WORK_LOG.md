@@ -223,3 +223,9 @@
       - 成功生成第二幕当前进度连贯大片 [act2_progress_cut.mp4](file:///d:/study/course/maogai/homework/dist/acts/act2_progress_cut.mp4)（80.20s，Shot 06 ~ Shot 10B）；
       - 成功生成第一幕与第二幕全量大成片 [current_progress_act1_to_act2_full.mp4](file:///d:/study/course/maogai/homework/dist/acts/current_progress_act1_to_act2_full.mp4)（127.36s / 2分07秒），全流程丝滑咬合、视听语言一气呵成；
       - 全量成果同步归档至会话交互工件区供随时回放验收。
+
+  * **10:10 - 10:35 | 导演核心构思落地：新增 Shot 02C（雨夜都市全景 ➡ 晨光破晓转场）、双层电影字幕压制、全量插入连贯母带（整整 2 分钟整）交付**：
+    * **采纳导演神级转场构思**：针对暴雨狂奔（Shot 02B）直切清晨台阶啃馒头（Shot 06）过于突兀的问题，采纳导演指导，增设时空过渡桥梁镜头 **Shot 02C**；
+    * **视觉三阶段丝滑演进**：老刘雨夜涉水骑车（图一） ➡ 摄像机火箭式极速升空拉远，俯瞰庞大雨夜现代科技都市与雷云闪电（图二） ➡ 暴雨退去，朝霞撕裂夜空，万道金色晨光（丁达尔效应）喷薄照亮湿漉漉的城市建筑与地面（图三） ➡ 镜头平稳下俯（Tilt Down）顺滑切入 Shot 06 台阶；
+    * **老刘专属第一人称自述与字幕压制**：严格遵照导演指示采用老刘第一人称疲惫沧桑的原声独白，在 `[0.6s - 3.8s]` 压制《“那一晚的雨太大了……我拼了命往前赶……”》，在 `[4.3s - 7.5s]` 压制《“可那一单，终究还是超时了……”》，导出终成片 [shot_02c_final.mp4](file:///d:/study/course/maogai/homework/dist/shots/shot_02c_final.mp4)（10.03s）；
+    * **全量重新串联大成片**：将 Shot 02C 完美插入 Shot 02B 与 Shot 06 之间，导出最新完整大母带 [current_progress_act1_to_act2_full.mp4](file:///d:/study/course/maogai/homework/dist/acts/current_progress_act1_to_act2_full.mp4)（时长刚好整整 **2 分 00 秒 / 120.35s**），视听衔接浑然天成、史诗级戏剧张力拉满！
