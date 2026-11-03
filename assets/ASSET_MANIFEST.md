@@ -56,7 +56,8 @@ homework/
     │   ├── shot_08_full_20s.mp4                [FINAL] (20.06s, 送餐目击+破门救人打120守候全高潮)
     │   ├── shot_09_full_20s.mp4                [FINAL] (20.03s, 急救飞奔送医+急诊门前超时扣罚)
     │   ├── shot_10a_final.mp4                  [FINAL] (10.03s, 台阶现实回魂扶肩对白承诺+晨光冲刺飞奔工位)
-    │   └── shot_10b_final.mp4                  [FINAL] (10.03s, 工位大模型报错强拦截+算得出效率算不出人性善意)
+    │   ├── shot_10b_final.mp4                  [FINAL] (10.03s, 工位大模型报错强拦截+算得出效率算不出人性善意)
+│   └── shot_10c_final.mp4                  [FINAL] (10.03s, 总监办公室对质高潮：陆远质问大模型为何不能撤销+王总冷笑规训“算法要的是效率不是同情心”，电影双层字幕)
     ├── acts/                                   # 各幕完整连贯大片
     │   ├── act1_complete_full_cut.mp4          [FINAL] (47.08s, 第一幕五连镜全镜头无缝连贯终成片！)
     │   ├── act2_progress_cut.mp4               [PROGRESS] (80.20s, 第二幕 Shot 06 ~ 10B 连贯成片)
@@ -90,7 +91,7 @@ homework/
 | **Shot 09 Full** | 第二幕·医院急救与算法重罚（20秒完整无缝连缀大成片） | ✅ 四图连贯 | ✅ Shot 09A + 09B 双素材 | ✅ `shot_09_full_20s.mp4` | `[FINAL]` 20.03s，急救推车飞奔 ➡ 抢救室大门紧闭 ➡ 掏出手机 ➡ 第一视角扣款200元 ➡ 沧桑自省，声画完美咬合！ |
 | **Shot 10A** | 第二幕·现实回魂抚慰与晨光飞奔工位 | ✅ 双图连贯 (`shot_10a1_laoliu_reality_comfort.jpg`, `shot_10a2_luyuan_running_to_office.jpg`) | ✅ 已入库 (`gemini_generated_video_d3bbc190.mp4`) | ✅ `shot_10a_final.mp4` | `[FINAL]` 10.03s，清晨台阶扶肩对白（“刘叔，您这是救人！等我，我回公司帮您撤销罚单！”） ➡ 决然转身冲刺飞奔科技大厦，100%原生音频保留，双层字幕压制完成 |
 | **Shot 10B** | 第二幕·工位申诉与大模型报错拦截 | ✅ 全新大模型双图 (`shot_10b1_ai_large_model_workstation.jpg`, `shot_10b2_ai_neural_error_rejected.jpg`) | ✅ 已入库 (`shot_10b_ai_large_model_error.mp4`) | ✅ `shot_10b_final.mp4` | `[FINAL]` 10.03s，双曲面屏AI大模型系统 ➡ 输入覆写Prompt ➡ 屏幕爆红报错【语义对齐失败·拒绝人工覆写】 ➡ 陆远震撼自语“算得出效率算不出人性的善意”，压制电影级字幕 |
-| **Shot 10C** | 第二幕·总监办公室理论与资本规训 | ✅ 双图连贯 (`shot_10c1_luyuan_enters_wang_office.jpg`, `shot_10c2_wang_hegemony_coffee.jpg`) | 待生成 (Prompt已就绪) | 待合成 | `[PROMPTS_READY]` 10.0s，陆远拿平板推门质问 ➡ 王总端咖啡冷笑规训“算法不需要同情心” ➡ 阶级矛盾激化 |
+| **Shot 10C** | 第二幕·总监办公室理论与资本规训 | ✅ 双图连贯 (`shot_10c1.jpg`, `shot_10c2.jpg`) | ✅ 已入库 (`shot_10c_wang_office_confrontation.mp4`) | ✅ `shot_10c_final.mp4` | `[FINAL]` 10.03s，推门质问“骑手是为了救人，大模型为什么不能撤销” ➡ 王总端咖啡冷笑“算法要的是效率不是同情心” ➡ 阶级对撞定格，第二幕圆满杀青！ |
 | **Shot 10 Full** | 第二幕·技术反噬与直面资本（20秒完整无缝连缀大成片） | ✅ 四图连贯 | 待 Shot 10B + 10C 生成 | 待合成 | `[PLANNED]` 20.0s，工位申诉被拒 ➡ 冲入办公室理论 ➡ 资本冷血训斥，第二幕彻底推向最高潮！ |
 | **Shot 11** | 第三幕·老人家属实名致谢寻人短视频 | ✅ 已完成 | 待生成 | 待合成 | `[PENDING_VIDEO]` 手机短视频界面，家属泣不成声感谢救命恩人 |
 | **Shot 12** | 第三幕·全网舆论热搜与民众愤慨群像 | ✅ 已完成 | 待生成 | 待合成 | `[PENDING_VIDEO]` 地铁/工位/咖啡馆市民怒刷“救人被封号”热搜 |
