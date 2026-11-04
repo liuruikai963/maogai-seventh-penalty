@@ -427,29 +427,36 @@ ightarrow$ 暴雨倾盆、远雷轰鸣、塑料外卖袋摩擦声。
 
 ---
 
-#### 镜头 19（金色通知·第七张罚单正式撤销）
-* **镜头类型**：特写（Extreme Close-up） / 光效绽放
+#### 镜头 19（真实系统退款与工会救助短信·现实主义神圣转折）
+* **镜头类型**：特写（Close-up） / 手机屏幕真实微距
 * **时长**：6 秒
-* **AI 画面提示词（Prompt）**：
-  > **中文**：老刘手机屏幕猛然亮起整屏的暖金色专属全屏通知！屏幕中央闪烁着金色勋章图标，清晰显示：“刘长贵师傅：第 7 张超时罚单已撤销！全额退还扣款！授予‘见义勇为城市先锋’称号，专项救助基金 100,000 元已到账！”手机屏幕光照亮了老刘通红的眼眶，光芒神圣温暖。  
-  > **英文**：`Extreme close-up of rider's smartphone screen erupting in radiant golden UI celebration. Golden medal badge icon with official notification text: 'Master Liu Changgui: Beyond the Algorithm Has Been Officially Revoked! All Deductions Refunded! Awarded City Hero Title & 100,000 RMB Medical Aid Fund Deposited!'. Golden glow illuminating Lao Liu's tearful widening eyes, cinematic wonder, 16:9.`
+* **AI 画面提示词（Prompt 归档·彻底消除手游金牌与夸张天降巨款）**：
+  > **中文（严禁手游爆闪金光/金色勋章，必须是真实骑手端 APP 界面与政务救助短信）**：特写老刘那只粗糙、布满老茧与裂纹的大手握着旧智能手机。清晨街头天光下，手机屏幕亮起真实的骑手端系统消息卡片（白底深灰字+醒目绿色勾选标识）：  
+  > `【系统消息：异常订单申诉已通过】`  
+  > `订单编号：8092（特大暴雨夜）`  
+  > `判定规则：依据《算法突发紧急救助免责机制（试行）》`  
+  > `审核结论：【确认见义勇为紧急避险】，免除全部超时扣罚`  
+  > `处理结果：扣除款项 200.00 元已全额退回零钱账户，账号限制已解除，恢复正常派单`  
+  > 紧接着，屏幕顶端滑入一条真实的工会与基金会短信横幅：“【市总工会·见义勇为基金会】刘长贵同志，您的紧急救助事迹已核准，新业态劳动者大病帮扶绿色通道已对接医院……”。没有夸张特效，晨光柔和反射在带有轻微划痕的手机屏幕上，写实电影感，16:9。  
+  > **英文**：`Close-up shot of weathered, calloused hands holding an ordinary smartphone with scratched screen under crisp morning daylight. Screen displays a clean, authentic delivery rider app system notification: 'Appeal Approved: Order 8092 recognized as Emergency Good Samaritan Rescue. Timeout penalty waived. 200.00 RMB fully refunded to balance. Account restored to normal dispatch.' A realistic SMS notification banner slides in from top: 'Municipal Trade Union: Medical green channel opened for your family.' Natural morning reflections on screen, authentic documentary anime realism, Makoto Shinkai style, 16:9.`
 * **配音 / 画外音（VO）**：
-  * **系统语音播报（温暖洪亮、充满敬意）**：“刘长贵师傅，您的英勇善举已被国家及平台荣誉库永久收录！系统已撤销您的第七张罚单并恢复全部权益！感谢您，用双手托起了这座城市的温度！”
+  * **（无夸张机器女声大喇叭播报，纯写实环境声与清脆提示音，克制而高级）**
 * **音效 & BGM**：
-  * **音效**：激昂温暖的系统成就音效。
+  * **音效**：手机连震两下（嗡——嗡——），随之一声清脆真实的系统短消息提示音（叮！）。
+  * **BGM**：悠长温润的单簧管与大提琴缓缓流淌，温情脉脉。
 
 ---
 
-#### 镜头 20（老刘落泪·淳朴的笑容）
+#### 镜头 20（老刘释怀落泪·重拾尊严与生机）
 * **镜头类型**：特写（Close-up） / 面部特写
 * **时长**：5 秒
 * **AI 画面提示词（Prompt）**：
-  > **中文**：老刘的面部特写。眼泪从他饱经风霜布满皱纹的眼角滑落，但他嘴角却绽放出无比踏实、灿烂、淳朴的笑容。他颤抖着把手机紧紧按在胸前，然后郑重地扣好安全头盔，眼神中重新燃起了对生活的尊严与希望，光影柔和细腻。  
-  > **英文**：`Close-up portrait of Lao Liu. Tears of profound relief and gratitude streaming down his weathered wrinkled cheeks, breaking into a deeply honest, radiant and humble smile. He presses the glowing phone tenderly against his chest, then solemnly straps on his yellow helmet, eyes full of renewed dignity and life, soft golden cinematic rim light, 16:9.`
+  > **中文**：老刘的面部特写。他看着手机屏幕上退回来的“+200.00元”和救助短信，整个人愣住了数秒。干裂起皮的嘴唇微微颤抖，眼圈逐渐通红，热泪在眼眶中打转，却没有嚎啕大哭，而是用粗糙的棉袄衣袖狠狠揩了一把眼角，长长吐出一口积压在心口数日的沉重浊气。他的嘴角渐渐浮现出一抹久违的、踏实、释怀而淳朴的笑容。他将手机小心翼翼揣进贴胸内兜，双手重新拿起黄色头盔，郑重扣好卡扣。晨光勾勒出他两鬓白发，充满普通劳动者不屈的生命力与尊严感。  
+  > **英文**：`Close-up emotional portrait of Lao Liu, 48yo delivery rider. Staring at the 200 RMB refund on screen in disbelief, his weathered wrinkled face softens. Tears well up in his red tired eyes, but instead of sobbing, he takes a deep, cathartic breath, wiping his eyes with his worn sleeve, breaking into a humble, profoundly relieved smile of genuine dignity. He carefully pockets the phone, picks up his yellow scratched helmet with rough hands and firmly clicks the strap. Golden morning rim light catching his grey temples, deeply human, emotional anime realism, 16:9.`
 * **配音 / 画外音（VO）**：
-  * **老刘（带哭腔的淳朴笑声）**：“哎！……有救了……小孙女有救了！”
+  * **老刘（带轻微哽咽、长舒一口气的释怀笑意）**：“……（长吐一口气，吸了下鼻尖）回来了……这回规矩讲道理了……小孙女有救了……”
 * **音效 & BGM**：
-  * **音效**：头盔卡扣扣紧的清脆“咔哒”声，拧动车把启动电动车的轻微马达声。
+  * **音效**：沉重的呼气声、头盔卡扣清脆的“咔哒”锁定声。
 
 ---
 
