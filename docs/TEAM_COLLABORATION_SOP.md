@@ -115,6 +115,26 @@ git push origin main
 
 ---
 
+## ⚠️ 关键衔接注意：Shot 15 开头与第14镜的声画咬合（严禁“实体书本”误区）
+
+> **衔接参考图**：
+> 1. 无字幕高清参考帧：`assets/images/shot_14_ending_transition_reference_clean.jpg`
+> 2. 带字幕终片参考帧：`assets/images/shot_14_ending_transition_reference.jpg`
+
+### 1. 为什么严禁出现“书本”？
+* **真实性考量**：陆远是互联网大厂23岁的算法架构师，这里是深夜紧急整改的技术危机现场。面对总监责难，程序员反戈一击靠的是**工程架构白皮书（硬质工程文件夹 Binder）**、**工位双联大屏/笔记本**、**黑板架构图**，绝不是捧着一本学生课本或装订书送给领导。
+* **情绪承接**：第14镜结尾是王总领带扯散、满头冷汗推开大门大吼：“大老板限你们24小时内把突发救助和免责规则给我糊弄出来交差！”——这是全片危机极点。第15镜一上来必须是**强硬有力的工科反击**，陆远啪的一声重拍工程文件夹，团队全体起立，情绪瞬间咬合！
+
+### 2. Shot 15 精确制作规范（直接用于出图与视频）
+* **镜头类型**：低角度中景（Low Angle Medium Shot） / 稳健推镜（Steady Push-in），时长 6.0 秒。
+* **画面 Prompt（生图/生视频专用）**：
+  `Low angle medium shot, direct visual continuity from Shot 14. In modern IT software engineering center, panicked Director Wang with loosened tie stands in sweat. 23yo Chinese algorithm architect Lu Yuan, wearing black eyeglasses and navy jacket over hoodie, stands up tall and resolute. He firmly slams a thick dark blue technical engineering binder titled 'Algorithm Reform & Worker Rights Architecture' onto the conference desk. Dual glowing monitors behind display neural pipeline blueprints, large whiteboard clearly writes '以人为本' (People-Centered). Surrounding young engineers stand up in solidarity with determined faces. Dramatic cool fluorescent and desk lamp lighting, intense workplace confrontation, heroic anime realism, Makoto Shinkai style, 16:9.`
+* **配音（Edge TTS）**：
+  * 音色：`zh-CN-YunxiNeural`，`rate="+14%"`
+  * 陆远原声：“王总，这不是糊弄公关的时候。国家法律要求我们必须真正以人为本。现在，请把根目录权限交给我们，我们来重构这套底层的规矩！”
+
+---
+
 ## 🎯 四、 芮凯负责镜头速查表（镜头 15 ～ 镜头 23）
 
 * **镜头 15（白板前陆远的掌控大局）**：深夜研发大厅，白板上写着“以人民为中心·发展为了人民”，陆远拍出重构架构图，神情坚定。
