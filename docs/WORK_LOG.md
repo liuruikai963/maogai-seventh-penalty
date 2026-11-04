@@ -255,4 +255,18 @@
     * **协作主创芮凯任务聚焦**：
       1. **前情整体剧情衔接**：基于 Shot 01~14 现存成果，微调镜头转场视听剪辑与情绪节奏；
       2. **全片语音一致性与情绪重构**：统一解决陆远、老刘、王总等核心人物的声线模型一致性与预期语调情绪问题。
-    * 正式更新协同指南 [TEAM_COLLABORATION_SOP.md](file:///d:/study/course/maogai/homework/docs/TEAM_COLLABORATION_SOP.md)。
+  * **14:00 - 15:25 | 概念片头（18.0s）与电影级滚屏片尾（24.0s）全案开发交付**：
+    * **官方双人主角海报合成**：
+      - 基于新海诚写实动漫风格基底，精确定位陆远与老刘中间的晨曦天空（44px / 68px 黄金留白，零重影零遮挡）；
+      - 压制无书名号正统电影标题《算法之外》（80pt 纯白宋体带光学柔影）、英译《BEYOND THE ALGORITHM》（香槟金）、核心口号《算力有极限 · 善意无边界》（朝阳金），导出官方定档海报 [poster_luyuan_laoliu_final.jpg](file:///d:/study/course/maogai/homework/assets/images/poster_luyuan_laoliu_final.jpg)；
+    * **18.0秒打字机概念片头（Intro Title Sequence）全案渲染**：
+      - 第一阶段（0.0s - 7.0s）：机械打字机音效逐字打出课程属性、出品院系（电子信息学院）及主创团队（柳锐凯、芮凯），静止驻留 2.0s 确保评审老师清晰阅读；
+      - 第二阶段（7.0s - 11.0s）：心跳音效与钢琴泛音浮现时代叩问“一代人有一代人的长征”与算法哲思，静止驻留 2.0s；
+      - 第三阶段（11.0s - 18.0s）：低音次声轰鸣震撼亮出官方海报，缓推推进（1.00 -> 1.035），全黑淡出无缝直切 Shot 01；
+      - 导出终成片 [intro_title_sequence.mp4](file:///d:/study/course/maogai/homework/dist/acts/intro_title_sequence.mp4)（18.00s），提交并推送 commit `4758628`；
+    * **24.0秒电影级滚屏片尾与思政理论总结（Outro Credits Sequence）开发交付**：
+      - 编写执行 `build/render_outro_credits.py`，合成温暖大提琴与钢琴和弦渐进背景音乐（`assets/audio/foley/outro_credits_audio_master.wav`）；
+      - 构建 2145px 典雅长画卷，严格落地团队详实分工（导演柳锐凯、编剧柳锐凯+芮凯、1-3幕柳锐凯、4-5幕芮凯、片头/片尾/花絮柳锐凯、配音一致性芮凯）；
+      - 升华毛概思政实践核心寄语（“一代人有一代人的长征”、“发展新质生产力，既要算力效率的锋芒，更要筑牢制度底线的温度”）；
+      - 压制特别鸣谢与致敬新就业形态劳动者；
+      - 导出终成片 [outro_credits_sequence.mp4](file:///d:/study/course/maogai/homework/dist/acts/outro_credits_sequence.mp4)（24.00s，1280x720，24fps），提交并推送 commit `eaf5252`。
