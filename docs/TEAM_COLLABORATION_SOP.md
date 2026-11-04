@@ -1,4 +1,4 @@
-# 《算法之外》AI 微电影全流程协同制作 SOP 指南
+# 《算法之外》AI 微电影全流程协同制作 SOP 与人物防走样指南
 
 > **面向协作主创**：**芮凯**（负责第四幕、第五幕：镜头 15 ～ 镜头 23）  
 > **统筹制作人**：**柳锐凯**（负责第一幕、第二幕、第三幕：镜头 01 ～ 镜头 14）  
@@ -7,142 +7,157 @@
 
 ---
 
-## 📌 一、 核心分工划分表（最新任务分工版）
+## 📌 一、 核心分工与责任边界
 
-> **当前状态**：前三幕（Shot 01 ~ Shot 14，共 16 个镜头，成片时长 3分00秒）已由柳锐凯全量渲染并通过质量验收。现转入新一轮深化制作与呈现分工：
+> **当前全片状态**：前三幕（Shot 01 ~ Shot 14，共 16 个镜头，成片时长 3分00秒）已由柳锐凯全量渲染并通过审核，完成了完整成片母带 `dist/acts/liuruikai_part1_complete_master.mp4`，现已全面进入第四幕与第五幕的冲刺阶段。
 
-| 主创成员 | 核心负责模块 | 涵盖任务与具体内容 | 交付产物与标准 |
+| 主创成员 | 负责范围 | 涵盖镜头 | 核心交付物 |
 | :--- | :--- | :--- | :--- |
-| **柳锐凯**<br>（统筹 / 视效包装 / 理论升华） | **1. 震撼微电影新片头**<br>**2. 结束放映思政总结**<br>**3. AI 制作幕后花絮** | • **全新概念片头（10-15s）**：设计电影级概念片头，呈现雨夜冰冷算法数字矩阵与片名《算法之外》的悬念震撼碰撞。<br>• **放映结束总结（30-40s）**：结合毛概课程核心理论（“以人民为中心”、“算法向善”、“新质生产力不能异化劳动者尊严”），撰写并呈现掷地有声的答辩升华总结与结语。<br>• **幕后制作花絮（45-60s）**：精选从提示词调试、离谱AI废稿对比、音画解耦到团队协同的趣味幕后纪录，全方位展现实践成果与探索历程。 | • `dist/acts/intro_title_sequence.mp4`<br>• `dist/acts/outro_ideological_summary.mp4`<br>• `dist/acts/behind_the_scenes_featurette.mp4` |
-| **芮凯**<br>（叙事打磨 / 视听一致性重构） | **1. 前情整体情节衔接**<br>**2. 全局声音一致性与情绪重构** | • **前情剧情衔接与节奏润色**：基于已完成的 Shot 01~14（3分00秒前三幕），优化各镜头之间的转场视听剪辑（暴雨转晴晨、办公楼转病房），使节奏更加紧凑动人。<br>• **解决全片语音不一致问题**：针对目前不同镜头音频音色漂移、缺乏情绪语气的问题，建立全片统一的人声声线库（陆远、老刘、王总等），使用情绪克隆/高表现力人声完成专业级音画重组。 | • `dist/acts/act1_act3_seamless_v2.mp4`（衔接精剪版）<br>• `assets/audio/voiceovers/master_consistent/`（统一声线库） |
+| **柳锐凯** | **前三幕统筹 + 全局包装** | **Shot 01 ～ 14 + 片头/片尾/花絮** | • `dist/acts/intro_title_sequence.mp4`（18s 正式片头）<br>• `dist/acts/outro_credits_sequence.mp4`（24s 滚动画卷片尾）<br>• `dist/acts/behind_the_scenes_featurette.mp4`（52s 制作花絮与废稿实录） |
+| **芮凯** | **后两幕主创（反转与升华）** | **Shot 15 ～ Shot 22（共 8 个镜头）** | • 8 张 16:9 关键帧原图（`assets/images/shot_15.jpg` ~ `shot_22.jpg`）<br>• 8 段无杂音 Raw 视频（`assets/videos/raw_inputs/shot_15_raw.mp4` 等）<br>• 统一角色音色配音音频与压制成片（`dist/acts/act4_act5_seamless.mp4`） |
 
 ---
-## 📂 二、 资产分类规范与“废稿保留替换”机制（重要铁律）
 
-为了防止文件混乱、丢失灵感或误删历史版本，所有视频资产严格实行**“生肉输入、废稿归档、最终成品”三级分离**，**严禁物理删除任何视频素材**！
+## 🛡️ 二、 人物一致性“防走样”核心图谱（核心铁律）
 
+为了防止人物到了后半段发生“换脸”、“换衣服”、“变画风”的重大脱节，所有生成工具必须**强制使用以下官方锚点图作为首帧/垫图参考**，并**逐字带入人物锁定 Prompt 词组**！
+
+### 1. 男主角【陆远】（贯穿 Shot 15, 16, 17, 21）
+* **角色定位**：23岁互联网大厂大模型算法架构师，理性、内敛、良知未泯的青年知识分子。
+* **官方标准参考图（必须作为垫图）**：
+  * 面部五官与气质基准：[`assets/images/poster_luyuan_laoliu_final.jpg`](file:///d:/study/course/maogai/homework/assets/images/poster_luyuan_laoliu_final.jpg)
+  * 工位与身姿基准：[`assets/images/shot_01.jpg`](file:///d:/study/course/maogai/homework/assets/images/shot_01.jpg)
+  * 服装全身基准：[`assets/images/shot_10a2_luyuan_running_to_office.jpg`](file:///d:/study/course/maogai/homework/assets/images/shot_10a2_luyuan_running_to_office.jpg)
+* **固定外貌特征**：
+  * **发型五官**：短碎黑发、干净清爽；**必戴黑色方形半框眼镜**；冷白肤色，神情沉着冷静。
+  * **固定服装（绝对严禁更换）**：**深灰色连帽卫衣（内搭） + 藏青色休闲夹克（外穿，Navy Blue Jacket）** + 深黑休闲长裤 + 深色运动鞋。
+* **严禁出现的走样情况**：
+  * ❌ 严禁穿西装打领带（那是王总的着装！）；
+  * ❌ 严禁摘掉眼镜或变成金丝眼镜；
+  * ❌ 严禁生成日系非主流黄发或夸张发型。
+* **必带英文锁定 Prompt 锚块**：
+  > `Strict Character Lock: Lu Yuan, 23-year-old Chinese male software architect, short neat black hair, black rimmed eyeglasses, wearing dark grey casual hoodie under navy blue jacket, dark trousers, slender build, calm and resolute facial expression, Makoto Shinkai anime realism, 16:9.`
+
+---
+
+### 2. 底层骑手【老刘】（贯穿 Shot 18, 19, 20, 21, 22）
+* **角色定位**：48岁老实本分的外卖骑手，孙女患病，为治病拼命送单的老父亲。
+* **官方标准参考图（必须作为垫图）**：
+  * 面部特写与沧桑感基准：[`assets/images/poster_luyuan_laoliu_final.jpg`](file:///d:/study/course/maogai/homework/assets/images/poster_luyuan_laoliu_final.jpg)
+  * 工服质感与电动车基准：[`assets/images/scene_optimization_shot06_subway_v2.jpg`](file:///d:/study/course/maogai/homework/assets/images/scene_optimization_shot06_subway_v2.jpg)
+  * 手部与手机特写基准：[`assets/images/shot_09b2_phone_er_corridor.jpg`](file:///d:/study/course/maogai/homework/assets/images/shot_09b2_phone_er_corridor.jpg)
+* **固定外貌特征**：
+  * **发型五官**：两鬓花白凌乱，皮肤黝黑粗糙，眼角有明显皱纹，眼神疲倦但纯善；嘴唇干裂；手掌粗糙带有老茧和泥污。
+  * **固定服装（绝对严禁更换）**：**磨损褪色的黄色外卖冲锋衣工服（胸前与背后带有反光银条，衣服上有深色油污和雨水痕迹）** + 深灰色旧工装裤 + 劳保短靴。
+  * **固定道具**：**黄色老旧半盔（表面有划痕与褪色贴纸）**，旧款黑色踏板电动车（带方形保温箱）。
+* **严禁出现的走样情况**：
+  * ❌ 严禁生成 20 多岁的年轻帅哥外卖员；
+  * ❌ 严禁外卖服变成崭新发亮的亮黄色无污渍制服；
+  * ❌ 严禁佩戴赛博朋克发光头盔。
+* **必带英文锁定 Prompt 锚块**：
+  > `Strict Character Lock: Lao Liu, 48-year-old Chinese food delivery rider, weathered wrinkled face with greying temples, tired kind eyes, rough calloused hands, wearing faded worn yellow food delivery jacket with silver reflective stripes and faint stains, dark grey work pants, weathered yellow motorcycle helmet nearby, Makoto Shinkai anime realism, 16:9.`
+
+---
+
+### 3. 反派高管【王总】（出现在 Shot 15）
+* **角色定位**：40岁平台运营总监，信奉唯效率论的资本高管。
+* **官方标准参考图（衔接帧）**：
+  * 状态基准（领带扯散、满头大汗）：[`assets/images/shot_14_ending_transition_reference_clean.jpg`](file:///d:/study/course/maogai/homework/assets/images/shot_14_ending_transition_reference_clean.jpg)
+* **固定外貌特征**：
+  * **发型五官**：梳着油光水滑的背头短发，但此时**满头冷汗直淌，头发微乱，面色惨白惊慌**。
+  * **固定服装**：高端定制藏青色商务西装、白衬衫、**领带已被扯松歪斜、领口解开一颗纽扣**、手腕戴金边手表。
+* **必带英文锁定 Prompt 锚块**：
+  > `Strict Character Lock: Director Wang, 40-year-old Chinese corporate director, slicked-back hair slightly disheveled, sweat dripping from forehead, tailored navy business suit, white shirt with unbuttoned collar, loosened striped tie, panicked and frantic expression, Makoto Shinkai anime realism, 16:9.`
+
+---
+
+## ⚡ 三、 关键衔接点：Shot 14 ➔ Shot 15 严丝合缝接棒规范
+
+> ⚠️ **高危预警：彻底消除“给到实体书本”误区！**  
+> 很多 AI 模型会将“方案/白皮书”错误理解成“学生课本、厚厚精装书”。在深夜互联网大厂紧急整改的技术危机现场，**算法架构师绝对不会像学生交作业一样递上一本书**！这会导致专业感瞬间崩塌、情绪断崖。
+
+### 1. 视听咬合关系
+* **前序第 14 镜结尾（已定稿成片）**：
+  王总满头冷汗推开机房大门，手机狂响，大吼：*“陆远！联合调查组进驻了！大老板说了，限你们24小时内，把突发救助和免责规则给我糊弄出来交差！”*
+* **接棒第 15 镜开头（必须无缝承接）**：
+  镜头切入研发大厅低角度中景。陆远面对气喘吁吁的王总霍然起立，**单手啪的一声将深蓝色硬质《算法架构重构与劳动者保障技术白皮书》（文件夹/Binder）重重拍在会议桌上**！身旁双联屏幕亮起红蓝对比的全新架构解耦图，大白板上工整书写着“以人为本，技术向善”，团队年轻工程师齐刷刷起立支援陆远！
+
+### 2. Shot 15 官方标准生图/生视频 Prompt
 ```text
-homework/
-├── assets/
-│   ├── images/                         # 1080P 高清关键帧参考图（.jpg）
-│   ├── audio/                          # 角色配音原声、环境音效与 BGM（.mp3）
-│   └── videos/
-│       ├── raw_inputs/                 # 【原始素材库】Gemini / Veo 生成的生肉视频（无配音/带原生拟音）
-│       │   ├── shot_01_macro_city_to_lu_yuan_monologue.mp4 [ACTIVE]
-│       │   ├── shot_02_lao_liu_scooter_rain.mp4            [ACTIVE]
-│       │   ├── shot_03_phone_countdown.mp4                 [ACTIVE]
-│       │   └── ...
-│       └── archive_scrapped/           # 【废稿与备选库】历史版本、测试稿、淘汰稿（做清晰标记，绝不删除！）
-│           ├── shot_02_vo_v1_pre_character_intro.mp4       [TAG: SCRAPPED_PRE_INTRO] (无自我介绍旧版)
-│           ├── act1_opening_20s_v1_pre_shot03.mp4          [TAG: SCRAPPED_PRE_SHOT03] (仅前两镜旧拼接)
-│           ├── act1_seamless_30s_v1_pre_intro.mp4          [TAG: SCRAPPED_PRE_INTRO] (旧版30秒切片)
-│           └── ... (如果生成了不满意的视频，重命名为 scrapped_shot_xx_原因.mp4 移入此处)
-├── build/                              # 自动化 Python / FFmpeg 渲染脚本
-└── dist/                               # 【最终成品交付库】
-    ├── shots/                          # 各分镜单独合成成片（已精确挂接配音、音效与双语/中文字幕）
-    │   ├── shot_01_final.mp4
-    │   ├── shot_02_final.mp4
-    │   └── shot_03_final.mp4
-    ├── acts/                           # 各幕无缝连贯最终成片
-    │   ├── act1_seamless_31s_final.mp4
-    │   ├── act2_seamless_final.mp4     (待生成)
-    │   └── ...
-    └── final_film/                     # 全片总成片（待全片连缀）
+Low angle medium shot, direct visual continuity from Shot 14. In modern IT software engineering center, panicked Director Wang with loosened tie stands in sweat. 23yo Chinese algorithm architect Lu Yuan, wearing black eyeglasses and navy jacket over hoodie, stands up tall and resolute. He firmly slams a thick dark blue technical engineering binder titled 'Algorithm Reform & Worker Rights Architecture' onto the conference desk. Dual glowing monitors behind display neural pipeline blueprints, large whiteboard clearly writes '以人为本' (People-Centered). Surrounding young engineers stand up in solidarity with determined faces. Dramatic cool fluorescent and desk lamp lighting, intense workplace confrontation, heroic anime realism, Makoto Shinkai style, 16:9.
 ```
-
-> 💡 **废稿替换操作准则**：  
-> 当你生成了一个新版本的视频替换旧版本时：  
-> 1. 将旧视频移入 `assets/videos/archive_scrapped/`，文件名加上版本号与淘汰原因（如 `shot_15_v1_too_sci-fi.mp4`）；  
-> 2. 将满意的新视频放入 `assets/videos/raw_inputs/shot_15_raw.mp4`；  
-> 3. 在 `assets/ASSET_MANIFEST.md` 中更新标签状态。这样未来任何时候若需回退或挑取局部镜头，都能一键替换！
 
 ---
 
-## 🛠️ 三、 芮凯实操步骤指南（一步一动 SOP）
+## 🎬 四、 芮凯负责镜头逐镜制作手册（Shot 15 ～ 22）
 
-### 第一步：查阅分镜原图与提示词规范
-* 打开 `scripts/ai_video_production_script.md`，定位到自己负责的镜头（Shot 15 ～ Shot 23）。
-* 牢记**美术铁律**：新海诚现代写实动漫风（Makoto Shinkai Anime Realism）。**坚决拒绝赛博朋克霓虹悬浮屏、太空舱等脱离现实的虚假科幻元素！** 一切必须扎根于真实的现代中国企业办公楼、真实居民楼与现代都市。
-* **角色特征锚定词（必须严格带入 Prompt）**：
-  * **男主【陆远】**：`Lu Yuan, 23-year-old Chinese male software engineer, short neat black hair, black rimmed eyeglasses, wearing dark grey casual hoodie and navy blue jacket, slender build.`
-  * **骑手【老刘】**：`Lao Liu, 48-year-old Chinese food delivery rider, weathered face with wrinkles and kind tired eyes, slightly hunched back, wearing a faded and worn yellow food delivery uniform and reflective vest, rough hands.`
-  * **高管【王总】**：`Director Wang, 40-year-old Chinese corporate director, slicked-back combed hair, tailored navy blue business suit, gold-rimmed watch.`
+### 镜头 15（6秒）：陆远掌控全场·工科男硬核反击
+* **出场人物**：陆远（藏青夹克卫衣）、王总（冷汗领带散）、工程师群像。
+* **核心动作**：重重摔下深蓝色技术文件夹，双联屏幕亮起架构，全员起立。
+* **配音（陆远，YunxiNeural）**：“王总，这不是糊弄公关的时候。国家法律要求我们必须真正以人为本。现在，请把根目录权限交给我们，我们来重构这套底层的规矩！”
 
-### 第二步：生成 16:9 关键帧原图并审核
-* 为 Shot 15~22 依次生成 16:9 高清关键帧原图，保存至 `assets/images/shot_xx.jpg`。
-* 检查画面空间透视（例如：工位电脑显示真实 VS Code 与运管 Web 后台，老人家中为真实简陋客厅水泥地）。
-* 确认画风写实自然、角色五官发型一致。
+### 镜头 16（6秒）：深夜代码战·指尖上的新长征
+* **出场人物**：青年程序员群像、陆远专注敲击键盘侧影。
+* **核心动作**：机械键盘敲击特写、屏幕上疾速滚动的 Python/Rust 代码流，核心高亮显示：  
+  `def evaluate_humanity_exception(rider_event): status = EXEMPT_PENALTY`  
+  热咖啡冒着蒸汽，窗外暴雨渐止。
+* **配音（陆远画外独白，YunxiNeural）**：“我们这代人寒窗苦读，不是为了写出一串代码去算计风雨里的父辈。把‘人’的尊严写进规则，就是我们青年工程师的长征！”
 
-### 第三步：输入 Gemini / Veo 进行“图生视频”（Image-to-Video）
-1. 打开 Gemini / Google Veo 创作界面；
-2. **上传第一步生成的对应 `shot_xx.jpg` 作为首帧参考图**；
-3. **输入对应的动态运镜 Prompt**（参考 `ai_video_production_script.md` 中的英文动态提示词，控制镜头推进、光影变化或人物动作）；
-4. 视频时长控制在 5~8 秒左右，画幅必须为 **16:9（1280×720 或 1920×1080），24fps**；
-5. 生成完成后下载，重命名规范放入 `assets/videos/raw_inputs/` 目录下。
+### 镜头 17（5秒）：晨光破晓·人性协议加载成功
+* **出场人物**：陆远（疲惫但微笑）、研发大厅全景。
+* **核心动作**：第一缕金灿灿朝阳穿透大落地窗，照亮陆远的镜片与脸庞。主控屏幕弹出温润绿色弹窗：`System Deployment Successful: Humanity Protocol Loaded`（新一代以人为本调度系统已上线，已加载【恶劣天气弹性时长】与【突发救助一键免责机制】）。
+* **配音（系统女声，XiaoxiaoNeural）**：“新一代以人为本调度系统已上线，全网规则同步完毕。”
 
-### 第四步：使用 Edge TTS 生成高品质中文配音
-我们全片统一使用微软官方 Edge TTS 深度神经网络音色，免安装即用。在终端或 Python 中运行：
+### 镜头 18（4秒）：老刘落寞撕下外卖箱贴纸
+* **出场人物**：老刘（黄色旧工服、头盔放在脚边）。
+* **核心动作**：清晨冷清的路边，老刘坐在破旧电动车后座，神色暗淡衰老，粗糙的手默默撕下外卖箱上卷边的平台贴纸，心灰意冷准备退行。
+* **配音**：无对白，仅有早晨微风与撕贴纸的沙沙声，凄凉沉郁。
 
-| 角色 / 场景 | 推荐神经网络音色 | 语速与音调调节 | 角色气质特征 |
+### 镜头 19（6秒）：手机爆闪暖金色专属通报（神圣转折）
+* **出场人物**：老刘粗糙满是老茧的手部特写、手机屏幕。
+* **核心动作**：老刘手中的旧手机突然剧烈震动，屏幕爆发出**暖金色的官方表彰界面**，中间浮现闪闪发光的见义勇为金色徽章，文字清晰工整：  
+  *“刘长贵师傅：您的第7张超时罚单已全面撤销！所有扣款全部原路退回！特授予‘见义勇为先锋骑手’称号，专项医疗救助基金 100,000 元已汇入您的账户！”*
+* **配音（系统温暖女声，XiaoxiaoNeural）**：“刘师傅，平台与全社会感谢您在暴雨夜托起了一条生命！谢谢您！”
+
+### 镜头 20（5秒）：老刘落泪·朴实欣慰的笑容
+* **出场人物**：老刘（面部特写）。
+* **核心动作**：老刘眼圈通红，热泪夺眶而出，颤抖着用袖口擦去眼泪，露出极为欣慰、憨厚而朴实的笑容。他紧紧把手机贴在心口，随后郑重地双手拿起黄色头盔扣好卡扣！
+* **配音（老刘哽咽，YunjianNeural）**：“（吸鼻涕微哽咽）小孙女……有救了……好人……真的有好报啊……”
+
+### 镜头 21（5秒）：晨光斑马线·隔空致意（阶层和解）
+* **出场人物**：老刘（骑在车上戴黄头盔）、陆远（藏青夹克黑框眼镜）。
+* **核心动作**：清晨阳光斑驳的城市十字路口。老刘在斑马线前停着等红灯；路边买早餐走过来的陆远正好停下脚步转过头，两人的视线在晨曦中相撞。两人没有说一句话，只是隔着人群相视一笑。
+* **核心寓意**：脑力劳动者与体力劳动者在此刻相互尊重、精神相通。
+
+### 镜头 22（8秒）：宏大升华·驶向阳光的新长征（全片大终局）
+* **出场人物**：老刘、千千万万骑手与早班劳动者、朝阳都市。
+* **核心动作**：电影级大远景航拍慢速拉升！老刘拧动油门，与成百上千穿着黄色、蓝色骑手服的外卖员、环卫工人和普通奋斗者并肩驶入被金红色朝阳洒满的宽阔大道。
+* **配音（陆远宏亮升华独白，全片核心理论高潮）**：  
+  *“几十年前，我们的父辈在雪山草地、在风雨兼程中建立新中国；今天，在数字时代的新长征路上，技术绝不能异化为冰冷吃人的工具。让每一次劳动被看见、让每一个普通人被尊重——这就是我们这一代人的回答！”*
+
+---
+
+## 🎙️ 五、 全片统一人声配音规范（Edge TTS 必用参数）
+
+为了杜绝声音忽男忽女、音色漂移，后半段配音一律使用统一音色：
+
+| 角色 | 官方指定音色 | 推荐参数 | 角色特征与语气要求 |
 | :--- | :--- | :--- | :--- |
-| **男主陆远** | `zh-CN-YunxiNeural` | `rate="+14%"` | 理性、深思、富有良知的青年知识分子 |
-| **骑手老刘** | `zh-CN-YunjianNeural` | `rate="+16%", pitch="-1Hz"` | 沧桑、沙哑、忠厚朴实的底层老父亲质感 |
-| **平台系统音** | `zh-CN-XiaoxiaoNeural` | `rate="+25%", pitch="+4Hz"` | 冰冷、刺耳、毫无感情的机械算力女声 |
-| **官方新闻通报** | `zh-CN-YunyangNeural` | `rate="+5%"` | 庄重、权威、浩然正气的国家新闻主播音 |
+| **陆远** | `zh-CN-YunxiNeural` | `rate="+14%"` | 坚定、沉稳、充满理想主义与正义感的工科青年 |
+| **老刘** | `zh-CN-YunjianNeural` | `rate="+16%", pitch="-1Hz"` | 沧桑沙哑、忠厚纯朴的底层老父亲质感 |
+| **平台系统音** | `zh-CN-XiaoxiaoNeural` | `rate="+25%", pitch="+4Hz"` | 温暖、柔和、清晰治愈的系统女声 |
 
-*参考生成 Python 代码*：
-```python
-import asyncio, edge_tts
+---
 
-text = "今晚，我们要把良知与劳动者的尊严，正式编译进系统的底层规则！"
-asyncio.run(edge_tts.Communicate(text, "zh-CN-YunxiNeural", rate="+14%").save("assets/audio/shot_15_luyuan.mp3"))
-```
+## 📦 六、 Git 规范提交与流水线交割
 
-### 第五步：运行脚本完成混音、字幕压制与成片连贯
-参考工程内现成的 `build/render_act1_with_character_intros.py`：
-* 脚本会自动读取 raw 视频与音频；
-* 自动使用微软雅黑加粗字体（`C:/Windows/Fonts/msyhbd.ttc`）压制带黑边的电影级居中字幕；
-* 将原生环境拟音（0.35倍音量）与声优配音（1.65倍音量）完美混音；
-* 导出各镜头成片至 `dist/shots/`，并硬切无缝连缀为整幕大片至 `dist/acts/`。
-
-### 第六步：Git 协同提交
-每完成一个镜头的生成或测试，使用 Git 规范推送至 GitHub 仓库：
+芮凯完成关键帧或生成视频后，请按标准执行提交：
 ```bash
-git add assets/ docs/ dist/
-git commit -m "feat(act4): add shot 15-16 keyframes and raw video clips"
+# 1. 提交新生成的图片与视频素材
+git add assets/images/ assets/videos/raw_inputs/
+git commit -m "feat(act4-5): add shot 15-22 keyframes and raw clips"
+
+# 2. 推送至远程仓库
 git push origin main
 ```
-
----
-
-## ⚠️ 关键衔接注意：Shot 15 开头与第14镜的声画咬合（严禁“实体书本”误区）
-
-> **衔接参考图**：
-> 1. 无字幕高清参考帧：`assets/images/shot_14_ending_transition_reference_clean.jpg`
-> 2. 带字幕终片参考帧：`assets/images/shot_14_ending_transition_reference.jpg`
-
-### 1. 为什么严禁出现“书本”？
-* **真实性考量**：陆远是互联网大厂23岁的算法架构师，这里是深夜紧急整改的技术危机现场。面对总监责难，程序员反戈一击靠的是**工程架构白皮书（硬质工程文件夹 Binder）**、**工位双联大屏/笔记本**、**黑板架构图**，绝不是捧着一本学生课本或装订书送给领导。
-* **情绪承接**：第14镜结尾是王总领带扯散、满头冷汗推开大门大吼：“大老板限你们24小时内把突发救助和免责规则给我糊弄出来交差！”——这是全片危机极点。第15镜一上来必须是**强硬有力的工科反击**，陆远啪的一声重拍工程文件夹，团队全体起立，情绪瞬间咬合！
-
-### 2. Shot 15 精确制作规范（直接用于出图与视频）
-* **镜头类型**：低角度中景（Low Angle Medium Shot） / 稳健推镜（Steady Push-in），时长 6.0 秒。
-* **画面 Prompt（生图/生视频专用）**：
-  `Low angle medium shot, direct visual continuity from Shot 14. In modern IT software engineering center, panicked Director Wang with loosened tie stands in sweat. 23yo Chinese algorithm architect Lu Yuan, wearing black eyeglasses and navy jacket over hoodie, stands up tall and resolute. He firmly slams a thick dark blue technical engineering binder titled 'Algorithm Reform & Worker Rights Architecture' onto the conference desk. Dual glowing monitors behind display neural pipeline blueprints, large whiteboard clearly writes '以人为本' (People-Centered). Surrounding young engineers stand up in solidarity with determined faces. Dramatic cool fluorescent and desk lamp lighting, intense workplace confrontation, heroic anime realism, Makoto Shinkai style, 16:9.`
-* **配音（Edge TTS）**：
-  * 音色：`zh-CN-YunxiNeural`，`rate="+14%"`
-  * 陆远原声：“王总，这不是糊弄公关的时候。国家法律要求我们必须真正以人为本。现在，请把根目录权限交给我们，我们来重构这套底层的规矩！”
-
----
-
-## 🎯 四、 芮凯负责镜头速查表（镜头 15 ～ 镜头 23）
-
-* **镜头 15（白板前陆远的掌控大局）**：深夜研发大厅，白板上写着“以人民为中心·发展为了人民”，陆远拍出重构架构图，神情坚定。
-* **镜头 16（团队通宵重构底层算法）**：群像镜头，键盘声连绵，青年程序员们合力修改“恶劣天气弹性时长”与“突发救助豁免通道”。
-* **镜头 17（晨光破晓照亮机房代码）**：第一缕金色晨光穿透大厂落地窗，陆远屏幕闪烁 `Humanity Protocol Loaded`（人性协议已加载）。
-* **镜头 18（老刘落寞撕下外卖箱贴纸）**：清晨街头，老刘坐在旧电动车上，神色落寞地撕下车贴准备告别职业。
-* **镜头 19（手机金色通知·撤销罚单与救助）**：老刘手机爆闪整屏暖金色庆祝通知：第七张罚单已撤销，恢复接单，授予城市先锋称号，全额资助孙女治疗费！
-* **镜头 20（老刘落泪·朴实欣慰的笑容）**：老刘热泪盈眶，颤抖着把手机贴在胸口，随后郑重扣紧头盔，重燃希望。
-* **镜头 21（晨光斑马线·隔空致意）**：十字路口，老刘等红灯，对面买早餐的陆远与老刘目光相遇，两人隔空相视一笑。
-* **镜头 22（终局升华·驶向阳光的长征）**：大俯瞰慢升镜头，老刘驶向朝阳洒满金光的大道，千千万万普通劳动者并肩前行，陆远画外音点题升华当代青年新长征！
-* **镜头 23（片尾演职员表）**：黑底金色楷体大字滚动演职员表（主创：柳锐凯、芮凯；指导课程：毛概微电影实践）。
+若有任何生成疑问或镜头拼接问题，随时在仓库 Issue 或群内沟通，柳锐凯统筹端随时提供混音与压制支持！
