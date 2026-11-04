@@ -1,4 +1,4 @@
-# 《第七张罚单》AI 微电影逐镜头生产脚本（AIGC Production Script）
+# 《算法之外》AI 微电影逐镜头生产脚本（AIGC Production Script）
 
 > **作品类型**：思政 AI 微电影（时长约 5~6 分钟）  
 > **视觉基调**：高质感现代写实动漫 / 影视概念艺术风格（Makoto Shinkai Anime Realism / 2.5D Cel-Shaded）  
@@ -430,7 +430,7 @@ ightarrow$ 暴雨倾盆、远雷轰鸣、塑料外卖袋摩擦声。
 * **时长**：6 秒
 * **AI 画面提示词（Prompt）**：
   > **中文**：老刘手机屏幕猛然亮起整屏的暖金色专属全屏通知！屏幕中央闪烁着金色勋章图标，清晰显示：“刘长贵师傅：第 7 张超时罚单已撤销！全额退还扣款！授予‘见义勇为城市先锋’称号，专项救助基金 100,000 元已到账！”手机屏幕光照亮了老刘通红的眼眶，光芒神圣温暖。  
-  > **英文**：`Extreme close-up of rider's smartphone screen erupting in radiant golden UI celebration. Golden medal badge icon with official notification text: 'Master Liu Changgui: The 7th Penalty Ticket Has Been Officially Revoked! All Deductions Refunded! Awarded City Hero Title & 100,000 RMB Medical Aid Fund Deposited!'. Golden glow illuminating Lao Liu's tearful widening eyes, cinematic wonder, 16:9.`
+  > **英文**：`Extreme close-up of rider's smartphone screen erupting in radiant golden UI celebration. Golden medal badge icon with official notification text: 'Master Liu Changgui: Beyond the Algorithm Has Been Officially Revoked! All Deductions Refunded! Awarded City Hero Title & 100,000 RMB Medical Aid Fund Deposited!'. Golden glow illuminating Lao Liu's tearful widening eyes, cinematic wonder, 16:9.`
 * **配音 / 画外音（VO）**：
   * **系统语音播报（温暖洪亮、充满敬意）**：“刘长贵师傅，您的英勇善举已被国家及平台荣誉库永久收录！系统已撤销您的第七张罚单并恢复全部权益！感谢您，用双手托起了这座城市的温度！”
 * **音效 & BGM**：
@@ -484,7 +484,7 @@ ightarrow$ 暴雨倾盆、远雷轰鸣、塑料外卖袋摩擦声。
 #### 镜头 23（片尾淡出·演职员表）
 * **时长**：5 秒
 * **画面**：黑底金字，滚动显示：
-  * 片名：《第七张罚单》
+  * 片名：《算法之外》
   * 《毛泽东思想和中国特色社会主义理论体系概论》课程实践微电影
   * **主创制作人员**：柳锐凯、芮凯
   * **主题**：算法向善 · 以人为本 · 一代人有一代人的长征
