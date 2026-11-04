@@ -152,6 +152,8 @@ credits_script = [
     ('foot', "课程指导老师  ·  全体授课同窗"),
     ('space', 10),
     ('foot', "致敬全国每一位风雨无阻的新就业形态劳动者"),
+    ('space', 10),
+    ('foot', "特别致谢 Gemini 与 ChatGPT 的鼎力支持"),
     ('space', 25),
     ('foot', "电子信息学院《算法之外》主创团队 · 敬献"),
     ('space', 350) # Bottom padding so it rolls off gracefully
