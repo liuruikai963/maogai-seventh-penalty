@@ -71,20 +71,18 @@
 
 ---
 
-## ⚡ 三、 关键衔接点：Shot 14 ➔ Shot 15 严丝合缝接棒规范
+## ⚡ 三、 关键衔接点：Shot 14 ➔ Shot 15 严丝合缝同场景接棒规范
 
-> ⚠️ **高危预警：彻底消除“给到实体书本”误区！**  
-> 很多 AI 模型会将“方案/白皮书”错误理解成“学生课本、厚厚精装书”。在深夜互联网大厂紧急整改的技术危机现场，**算法架构师绝对不会像学生交作业一样递上一本书**！这会导致专业感瞬间崩塌、情绪断崖。
+> **同场景铁律（绝不换房间）**：  
+> • 第 14 镜：王总在自己的高管办公室（`assets/images/shot_14.jpg`），大屏显示股价暴跌 -24.8%，桌上咖啡打翻，电话被打爆，满头虚汗瘫坐在真皮大班椅上瑟瑟发抖。删去跑出办公室的多余动作！  
+> • 第 15 镜：空间 100% 保持在王总高管办公室！陆远推开玻璃门大步跨入，身姿挺拔如松，将深蓝色《算法架构重构与劳动者保障白皮书》（深蓝色硬质工程文件夹）重重拍在王总桌前！正面压制：“王总，联合调查组已经到了。这不是糊弄公关的时候。请把权限交给我们！”
 
-### 1. 视听咬合关系
-* **前序第 14 镜结尾（已定稿成片）**：
-  王总满头冷汗推开机房大门，手机狂响，大吼：*“陆远！联合调查组进驻了！大老板说了，限你们24小时内，把突发救助和免责规则给我糊弄出来交差！”*
-* **接棒第 15 镜开头（必须无缝承接）**：
-  镜头切入研发大厅低角度中景。陆远面对气喘吁吁的王总霍然起立，**单手啪的一声将深蓝色硬质《算法架构重构与劳动者保障技术白皮书》（文件夹/Binder）重重拍在会议桌上**！身旁双联屏幕亮起红蓝对比的全新架构解耦图，大白板上工整书写着“以人为本，技术向善”，团队年轻工程师齐刷刷起立支援陆远！
+### 1. 对应基准关键帧
+* 衔接原图：`assets/images/shot_15.jpg`（已定稿入库）
 
-### 2. Shot 15 官方标准生图/生视频 Prompt
+### 2. Shot 15 官方标准 Prompt
 ```text
-Low angle medium shot, direct visual continuity from Shot 14. In modern IT software engineering center, panicked Director Wang with loosened tie stands in sweat. 23yo Chinese algorithm architect Lu Yuan, wearing black eyeglasses and navy jacket over hoodie, stands up tall and resolute. He firmly slams a thick dark blue technical engineering binder titled 'Algorithm Reform & Worker Rights Architecture' onto the conference desk. Dual glowing monitors behind display neural pipeline blueprints, large whiteboard clearly writes '以人为本' (People-Centered). Surrounding young engineers stand up in solidarity with determined faces. Dramatic cool fluorescent and desk lamp lighting, intense workplace confrontation, heroic anime realism, Makoto Shinkai style, 16:9.
+Low angle medium shot inside Director Wang's corner executive office, direct spatial continuity from shot_14. Stormy lightning outside window, large monitor displaying '-24.8%' red stock crash. Panicked Director Wang with loosened tie cowering back in chair. 23yo software architect Lu Yuan, wearing black eyeglasses and navy jacket over dark grey hoodie, stands tall across the desk, firmly slamming a thick dark blue technical binder titled 'Algorithm Reform & Worker Rights Architecture' onto the mahogany desk. Cool cinematic lighting, intense confrontation, Makoto Shinkai anime realism, 16:9.
 ```
 
 ---

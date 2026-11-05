@@ -346,42 +346,46 @@ ightarrow$ 暴雨倾盆、远雷轰鸣、塑料外卖袋摩擦声。
 
 ---
 
-#### 镜头 14（资本慌乱·王总的仓皇破防）
-* **镜头类型**：特写（Close-up） / 晃动镜头（Handheld Shake）
+#### 镜头 14（资本崩溃·王总办公室彻底破防）
+* **分镜状态**：【定稿】对应关键帧 `assets/images/shot_14.jpg`
+* **镜头类型**：中近景（Medium Close-up） / 晃动与压迫感（Handheld Shake & Heavy Tension）
 * **时长**：4 秒
-* **AI 画面提示词（Prompt）**：
-  > **中文**：办公室里，王总满头冷汗，领带被扯松，手机在手中剧烈震动响个不停，身后大屏幕上公司的股价图呈断崖式下跌直线下冲。王总神色极度慌张，手足无措，刚才的优雅傲慢荡然无存，强烈的狼狈感，写实光影。  
-  > **英文**：`Close-up with slight dramatic shake, Director Wang in total panic, suit tie loosened, forehead drenched in sweat, holding buzzing smartphone as calls flood in. Background monitor displays corporate stock chart in sharp red freefall. His smug arrogance completely shattered, desperate and bewildered expression, cinematic realism, high tension, 16:9.`
+* **视听语言与空间设定（绝对锁定高管办公室，删除跑出去的多余动作）**：
+  * **场景空间**：王总奢华的高管拐角办公室。窗外暴雨倾盆、天际电闪雷鸣。
+  * **办公桌面**：红木大办公桌上一片狼藉，白瓷咖啡杯被打翻，浓黑咖啡泼洒在财务图表和报表上，手机在桌面疯狂震动响铃（董事会与监管催命电话）。
+  * **背景大屏**：身后巨大的显示屏上，公司股价折线呈断崖式暴跌直冲底部，血红大字显示 `-24.8%`！
+  * **人物动作**：王总瘫坐在真皮大班椅上，西装领带被完全扯松歪斜，头发凌乱，满头冷汗不断滑落。他死死盯着暴跌的屏幕和手机，浑身发抖，之前的傲慢冷血荡然无存，陷入灭顶之灾的绝望！
 * **配音 / 画外音（VO）**：
-  * **王总（慌乱失措地冲进机房大喊）**：“陆远！技术部所有人立刻停工！联合调查组进驻了！大老板说了，限你们24小时内，赶紧把突发救助和免责规则糊弄出来交差！”
+  * **王总（满头冷汗、声音发颤、魂飞魄散自语）**：“完了……联合调查组进驻了……大老板要撤我的职……怎么会跌成这样……”
 * **音效 & BGM**：
-  * **音效**：手机持续刺耳的铃声、大门被猛烈推开的撞击声。
+  * **音效**：手机持续刺耳的连环震动铃声、窗外雷鸣声、急促沉重的喘息声。
+  * **BGM**：低沉压抑的低音重击，象征资本逻辑在国家制度雷霆之下的全面崩塌。
 
 ---
 
 ### 🔵 第二部分：后两幕（镜头 15 ～ 镜头 23）
-> **主创制作人**：**芮凯**（详细实操指南请查阅 [TEAM_COLLABORATION_SOP.md](file:///d:/study/course/maogai/homework/docs/TEAM_COLLABORATION_SOP.md)）  
+> **主创制作人**：**柳锐凯 / 协作攻坚组**  
 > **叙事跨度**：第四幕【激】、第五幕【合】  
-> **核心剧情**：陆远手握制度底气发表青年宣言、团队通宵重构底层大模型（弹性时长+政务互信善举豁免+取消顶格罚款）、清晨加载人性协议、老刘收到金色撤销罚单与救助基金通报、晨光斑马线相视致意、朝阳下奔向新长征。  
-> **当前进展**：Shot 23（演职员表原图）已完成，Shot 15~22 待生成原图、动态视频、配音混音与成片剪辑。
+> **核心剧情**：陆远挺进王总办公室接管权限拍案反戈、团队通宵重构底层大模型（弹性时长+政务互信善举豁免+取消顶格罚款）、清晨加载人性协议、老刘收到系统退款200元与工会大病救助兜底短信、晨光斑马线相视致意、朝阳下奔向新长征。
 
 ---
 
 ### 第四幕：【激】撕裂枷锁——把“人”重新写进代码（约 1.5 分钟）
 
-#### 镜头 15（陆远掌控全场·工科男的沉着反击·严丝合缝接镜头14）
-* **衔接前序镜头**：承接镜头 14 尾部王总领带扯散、满头冷汗推开研发大门冲进大厅大吼“大老板限你们24小时把免责规则糊弄出来交差！”（参考过渡参考图：`assets/images/shot_14_ending_transition_reference_clean.jpg`）
-* **镜头类型**：低角度中景（Low Angle Medium Shot） / 稳健推镜（Steady Push-in）
+#### 镜头 15（正面反击·陆远直捣办公室夺回主导权）
+* **分镜状态**：【官方定稿】对应关键帧 `assets/images/shot_15.jpg`
+* **空间连续性（严丝合缝接镜头14·同场景绝不换房间）**：
+  * 场景**完全无缝留在王总高管办公室**！窗外暴雨与闪电继续，背景大屏依然是 `-24.8%` 暴跌图，桌上依然是泼洒的咖啡与震动的手机。
+* **镜头类型**：低角度中景（Low Angle Medium Shot） / 稳健推镜（Steady Push-in 对峙）
 * **时长**：6 秒
-* **AI 画面提示词（Prompt 归档，彻底消除“实体书本”误解）**：
-  > **中文（严禁生成学生课本/图书，必须是现代IT工程技术文件夹/双屏架构）**：现代写实动漫风格，2.5D赛璐珞高质感光影。研发大厅中央，23岁算法架构师陆远（短黑发，黑框眼镜，藏青色夹克内搭深灰卫衣）面对满头冷汗、狼狈慌乱的王总，霍然挺身站起。陆远神情冷峻坚毅，右手重重将一份装订成册的深蓝色工程方案夹《算法架构重构与劳动者保障白皮书》（硬质深蓝文件夹，印有金白双色技术拓扑图，绝非课本）拍在会议桌上！身后双联大屏正亮着红蓝对比的全新调度解耦架构图，背景大白板上工整书写着“以人为本，技术向善”。周围年轻技术员们齐刷刷起立站在陆远身侧，目光灼灼，英雄气概与制度正义感拉满，微仰视角。  
-  > **英文**：`Low angle medium shot, direct visual continuity from Shot 14. In modern IT software engineering center, panicked Director Wang with loosened tie stands in sweat. 23yo Chinese algorithm architect Lu Yuan, wearing black eyeglasses and navy jacket over hoodie, stands up tall and resolute. He firmly slams a thick dark blue technical engineering binder titled 'Algorithm Reform & Worker Rights Architecture' onto the conference desk. Dual glowing monitors behind display neural pipeline blueprints, large whiteboard clearly writes '以人为本' (People-Centered). Surrounding young engineers stand up in solidarity with determined faces. Dramatic cool fluorescent and desk lamp lighting, intense workplace confrontation, heroic anime realism, Makoto Shinkai style, 16:9.`
+* **AI 画面提示词（Prompt 归档·完全对应 shot_15.jpg）**：
+  > **中文**：现代写实动漫风格，2.5D高质感光影。王总高管办公室内，王总（黑发微乱、领带扯散、白衬衫解扣、满脸冷汗）惊恐畏缩地瘫坐在办公椅上。磨砂玻璃门大开，23岁算法架构师陆远（短碎黑发、黑框方形眼镜、藏青色夹克内搭深灰连帽卫衣）神情冷峻坚毅，单手重重将一本厚厚的深蓝色硬质《算法架构重构与劳动者保障白皮书》（工程文件夹/Binder，绝非课本）拍在王总面前的办公桌上！气场完全压制惊慌失措的王总，英雄气概与制度底气拉满，16:9。  
+  > **英文**：`Low angle medium shot inside Director Wang's corner executive office, direct spatial continuity from shot_14. Stormy lightning outside window, large monitor displaying '-24.8%' red stock crash. Panicked Director Wang with loosened tie cowering back in chair. 23yo software architect Lu Yuan, wearing black eyeglasses and navy jacket over dark grey hoodie, stands tall across the desk, firmly slamming a thick dark blue technical binder titled 'Algorithm Reform & Worker Rights Architecture' onto the mahogany desk. Cool cinematic lighting, intense confrontation, Makoto Shinkai anime realism, 16:9.`
 * **配音 / 画外音（VO）**：
-  * **王总画外衔接音（慌乱急喘）**：“……限你们24小时内，赶紧给我糊弄出来！”
-  * **陆远（沉着、威严、不可动摇，原声铿锵反击）**：“王总，这不是糊弄公关的时候。国家法律要求我们必须真正以人为本。现在，请把根目录权限交给我们，我们来重构这套底层的规矩！”
+  * **陆远（沉着、威严、不可动摇，正面对质）**：“王总，联合调查组已经到了。这不是糊弄公关的时候。国家法律要求我们必须真正以人为本。现在，请把权限交给我们，我们来重构这套底层的规矩！”
 * **音效 & BGM**：
-  * **音效**：工程文件夹重重砸在桌面的沉闷撞击声、椅子拉开众人起立的摩擦声。
-  * **BGM**：音乐瞬间转为宏亮、充满斗志的管弦乐序曲，战意昂扬。
+  * **音效**：沉重的工程文件夹重砸在桌面的巨响、王总惊吓倒吸凉气声。
+  * **BGM**：宏亮充满斗志的管弦乐战歌正式拉开序幕，高潮突起！
 
 ---
 
